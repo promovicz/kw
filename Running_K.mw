@@ -1,0 +1,49 @@
+K was originally created as a proprietary language, but the main implementations are freely available to the general public for personal use. Over the years, many open source implementations of K have emerged.
+
+== Web-based interpreters
+{| class="wikitable"
+|+ Caption text
+|-
+! Name !! Links
+|-
+| ngn/k || [https://ngn.bitbucket.io/k/#cjrmsQ93L Editor] [https://ngn.bitbucket.io/k#r REPL] [https://tio.run/##y9bNS8/7/99QwUjBWNtEwVTB7P9/AA Try It Online!'''*''']
+|-
+| oK || [https://johnearnest.github.io/ok/index.html REPL] [https://johnearnest.github.io/ok/ike/ike.html editor(iKe drawing framework)] [https://tio.run/##y9bNz/7/31DBSMFY20TBVMHs/38A Try It Online!'''*''']
+|-
+| Kona || [https://tio.run/##y9bNzs9L/P/fUMFIwVjbRMFUwez/fwA Try It Online!'''*''']
+|-
+| ktye/i || [https://ktye.github.io/ REPL]
+|-
+| ThePlatform || [https://theplatform.technology/webrepl.htm REPL]
+|}
+
+'''*''' - May not be latest version
+
+== Table of Implementations ==
+
+{| class="wikitable"
+|+ Caption text
+|-
+! Name !! Language !! Dialect !! License !! Download
+|-
+| Shakti || C || K9 || [https://shakti.com/ proprietary] || https://shakti.com/
+|-
+| ThePlatform || Rust || K-like || temporarily closed source || https://theplatform.technology/platform/install.html
+|-
+| ktye/i || Go || K-like || proprietary || https://github.com/ktye/i
+|-
+| ngn/k || C || K6 || [https://codeberg.org/ngn/k/src/branch/master/LICENSE AGPL3] || https://codeberg.org/ngn/k
+|-
+| oK || JS || K6 || [https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt MIT] || https://github.com/JohnEarnest/ok
+|-
+| kuc || C || K5-like || [https://github.com/zholos/kuc/blob/master/COPYING GPL3] || https://github.com/zholos/kuc/
+|-
+| kdb+/q || unknown || K4 || [https://kx.com/developers/download-licenses/ proprietary] || https://kx.com/developers/download-licenses/
+|-
+| klong || C || K-like || public domain || https://t3x.org/klong/
+|-
+| Kona || C || K3 || [https://github.com/kevinlawler/kona/blob/master/LICENSE ISC] || https://github.com/kevinlawler/kona/
+|}
+
+== References ==
+* https://ngn.bitbucket.io/k.html
