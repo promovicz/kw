@@ -1,0 +1,62 @@
+K's primitives are designed to fit a large range of diverse functionality within the ASCII character set. This makes it typable on a keyboard, while keeping the language expressive and interesting to use.
+
+All of K's primitives are made to be multipurpose, and have varied meanings based on the context they are used in. Primitives can be either 1 or 2 characters long.
+
+== Verbs ==
+
+Single argument forms(monadic) listed first, two-argument forms(dyadic) listed second.
+
+{| class="wikitable"
+|+ Table of Primitives in major dialects
+|-
+! Symbol !! K3 !! K4 !! K6 !! K9
+|-
+| <code>+</code> || Example || Example || [[transpose]] | [[add]] || Example
+|-
+| <code>-</code> || Example || Example || [[negate]] | [[difference]] || Example
+|-
+| <code>*</code> || Example || Example || [[first]] | [[multiply]] || Example
+|-
+| <code>%</code> || Example || Example || [[square root]] | [[divide]] || Example
+|-
+| <code>!</code> || Example || Example || [[range]], [[odometer]], [[keys]] | [[modulus]], [[create dict]] || Example
+|-
+| <code>&</code> || Example || Example || [[where]], [[where-dict]] | [[minimum]] || Example
+|-
+| <code>&#124;</code> || Example || Example || [[reverse]] | [[maximum]] || Example
+|-
+| <code><</code> || Example || Example || [[grade up]], [[sort keys ascending]] | [[lesser than]] || Example
+|-
+| <code>></code> || Example || Example || [[grade down]], [[sort keys descending]] | [[greater than]] || Example
+|-
+| <code>=</code> || Example || Example || [[group]], [[identity matrix]] | [[equal]] || Example
+|-
+| <code>~</code> || Example || Example || [[not]] | [[match]] || Example
+|-
+| <code>,</code> || Example || Example || [[singleton]] | [[concatenate]] || Example
+|-
+| <code>^</code> || Example || Example || [[null?]] | [[except]] || Example
+|-
+| <code>#</code> || Example || Example || [[length]] | [[take]], [[reshape]] || Example
+|-
+| <code>_</code> || Example || Example || [[floor]], [[lowercase]] | [[drop]], [[remove-dict]], [[cut]] || Example
+|-
+| <code>$</code> || Example || Example || [[string]] | [[pad]], [[cast]] || Example
+|-
+| <code>?</code> || Example || Example || [[distinct]], [[random-float]] | [[find]], [[random]] || Example
+|-
+| <code>@</code> || Example || Example || [[type]] | n/a || Example
+|-
+| <code>.</code> || Example || Example || [[eval]] | n/a || Example
+|-
+| <code>'</code> || Example || Example || n/a &#124; [[binary search]] || Example
+|-
+| <code>/</code> || Example || Example || n/a &#124; [[join]], [[base encode]] || Example
+|-
+| <code>\</code> || Example || Example || n/a &#124; [[split]], [[base decode]] || Example
+|-
+| <code>':</code> || Example || Example || n/a &#124; [[windows]] || Example
+|}
+
+
+== Adverbs ==
