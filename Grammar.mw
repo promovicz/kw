@@ -1,4 +1,4 @@
-K syntax can be described with the following one-line '''grammar''':
+K syntax can be described with the following one-line '''grammar'''<ref>[https://kparc.com/k.txt kparc.com/k.txt]</ref>:
 
     E:E;e|e e:nve|te| t:n|v v:tA|V n:t[E]|(E)|{E}|N
 
