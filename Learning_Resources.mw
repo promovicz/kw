@@ -14,6 +14,8 @@ If you want a place to ask questions about K, [https://chat.stackexchange.com/ro
 
 == K6 ==
 * [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md oK Manual]
+* [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Programming.md Programming in K]
+* [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Trees.md Trees in K]
 * [https://beyondloom.com/blog/fragments.html K fragments - snippets for oK, K3, K7]
 * [https://codeberg.org/ngn/k/src/branch/master/repl.k#L24 ngn/k inbuilt docs]
 
