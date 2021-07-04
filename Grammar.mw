@@ -1,0 +1,20 @@
+K syntax can be described with the following one-line '''grammar''':
+
+    E:E;e|e e:nve|te| t:n|v v:tA|V n:t[E]|(E)|{E}|N
+
+or in more verbose form:
+
+    <Exprs>  ::=  <Exprs> ";" <expr>  |  <expr>
+    <expr>   ::=  <noun> <verb> <expr>  |  <term> <expr>  |  empty
+    <term>   ::=  <noun>  |  <verb>
+    <verb>   ::=  <term> <Adverb>  |  <Verb>
+    <noun>   ::=  <term> "[" <Exprs> "]"  |  "(" <Exprs> ")"  |  "{" <Exprs> "}"  |  <Noun>
+    
+    <Adverb> ::=  "'" | "/" | "\" | "':" | "/:" | "\:"
+    <Verb>   ::=  <Verb1> | <Verb1> ":"
+    <Verb1>  ::=  ":" | "+" | "-" | "*" | "%" | "!" | "&" | "|" | "<" | ">" | "=" | "~" | "," |
+                  "^" | "#" | "_" | "$" | "?" | "@" | "." | <Digit> ":"
+    <Noun>   ::=  <Ints> | <Floats> | <Chars> | <Symbols>
+    ..
+
+K can be parsed statically - no knowledge about the runtime values of variables is required to build a parse tree.
