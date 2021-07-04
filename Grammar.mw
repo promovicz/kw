@@ -34,4 +34,4 @@ Further, <tt>&lt;Adverb&gt;</tt> <tt>&lt;Verb&gt;</tt> <tt>&lt;Noun&gt;</tt> can
     <Hex>    ::=  <Digit> | "a" | .. | "f"
     <Letter> ::=  "A" | .. | "Z" | "a" | .. | "z"
 
-K can be parsed statically - knowledge about the runtime values of variables is not required to build a parse tree.
+An important property of k syntax is it's ''static parsability'' - a parse tree can be built just by looking at the source code, without any knowledge of the values variables have at runtime.
