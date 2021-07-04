@@ -1,4 +1,4 @@
-The following one-line '''grammar'''<ref>[https://kparc.com/k.txt kparc.com/k.txt]</ref> describes k syntax:
+The following one-line '''grammar''' describes the essence of k syntax<ref>[https://kparc.com/k.txt kparc.com/k.txt]</ref>:
 
     E:E;e|e e:nve|te| t:n|v v:tA|V n:t[E]|(E)|{E}|N
 
