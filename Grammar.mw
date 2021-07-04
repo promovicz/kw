@@ -36,4 +36,4 @@ Further, <tt>&lt;Adverb&gt;</tt> <tt>&lt;Verb&gt;</tt> <tt>&lt;Noun&gt;</tt> can
 
 An important property of k syntax is it's ''static parsability'' - a parse tree can be built just by looking at the source code, without any knowledge of the values variables have at runtime.
 
-Note that a k expression could have the syntactic role of a <tt>&lt;noun&gt;</tt> in the source code but evaluate to a function at runtime, for instance `{1+x}` or `(+)`. A bare `+` would be a verb, but enclosing anything in parentheses marks it as a noun - this is called ''nominalization'' ("turning into a noun").
+Note that a k expression could have the syntactic role of a <tt>&lt;noun&gt;</tt> in the source code but evaluate to a function at runtime, for instance <tt>{1+x}</tt> or <tt>(+)</tt>. A bare <tt>+</tt> would be a verb, but enclosing anything in parentheses marks it as a noun - this is called ''nominalization'' ("turning into a noun").
