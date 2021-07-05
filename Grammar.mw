@@ -1,38 +1,38 @@
 The following one-line '''grammar''' describes the essence of k syntax<ref>[https://kparc.com/k.txt kparc.com/k.txt]</ref>:
 
-    E:E;e|e e:nve|te| t:n|v v:tA|V n:t[E]|(E)|{E}|N
+ E:E;e|e e:nve|te| t:n|v v:tA|V n:t[E]|(E)|{E}|N
 
 or in more verbose form:
 
-    <Exprs>  ::=  <Exprs> ";" <expr>  |  <expr>
-    <expr>   ::=  <noun> <verb> <expr>  |  <term> <expr>  |  empty
-    <term>   ::=  <noun>  |  <verb>
-    <verb>   ::=  <term> <Adverb>  |  <Verb>
-    <noun>   ::=  <term> "[" <Exprs> "]"  |  "(" <Exprs> ")"  |  "{" <Exprs> "}"  |  <Noun>
+ <Exprs>  ::=  <Exprs> ";" <expr>  |  <expr>
+ <expr>   ::=  <noun> <verb> <expr>  |  <term> <expr>  |  empty
+ <term>   ::=  <noun>  |  <verb>
+ <verb>   ::=  <term> <Adverb>  |  <Verb>
+ <noun>   ::=  <term> "[" <Exprs> "]"  |  "(" <Exprs> ")"  |  "{" <Exprs> "}"  |  <Noun>
 
 Further, <tt>&lt;Adverb&gt;</tt> <tt>&lt;Verb&gt;</tt> <tt>&lt;Noun&gt;</tt> can be defined, with minor variations between dialects, as:
 
-    <Adverb> ::=  "'" | "/" | "\" | "':" | "/:" | "\:"
-    <Verb>   ::=  <Verb1> | <Verb1> ":"
-    <Verb1>  ::=  ":" | "+" | "-" | "*" | "%" | "!" | "&" | "|" | "<" | ">" | "=" | "~" | "," |
-                  "^" | "#" | "_" | "$" | "?" | "@" | "." | <Digit> ":"
-    <Noun>   ::=  <Names>  |  <Ints>  |  <Floats>  |  <String>  |  <Symbols>
-    <Names>  ::=  <Names> "." <Name>  |  <Name>
-    <Name>   ::=  <Letter>  |  <Name> <Letter>  |  <Name> <Digit>
-    <Ints>   ::=  <Int>  |  <Ints> " " <Int>
-    <Int>    ::=  "-" <Digits>  |  <Digits>
-    <Floats> ::=  <Float>  |  <Floats> " " <Float>
-    <Float>  ::=  <Int>  |  <Int> "." <Digits>  |  <Int> "." <Digits> "e" <Int>
-    <String> ::=  '"' <Chars> '"'  |  "0x" <Bytes>
-    <Chars>  ::=  <Chars> <Char>  |  empty
-    <Char>   ::=  "\0" | "\t" | "\n" | "\r" | '\"' | "\\" | any
-    <Bytes>  ::=  <Bytes> <Hex> <Hex>  |  empty
-    <Symbols>::=  <Symbols> <Symbol>  |  <Symbol>
-    <Symbol> ::=  "`"  |  "`" <Name>  |  "`" <String>
-    <Digits> ::=  <Digit>  |  <Digits> <Digit>
-    <Digit>  ::=  "0" | .. | "9"
-    <Hex>    ::=  <Digit> | "a" | .. | "f"
-    <Letter> ::=  "A" | .. | "Z" | "a" | .. | "z"
+ <Adverb> ::=  "'" | "/" | "\" | "':" | "/:" | "\:"
+ <Verb>   ::=  <Verb1> | <Verb1> ":"
+ <Verb1>  ::=  ":" | "+" | "-" | "*" | "%" | "!" | "&" | "|" | "<" | ">" | "=" | "~" | "," |
+               "^" | "#" | "_" | "$" | "?" | "@" | "." | <Digit> ":"
+ <Noun>   ::=  <Names>  |  <Ints>  |  <Floats>  |  <String>  |  <Symbols>
+ <Names>  ::=  <Names> "." <Name>  |  <Name>
+ <Name>   ::=  <Letter>  |  <Name> <Letter>  |  <Name> <Digit>
+ <Ints>   ::=  <Int>  |  <Ints> " " <Int>
+ <Int>    ::=  "-" <Digits>  |  <Digits>
+ <Floats> ::=  <Float>  |  <Floats> " " <Float>
+ <Float>  ::=  <Int>  |  <Int> "." <Digits>  |  <Int> "." <Digits> "e" <Int>
+ <String> ::=  '"' <Chars> '"'  |  "0x" <Bytes>
+ <Chars>  ::=  <Chars> <Char>  |  empty
+ <Char>   ::=  "\0" | "\t" | "\n" | "\r" | '\"' | "\\" | any
+ <Bytes>  ::=  <Bytes> <Hex> <Hex>  |  empty
+ <Symbols>::=  <Symbols> <Symbol>  |  <Symbol>
+ <Symbol> ::=  "`"  |  "`" <Name>  |  "`" <String>
+ <Digits> ::=  <Digit>  |  <Digits> <Digit>
+ <Digit>  ::=  "0" | .. | "9"
+ <Hex>    ::=  <Digit> | "a" | .. | "f"
+ <Letter> ::=  "A" | .. | "Z" | "a" | .. | "z"
 
 An important property of k syntax is it's ''static parsability'' - a parse tree can be built just by looking at the source code, without any knowledge of the values variables have at runtime.
 
