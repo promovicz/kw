@@ -1,0 +1,7 @@
+The '''odometer''' for an int list <tt>x</tt> generates the Cartesian product of <tt>!x[0]</tt>, <tt>!x[1]</tt>, .., <tt>!x[-1+#x]</tt> as the columns of a <tt>#x</tt> by <tt>*/x</tt> matrix.
+
+== Example ==
+  !2 4 3
+ (0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+  0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 1 1 1 2 2 2 3 3 3
+  0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2)
