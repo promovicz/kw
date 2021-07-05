@@ -9,7 +9,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
-! Symbol !! K3 !! K4 !! K6 !! K9
+! !! K3 !! K4 !! K6 !! K9
 |-
 | <code>+</code> || Example || Example || [[transpose]] | [[add]] || Example
 |-
@@ -54,7 +54,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 
 {| class="wikitable"
 |-
-! Symbol !! K3 !! K4 !! K6 !! K9
+! !! K3 !! K4 !! K6 !! K9
 |-
 | <code>'</code> || Example || Example || [[each]] | [[binary search]] || Example
 |-
