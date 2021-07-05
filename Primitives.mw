@@ -11,6 +11,8 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 ! !! K3 !! K4 !! K6 !! K9
 |-
+| <code>:</code> || Example || Example || [[self]] | [[right]] || Example
+|-
 | <code>+</code> || Example || Example || [[transpose]] | [[add]] || Example
 |-
 | <code>-</code> || Example || Example || [[negate]] | [[difference]] || Example
