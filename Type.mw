@@ -1,6 +1,8 @@
 {{primitive}}
 The '''type''' primitive returns a constant (usually a symbol or character or integer) identifying the type of a k value. The set of types varies a lot between dialects. Some implementations have types that are internally considered different (e.g. for the purposes of [[match]]) but presented to the user as identical.
 
+Kona's `@x` returns 1 for atoms and 0 for non-atoms.<ref>https://github.com/kevinlawler/kona/wiki/Atom</ref>
+
 {|class="wikitable"
 ! colspan="4" |Type Classification          
 ! colspan="2" |k4<ref>https://code.kx.com/q/basics/datatypes/</ref>
