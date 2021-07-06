@@ -1,0 +1,2 @@
+{{primitive}}
+'''Match''' determines whether two values are equivalent, that is whether they are of the same type (types such as "16-bit int" and "32-bit int" may or may not be considered "the same", depending on dialect), have the same length, and consist of the same items (including prototypes, if the dialect supports them). Match always returns a boolean atom.
