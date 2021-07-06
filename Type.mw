@@ -83,7 +83,7 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 |<tt>0</tt>
 |-
 |8-bit int atom
-|rowspan=4|<tt>`i</tt>
+|rowspan=3|<tt>`i</tt>
 |<tt>127</tt>
 |-
 |16-bit int atom
@@ -93,6 +93,7 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 |<tt>2147483647</tt>
 |-
 |64-bit int atom
+|<tt>`l</tt>
 |<tt>9223372036854775807</tt>
 |-
 |32-bit float atom
