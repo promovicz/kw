@@ -10,13 +10,11 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 | rowspan="2" |generic
 list
 | colspan="2" |mixed-type
-|
-|
+| rowspan="2" |<code>0</code>
+| rowspan="2" |<code>"*"</code>
 | || rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
 |-
 | colspan="2" |unitype
-|
-|
 |
 |<code>`L'''T'''</code>
 |<code>()   ,"ab"</code>
@@ -24,102 +22,37 @@ list
 |    rowspan=10|typed
 list
 | colspan="2" |chars (string)
-|
-|
+|<code>10</code>
+|<code>"c"</code>
 | ||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
 |-
 | rowspan="5" |ints
 |                          1-bit (bool)    
-|
-|
-| ||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
-|-
-|                         8-bit (byte)
-|
-|
-| ||<code>`B</code>||<code>-128 127</code>
-|-
-|                        16-bit (short)
-|
-|
-| ||<code>`H</code>||<code>-32768 32787</code>
-|-
-|                        32-bit (int)
-|
-|
-| ||<code>`I</code>||<code>-2147483648 2147483647</code>
-|-
-|                        64-bit (long)
-|
-|
-| ||<code>`L</code>||<code>0N 9223372036854775807</code>
-|-
-| rowspan="2" |floats
-|                      32-bit (single)
-|
-|
-| ||N/A        ||?                     ||<tt></tt>
-|-
-|                      64-bit (double)
-|
-|
-| ||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
-|-
-| colspan="2" |symbols
-|
-|
-| ||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
-|-
-| colspan="2" |temporals
-|
-|
-| ||N/A        ||?                     ||<tt></tt>
-|-
-| colspan="4" |table                        
-|
-|
-| ||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
-|-
-| colspan="4" |dictionary                   
-|
-|
-| ||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
-|-
-|rowspan=18|atom
-|    rowspan=10|data
-atom
-| colspan="2" |char
-|<code>10</code>
-|<code>"c"</code>
-| ||<code>`c</code>||<code>`c</code>||<code>"a"</code>
-|-
-| rowspan="5" |int
-|                              1-bit (bool)
 |<code>1</code>
 |<code>"b"</code>
-| ||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
+| ||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
 |-
 |                         8-bit (byte)
 |<code>4</code>
 |<code>"x"</code>
-| || rowspan="3" |<code>`i</code>||<code>127</code>
+| ||<code>`B</code>||<code>-128 127</code>
 |-
-|                        16-bit (short)                                     
+|                        16-bit (short)
 |<code>5</code>
 |<code>"h"</code>
-| ||<code>32767</code>
+| ||<code>`H</code>||<code>-32768 32787</code>
 |-
-|                        32-bit (int)                                     
+|                        32-bit (int)
 |<code>6</code>
 |<code>"i"</code>
-| ||<code>2147483647</code>
+| ||<code>`I</code>||<code>-2147483648 2147483647</code>
 |-
 |                        64-bit (long)
 |<code>7</code>
 |<code>"j"</code>
-| ||<code>`l</code>||<code>9223372036854775807</code>
+| ||<code>`L</code>||<code>0N 9223372036854775807</code>
 |-
-| rowspan="2" |float
+| rowspan="2" |floats
 |                      32-bit (single)
 |<code>8</code>
 |<code>"e"</code>
@@ -128,15 +61,79 @@ atom
 |                      64-bit (double)
 |<code>9</code>
 |<code>"f"</code>
+| ||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
+|-
+| colspan="2" |symbols
+|<code>11</code>
+|<code>"s"</code>
+| ||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
+|-
+| colspan="2" |temporals
+| colspan="2" |<code>12..19</code>
+| ||N/A        ||?                     ||<tt></tt>
+|-
+| colspan="4" |table                        
+|<code>98</code>
+|
+| ||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
+|-
+| colspan="4" |dictionary                   
+|<code>99</code>
+|
+| ||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
+|-
+|rowspan=18|atom
+|    rowspan=10|data
+atom
+| colspan="2" |char
+|<code>-10</code>
+|
+| ||<code>`c</code>||<code>`c</code>||<code>"a"</code>
+|-
+| rowspan="5" |int
+|                              1-bit (bool)
+|<code>-1</code>
+|
+| ||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
+|-
+|                         8-bit (byte)
+|<code>-4</code>
+|
+| || rowspan="3" |<code>`i</code>||<code>127</code>
+|-
+|                        16-bit (short)                                     
+|<code>-5</code>
+|
+| ||<code>32767</code>
+|-
+|                        32-bit (int)                                     
+|<code>-6</code>
+|
+| ||<code>2147483647</code>
+|-
+|                        64-bit (long)
+|<code>-7</code>
+|
+| ||<code>`l</code>||<code>9223372036854775807</code>
+|-
+| rowspan="2" |float
+|                      32-bit (single)
+|<code>-8</code>
+|
+| ||N/A        ||?                     ||<tt></tt>
+|-
+|                      64-bit (double)
+|<code>-9</code>
+|
 | ||<code>`d</code>||<code>`f</code>||<code>3.14</code>
 |-
 | colspan="2" |symbol
-|<code>11</code>
-|<code>"s"</code>
+|<code>-11</code>
+|
 | ||<code>`s</code>||<code>`n</code>||<code>`</code>
 |-
 | colspan="2" |temporal
-| colspan="2" |<code>12..19</code>
+| colspan="2" |<code>-19..-12</code>
 | ||N/A        ||?                     ||<tt></tt>
 |-
 |rowspan=8|function
