@@ -16,7 +16,7 @@ list
 |-
 | colspan="2" |unitype
 |<code>`L'''T'''</code>
-|<code>()   ,"ab"</code>
+|<code>(0 1;2 3)</code>
 |-
 |    rowspan=10|typed
 list
