@@ -12,10 +12,9 @@ list
 | colspan="2" |mixed-type
 | rowspan="2" |<code>0</code>
 | rowspan="2" |<code>"*"</code>
-| || rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
+| rowspan="11" | <code>0</code>|| rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
 |-
 | colspan="2" |unitype
-|
 |<code>`L'''T'''</code>
 |<code>()   ,"ab"</code>
 |-
@@ -23,139 +22,122 @@ list
 list
 | colspan="2" |chars (string)
 |<code>10</code>
-|<code>"c"</code>
-| ||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
+|<code>"c"</code>||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
 |-
 | rowspan="5" |ints
 |                          1-bit (bool)    
 |<code>1</code>
-|<code>"b"</code>
-| ||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
+|<code>"b"</code>||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
 |-
 |                         8-bit (byte)
 |<code>4</code>
-|<code>"x"</code>
-| ||<code>`B</code>||<code>-128 127</code>
+|<code>"x"</code>||<code>`B</code>||<code>-128 127</code>
 |-
 |                        16-bit (short)
 |<code>5</code>
-|<code>"h"</code>
-| ||<code>`H</code>||<code>-32768 32787</code>
+|<code>"h"</code>||<code>`H</code>||<code>-32768 32787</code>
 |-
 |                        32-bit (int)
 |<code>6</code>
-|<code>"i"</code>
-| ||<code>`I</code>||<code>-2147483648 2147483647</code>
+|<code>"i"</code>||<code>`I</code>||<code>-2147483648 2147483647</code>
 |-
 |                        64-bit (long)
 |<code>7</code>
-|<code>"j"</code>
-| ||<code>`L</code>||<code>0N 9223372036854775807</code>
+|<code>"j"</code>||<code>`L</code>||<code>0N 9223372036854775807</code>
 |-
 | rowspan="2" |floats
 |                      32-bit (single)
 |<code>8</code>
-|<code>"e"</code>
-| ||N/A        ||?                     ||<tt></tt>
+|<code>"e"</code>||N/A        ||?                     ||<tt></tt>
 |-
 |                      64-bit (double)
 |<code>9</code>
-|<code>"f"</code>
-| ||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
+|<code>"f"</code>||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
 |-
 | colspan="2" |symbols
 |<code>11</code>
-|<code>"s"</code>
-| ||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
+|<code>"s"</code>||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
 |-
 | colspan="2" |temporals
 | colspan="2" |<code>12..19</code>
-| ||N/A        ||?                     ||<tt></tt>
+| N/A||N/A        ||?                     ||<tt></tt>
 |-
 | colspan="4" |table                        
 | colspan="2" |<code>98</code>
-| ||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
+| N/A||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
 |-
 | colspan="4" |dictionary                   
 | colspan="2" |<code>99</code>
-| ||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
+| <code>99</code>||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
 |-
 |rowspan=18|atom
 |    rowspan=10|data
 atom
 | colspan="2" |char
 | colspan="2" |<code>-10</code>
-| ||<code>`c</code>||<code>`c</code>||<code>"a"</code>
+| <code>-10</code>||<code>`c</code>||<code>`c</code>||<code>"a"</code>
 |-
 | rowspan="5" |int
 |                              1-bit (bool)
 | colspan="2" |<code>-1</code>
-| ||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
+| rowspan="7" | <code>-9</code>||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
 |-
 |                         8-bit (byte)
-| colspan="2" |<code>-4</code>
-| || rowspan="3" |<code>`i</code>||<code>127</code>
+| colspan="2" |<code>-4</code>|| rowspan="3" |<code>`i</code>||<code>127</code>
 |-
 |                        16-bit (short)                                     
-| colspan="2" |<code>-5</code>
-| ||<code>32767</code>
+| colspan="2" |<code>-5</code>||<code>32767</code>
 |-
 |                        32-bit (int)                                     
-| colspan="2" |<code>-6</code>
-| ||<code>2147483647</code>
+| colspan="2" |<code>-6</code>||<code>2147483647</code>
 |-
 |                        64-bit (long)
-| colspan="2" |<code>-7</code>
-| ||<code>`l</code>||<code>9223372036854775807</code>
+| colspan="2" |<code>-7</code>||<code>`l</code>||<code>9223372036854775807</code>
 |-
 | rowspan="2" |float
 |                      32-bit (single)
-| colspan="2" |<code>-8</code>
-| ||N/A        ||?                     ||<tt></tt>
+| colspan="2" |<code>-8</code>||N/A        ||?                     ||<tt></tt>
 |-
 |                      64-bit (double)
-| colspan="2" |<code>-9</code>
-| ||<code>`d</code>||<code>`f</code>||<code>3.14</code>
+| colspan="2" |<code>-9</code>||<code>`d</code>||<code>`f</code>||<code>3.14</code>
 |-
 | colspan="2" |symbol
 | colspan="2" |<code>-11</code>
-| ||<code>`s</code>||<code>`n</code>||<code>`</code>
+| <code>-11</code>||<code>`s</code>||<code>`n</code>||<code>`</code>
 |-
 | colspan="2" |temporal
 | colspan="2" |<code>-19..-12</code>
-| ||N/A        ||?                     ||<tt></tt>
+| N/A||N/A        ||?                     ||<tt></tt>
 |-
 |rowspan=8|function
 | colspan="2" |user-defined
 | colspan="2" |<code>100</code>
-| ||<code>`o</code>|| rowspan="6" |<code>`.</code>||<code>{}</code>
+| <code>102</code>||<code>`o</code>|| rowspan="6" |<code>`.</code>||<code>{}</code>
 |-
 | colspan="2" |projection
 | colspan="2" |<code>104</code>
-| ||<code>`p</code>||<code>1+</code>
+| rowspan="2" | <code>107</code>||<code>`p</code>||<code>1+</code>
 |-
 | colspan="2" |composition
-| colspan="2" |<code>105</code>
-| ||<code>`q</code>||<code>++</code>
+| colspan="2" |<code>105</code>||<code>`q</code>||<code>++</code>
 |-
 | colspan="2" |derived verb
 | colspan="2" |<code>106..111</code>
-| ||<code>`r</code>||<code>+/</code>
+| N/A||<code>`r</code>||<code>+/</code>
 |-
 | rowspan="3" |primitive
 |                 monadic verb
 | colspan="2" |<code>101</code>
-| ||<code>`u</code>||<code>+:</code>
+| rowspan="2" | <code>107</code>||<code>`u</code>||<code>+:</code>
 |-
 |                  dyadic verb
-| colspan="2" |<code>102</code>
-| ||<code>`v</code>||<code>+</code>
+| colspan="2" |<code>102</code>||<code>`v</code>||<code>+</code>
 |-
 |                                 adverb
 | colspan="2" |<code>103</code>
-| ||<code>`w</code>||N/A                   ||<code>/</code>
+| N/A||<code>`w</code>||N/A                   ||<code>/</code>
 |-
 | colspan="2" |external
 | colspan="2" |<code>112</code>
-| ||N/A        ||?                     ||<tt></tt>
+| N/A||N/A        ||?                     ||<tt></tt>
 |}
