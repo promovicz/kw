@@ -1,5 +1,5 @@
 {{primitive}}
-'''Enum''', a.k.a. '''til''' (k4), '''range''' (from Python?), '''iota''' (from APL), generates a list of integers from 0 to a given integer (left-inclusive right-exclusive).
+'''Enum''', a.k.a. '''til''' (k4), '''range''' (from Python?), '''iota''' (from APL), generates a list of integers from 0 to a given integer <tt>x</tt> (left-inclusive right-exclusive).
   !5
  0 1 2 3 4
 Dialects based on k6 supports negative integers - the generated range in that case is from <tt>x</tt> to 0 (again left-inclusive right-exclusive):
