@@ -9,12 +9,12 @@ Atoms in otherwise rectangular arrays are extended to the full length of the cor
   `b`d
   `c`d)
 ==Atoms and lists==
-Transposing a list in oK or ngn/k [[enlist]]s it. Transposing an atom enlists twice:
+Transposing a list in oK<ref>https://github.com/JohnEarnest/ok/issues/77</ref> or ngn/k [[enlist]]s it. Transposing an atom enlists twice:
   +,0
  ,,0
   +0
  ,,0
-K4 and Kona return the argument as-is.
+K3, K4, and Kona<ref>https://github.com/kevinlawler/kona/issues/527</ref> return the argument as-is.
 
 K9 throws a rank error.
 ==Ragged arrays==
