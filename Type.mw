@@ -2,79 +2,87 @@
 The '''type''' primitive returns an atom (usually a symbol or a character or an integer) identifying the type of a k value. The set of types varies wildly between dialects. Some implementations have types that are distinguished internally (e.g. for the purposes of [[match]]) but presented to the user as the same type.
 
 {|class="wikitable"
-!colspan=3|Type Classification          !!ngn/k      !!k9                    !!Examples
+! colspan="4" |Type Classification          !!ngn/k      !!k9                    !!Examples
 |-
 | rowspan="12" |list
-| rowspan="2" |generic list             
-|mixed-type|| rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
+| rowspan="2" |generic
+list
+| colspan="2" |mixed-type|| rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
 |-
-|unitype
+| colspan="2" |unitype
 |<code>`LT</code>
 |<code>()   ,"ab"</code>
 |-
-|    rowspan=10|typed list
-|                          char list    ||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
+|    rowspan=10|typed
+list
+| colspan="2" |char list||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
 |-
-|                          bool list    ||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
+| rowspan="5" |ints
+|                          1-bit (bool)    ||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
 |-
-|                         8-bit int list||<code>`B</code>||<code>-128 127</code>
+|                         8-bit (byte)||<code>`B</code>||<code>-128 127</code>
 |-
-|                        16-bit int list||<code>`H</code>||<code>-32768 32787</code>
+|                        16-bit (short)||<code>`H</code>||<code>-32768 32787</code>
 |-
-|                        32-bit int list||<code>`I</code>||<code>-2147483648 2147483647</code>
+|                        32-bit (int)||<code>`I</code>||<code>-2147483648 2147483647</code>
 |-
-|                        64-bit int list||<code>`L</code>||<code>0N 9223372036854775807</code>
+|                        64-bit (long)||<code>`L</code>||<code>0N 9223372036854775807</code>
 |-
-|                      32-bit float list||N/A        ||?                     ||<tt></tt>
+| rowspan="2" |floats
+|                      32-bit (single)||N/A        ||?                     ||<tt></tt>
 |-
-|                      64-bit float list||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
+|                      64-bit (double)||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
 |-
-|                            symbol list||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
+| colspan="2" |symbols||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
 |-
-|                          temporal list||N/A        ||?                     ||<tt></tt>
+| colspan="2" |temporals||N/A        ||?                     ||<tt></tt>
 |-
-|colspan=3|table                        ||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
+| colspan="4" |table                        ||<code>`M</code>||<code>`A</code>||<code>+`a`b!(0 1;2 3)</code>
 |-
-|colspan=3|dictionary                   ||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
+| colspan="4" |dictionary                   ||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
 |-
 |rowspan=18|atom
-|    rowspan=10|data atom
-|                              char atom||<code>`c</code>||<code>`c</code>||<code>"a"</code>
+|    rowspan=10|data
+atom
+| colspan="2" |char atom||<code>`c</code>||<code>`c</code>||<code>"a"</code>
 |-
-|                              bool atom||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
+| rowspan="5" |int
+|                              1-bit (bool)||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
 |-
-|                         8-bit int atom||rowspan=3|<code>`i</code>||<code>127</code>
+|                         8-bit (byte)|| rowspan="3" |<code>`i</code>||<code>127</code>
 |-
-|                        16-bit int atom                                     ||<code>32767</code>
+|                        16-bit (short)                                     ||<code>32767</code>
 |-
-|                        32-bit int atom                                     ||<code>2147483647</code>
+|                        32-bit (int)                                     ||<code>2147483647</code>
 |-
-|                        64-bit int atom||<code>`l</code>||<code>9223372036854775807</code>
+|                        64-bit (long)||<code>`l</code>||<code>9223372036854775807</code>
 |-
-|                      32-bit float atom||N/A        ||?                     ||<tt></tt>
+| rowspan="2" |float
+|                      32-bit (single)||N/A        ||?                     ||<tt></tt>
 |-
-|                      64-bit float atom||<code>`d</code>||<code>`f</code>||<code>3.14</code>
+|                      64-bit (double)||<code>`d</code>||<code>`f</code>||<code>3.14</code>
 |-
-|                            symbol atom||<code>`s</code>||<code>`n</code>||<code>`</code>
+| colspan="2" |symbol||<code>`s</code>||<code>`n</code>||<code>`</code>
 |-
-|                          temporal atom||N/A        ||?                     ||<tt></tt>
+| colspan="2" |temporal||N/A        ||?                     ||<tt></tt>
 |-
 |rowspan=8|function
-|                  user-defined function||<code>`o</code>|| rowspan="6" |<code>`.</code>||<code>{}</code>
+| colspan="2" |user-defined||<code>`o</code>|| rowspan="6" |<code>`.</code>||<code>{}</code>
 |-
-|                             projection||<code>`p</code>||<code>1+</code>
+| colspan="2" |projection||<code>`p</code>||<code>1+</code>
 |-
-|                            composition||<code>`q</code>||<code>++</code>
+| colspan="2" |composition||<code>`q</code>||<code>++</code>
 |-
-|                           derived verb||<code>`r</code>||<code>+/</code>
+| colspan="2" |derived verb||<code>`r</code>||<code>+/</code>
 |-
-|                 primitive monadic verb||<code>`u</code>||<code>+:</code>
+| rowspan="3" |primitive
+|                 monadic verb||<code>`u</code>||<code>+:</code>
 |-
-|                  primitive dyadic verb||<code>`v</code>||<code>+</code>
+|                  dyadic verb||<code>`v</code>||<code>+</code>
 |-
 |                                 adverb||<code>`w</code>||N/A                   ||<code>/</code>
 |-
-|                      external function||N/A        ||?                     ||<tt></tt>
+| colspan="2" |external||N/A        ||?                     ||<tt></tt>
 |}
 
 See also: [https://code.kx.com/q/basics/datatypes/ k4 types]
