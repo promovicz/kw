@@ -4,8 +4,13 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 {|class="wikitable"
 !colspan=3|Type Classification          !!ngn/k      !!k9                    !!Examples
 |-
-|rowspan=11|list
-|    colspan=2|generic list             ||<tt>`A</tt>||<tt>`* `LT</tt>       ||<tt>()   ,"ab"   (0;`1;2;{3};%)</tt>
+| rowspan="12" |list
+| rowspan="2" |generic list             
+|mixed-type|| rowspan="2" |<tt>`A</tt>||`*       ||<tt>(0;`1;2;{3};%)</tt>
+|-
+|unitype
+|`LT
+|()   ,"ab"
 |-
 |    rowspan=10|typed list
 |                          char list    ||<tt>`C</tt>||<tt>`C</tt>           ||<tt>"abc" 0x01ef</tt>
