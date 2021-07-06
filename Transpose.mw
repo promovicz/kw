@@ -9,7 +9,7 @@ Atoms in otherwise rectangular arrays are extended to the full length of the cor
   `b`d
   `c`d)
 ==Atoms and lists==
-Transposing a list in oK<ref>https://github.com/JohnEarnest/ok/issues/77</ref> or ngn/k [[enlist]]s it. Transposing an atom enlists twice:
+Transposing a list in oK or ngn/k [[enlist]]s it. Transposing an atom enlists twice<ref>https://github.com/JohnEarnest/ok/issues/77</ref>:
   +,0
  ,,0
   +0
