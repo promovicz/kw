@@ -4,7 +4,7 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 {|class="wikitable"
 ! colspan="4" |Type Classification          
 ! colspan="2" |k4<ref>https://code.kx.com/q/basics/datatypes/</ref>
-!oK!!ngn/k      !!k9                    !!Examples
+!oK!!ngn/k      !!k9                    !!Example
 |-
 | rowspan="12" |list
 | rowspan="2" |generic
@@ -12,7 +12,7 @@ list
 | colspan="2" |mixed-type
 | rowspan="2" |<code>0</code>
 | rowspan="2" |<code>"*"</code>
-| rowspan="11" | <code>0</code>|| rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;2;{3};%)</tt>
+| rowspan="11" | <code>0</code>|| rowspan="2" |<code>`A</code>||<code>`*</code>||<tt>(0;`1;"2";{3};%)</tt>
 |-
 | colspan="2" |unitype
 |<code>`L'''T'''</code>
@@ -22,7 +22,7 @@ list
 list
 | colspan="2" |chars (string)
 |<code>10</code>
-|<code>"c"</code>||<code>`C</code>||<code>`C</code>||<code>"abc" 0x01ef</code>
+|<code>"c"</code>||<code>`C</code>||<code>`C</code>||<code>"ab"</code>
 |-
 | rowspan="5" |ints
 |                          1-bit (bool)    
@@ -31,11 +31,11 @@ list
 |-
 |                         8-bit (byte)
 |<code>4</code>
-|<code>"x"</code>||<code>`B</code>||<code>-128 127</code>
+|<code>"x"</code>||<code>`B</code>||<code>0 100</code>
 |-
 |                        16-bit (short)
 |<code>5</code>
-|<code>"h"</code>||<code>`H</code>||<code>-32768 32787</code>
+|<code>"h"</code>||<code>`H</code>||<code>0 10000</code>
 |-
 |                        32-bit (int)
 |<code>6</code>
@@ -83,10 +83,10 @@ atom
 | rowspan="7" | <code>-9</code>||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
 |-
 |                         8-bit (byte)
-| colspan="2" |<code>-4</code>|| rowspan="3" |<code>`i</code>||<code>127</code>
+| colspan="2" |<code>-4</code>|| rowspan="3" |<code>`i</code>||<code>100</code>
 |-
 |                        16-bit (short)                                     
-| colspan="2" |<code>-5</code>||<code>32767</code>
+| colspan="2" |<code>-5</code>||<code>10000</code>
 |-
 |                        32-bit (int)                                     
 | colspan="2" |<code>-6</code>||<code>2147483647</code>
