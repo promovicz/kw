@@ -1,155 +1,75 @@
 {{primitive}}
 The '''type''' primitive returns an atom (usually a symbol or a character or an integer) identifying the type of a k value. The set of types varies wildly between dialects. Some implementations have types that are distinguished internally (e.g. for the purposes of [[match]]) but presented to the user as the same type.
 
-{| class="wikitable"
-!colspan=3|Type Classification
-!ngn/k
-!k9
-!Examples
+{|class="wikitable"
+!colspan=3|Type Classification          !!ngn/k      !!k9                    !!Examples
 |-
 |rowspan=11|list
-|colspan=2|generic list
-|<tt>`A</tt>
-|<tt>`* `LT</tt>
-|<tt>()   ,"ab"   (0;`1;2;{3};%)</tt>
+|    colspan=2|generic list             ||<tt>`A</tt>||<tt>`* `LT</tt>       ||<tt>()   ,"ab"   (0;`1;2;{3};%)</tt>
 |-
-|rowspan=10|typed list
-|char list
-|<tt>`C</tt>
-|<tt>`C</tt>
-|<tt>"abc" 0x01ef</tt>
+|    rowspan=10|typed list
+|                          char list    ||<tt>`C</tt>||<tt>`C</tt>           ||<tt>"abc" 0x01ef</tt>
 |-
-|bool list
-|N/A
-|rowspan=5|<tt>`I</tt>
-|<tt>0 1</tt>
+|                          bool list    ||N/A        ||rowspan=5|<tt>`I</tt> ||<tt>0 1</tt>
 |-
-|8-bit int list
-|<tt>`B</tt>
-|<tt>-128 127</tt>
+|                         8-bit int list||<tt>`B</tt>                        ||<tt>-128 127</tt>
 |-
-|16-bit int list
-|<tt>`H</tt>
-|<tt>-32768 32787</tt>
+|                        16-bit int list||<tt>`H</tt>                        ||<tt>-32768 32787</tt>
 |-
-|32-bit int list
-|<tt>`I</tt>
-|<tt>-2147483648 2147483647</tt>
+|                        32-bit int list||<tt>`I</tt>                        ||<tt>-2147483648 2147483647</tt>
 |-
-|64-bit int list
-|<tt>`L</tt>
-|<tt>0N 9223372036854775807</tt>
+|                        64-bit int list||<tt>`L</tt>                        ||<tt>0N 9223372036854775807</tt>
 |-
-|32-bit float list
-|N/A
-|?
-|<tt></tt>
+|                      32-bit float list||N/A        ||?                     ||<tt></tt>
 |-
-|64-bit float list
-|<tt>`D</tt>
-|<tt>`F</tt>
-|<tt>3.14 -0w 0w 1.2e308 0n</tt>
+|                      64-bit float list||<tt>`D</tt>||<tt>`F</tt>           ||<tt>3.14 -0w 0w 1.2e308 0n</tt>
 |-
-|symbol list
-|<tt>`S</tt>
-|<tt>`N</tt>
-|<tt>``a`b</tt>
+|                            symbol list||<tt>`S</tt>||<tt>`N</tt>           ||<tt>``a`b</tt>
 |-
-|datetime list
-|N/A
-|?
-|<tt></tt>
+|                          temporal list||N/A        ||?                     ||<tt></tt>
 |-
-|colspan=3|table
-|<tt>`M</tt>
-|<tt>`A</tt>
-|<tt>+`a`b!(0 1;2 3)</tt>
+|colspan=3|table                        ||<tt>`M</tt>||<tt>`A</tt>           ||<tt>+`a`b!(0 1;2 3)</tt>
 |-
-|colspan=3|dictionary
-|<tt>`m</tt>
-|<tt>`a</tt>
-|<tt>`a`b!0 1</tt>
+|colspan=3|dictionary                   ||<tt>`m</tt>||<tt>`a</tt>           ||<tt>`a`b!0 1</tt>
 |-
 |rowspan=18|atom
-|rowspan=10|data atom
-|char atom
-|<tt>`c</tt>
-|<tt>`c</tt>
-|<tt>"a"</tt>
+|    rowspan=10|data atom
+|                              char atom||<tt>`c</tt>||<tt>`c</tt>           ||<tt>"a"</tt>
 |-
-|bool atom
-|N/A
-|rowspan=5|<tt>`i</tt>
-|<tt>0</tt>
+|                              bool atom||N/A        ||rowspan=5|<tt>`i</tt> ||<tt>0</tt>
 |-
-|8-bit int atom
-|rowspan=3|<tt>`i</tt>
-|<tt>127</tt>
+|                         8-bit int atom||rowspan=3|<tt>`i</tt>              ||<tt>127</tt>
 |-
-|16-bit int atom
-|<tt>32767</tt>
+|                        16-bit int atom                                     ||<tt>32767</tt>
 |-
-|32-bit int atom
-|<tt>2147483647</tt>
+|                        32-bit int atom                                     ||<tt>2147483647</tt>
 |-
-|64-bit int atom
-|<tt>`l</tt>
-|<tt>9223372036854775807</tt>
+|                        64-bit int atom||<tt>`l</tt>                        ||<tt>9223372036854775807</tt>
 |-
-|32-bit float atom
-|N/A
-|?
-|<tt></tt>
+|                      32-bit float atom||N/A        ||?                     ||<tt></tt>
 |-
-|64-bit float atom
-|<tt>`d</tt>
-|<tt>`f</tt>
-|<tt>3.14</tt>
+|                      64-bit float atom||<tt>`d</tt>||<tt>`f</tt>           ||<tt>3.14</tt>
 |-
-|symbol atom
-|<tt>`s</tt>
-|<tt>`n</tt>
-|<tt>`</tt>
+|                            symbol atom||<tt>`s</tt>||<tt>`n</tt>           ||<tt>`</tt>
 |-
-|datetime atom
-|N/A
-|?
+|                          temporal atom||N/A        ||?                     ||<tt></tt>
 |-
 |rowspan=8|function
-|user-defined function
-|<tt>`o</tt>
-|rowspan=6|<tt>`.</tt>
-|<tt>{}</tt>
+|                  user-defined function||<tt>`o</tt>||rowspan=6|<tt>`.</tt> ||<tt>{}</tt>
 |-
-|projection
-|<tt>`p</tt>
-|<tt>1+</tt>
+|                             projection||<tt>`p</tt>                        ||<tt>1+</tt>
 |-
-|composition
-|<tt>`q</tt>
-|<tt>++</tt>
+|                            composition||<tt>`q</tt>                        ||<tt>++</tt>
 |-
-|derived verb
-|<tt>`r</tt>
-|<tt>+/</tt>
+|                           derived verb||<tt>`r</tt>                        ||<tt>+/</tt>
 |-
-|primitive monadic verb
-|<tt>`u</tt>
-|<tt>+:</tt>
+|                 primitive monadic verb||<tt>`u</tt>                        ||<tt>+:</tt>
 |-
-|primitive dyadic verb
-|<tt>`v</tt>
-|<tt>+</tt>
+|                  primitive dyadic verb||<tt>`v</tt>                        ||<tt>+</tt>
 |-
-|adverb
-|<tt>`w</tt>
-|N/A
-|<tt>/</tt>
+|                                 adverb||<tt>`w</tt>||N/A                   ||<tt>/</tt>
 |-
-|external function
-|N/A
-|?
-|<tt></tt>
+|                      external function||N/A        ||?                     ||<tt></tt>
 |}
 
 See also: [https://code.kx.com/q/basics/datatypes/ k4 types]
