@@ -1,5 +1,5 @@
 {{primitive}}
-'''Transpose''' (a.k.a. '''flip''') swaps the leading two axes of a 2+ dimensional rectangular array. Dialects differ in their treatment atoms, lists, and ragged arrays.
+'''Transpose''' (a.k.a. '''flip''') swaps the leading two axes of a 2+ dimensional rectangular array. Dialects differ in their treatment of atoms, lists, and ragged arrays.
 
   +("ab";"cd";"ef")
  ("ace"
