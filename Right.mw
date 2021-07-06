@@ -1,9 +1,8 @@
 {{primitive}}
-'''Right''', a.k.a. '''dex''', is a function that returns its rightmost argument. When it has only one argument, it could be referred to as '''self''' or the '''identity function'''.
-In some dialects the identity function could serve as a placeholder for missing indices in square-bracket indexing or for missing arguments in [[projection]]s.
-
-== Examples ==
+'''Right''', a.k.a. '''dex''', is a function that returns its rightmost argument.
   (:)[1;2]
  2
+When it accepts only one argument, it could be referred to as '''self''' or the '''identity function'''.
   (::)1
  1
+In some dialects the identity function could serve as a placeholder for missing indices in square-bracket indexing or for missing arguments in [[projection]]s.
