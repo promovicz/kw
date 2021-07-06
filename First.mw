@@ -1,0 +1,22 @@
+{{primitive}}
+'''First''' is a primitive that returns the first item of a list
+  *"abc"
+ "a"
+  *(0 1;2 3;4 5)
+ 0 1
+or the first record of a table.
+  t:+`a`b!(0 1;2 3)
+  *t
+ `a`b!0 2
+It has no effect on atoms.
+  *12
+ 12
+It treats a dictionary as the list of its values.
+  d:`a`b!0 1
+  *d
+ 0
+For empty collections, it returns the prototype:
+  *!0
+ 0N
+  *""
+ " "
