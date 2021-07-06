@@ -1,6 +1,5 @@
+{{primitive}}
 '''Keys''' is a primitive that retrieves the list of keys from a dictionary.
-
-== Example ==
   d:`a`b!0 1
   !d
  `a`b
