@@ -1,0 +1,2 @@
+{{primitive}}
+'''Distinct''', a.k.a. '''unique''' or '''uniq''', removes duplicates from a list. K9 additionally sorts the result.
