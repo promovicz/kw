@@ -1,5 +1,5 @@
 {{primitive}}
-The '''type''' primitive returns an atom (usually a symbol or a character or an integer) identifying the type of a k value. The set of types varies wildly between dialects. Some implementations have types that are distinguished internally (e.g. for the purposes of [[match]]) but presented to the user as the same type.
+The '''type''' primitive returns a constant (usually a symbol or character or integer) identifying the type of a k value. The set of types varies a lot between dialects. Some implementations have types that are internally considered different (e.g. for the purposes of [[match]]) but presented to the user as identical.
 
 {|class="wikitable"
 ! colspan="4" |Type Classification          
