@@ -1,2 +1,8 @@
 {{primitive}}
-'''Distinct''', a.k.a. '''unique''' or '''uniq''', removes duplicates from a list. K9 additionally sorts the result.
+'''Distinct''', a.k.a. '''unique''' or '''uniq''', returns a copy of its argument without duplicate items (according to the definition of [[match]]). K9 additionally sorts the result.
+
+  ?"abracadabra"
+ "abrcd"
+
+  ?"abracadabra" /k9
+ "abcdr"
