@@ -7,49 +7,71 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
-! rowspan=2| !! rowspan=2|K3 !! rowspan=2|K4 !! colspan=2|K6 !! rowspan=2|K9
+! rowspan=2| !! colspan="2" |K3-K6 !! colspan="2" |K9
 |-
 !                                               monad!!dyad
+!monad
+!dyad
 |-
-| <code>:</code> || Example || Example || [[self]]        || [[right]]       || Example
+| <code>:</code> || [[self]]        || [[right]]       ||
+|
 |-
-| <code>+</code> || Example || Example || [[transpose]]   || [[add]]         || Example
+| <code>+</code> || [[transpose]]   || [[add]]         ||
+|
 |-
-| <code>-</code> || Example || Example || [[negate]]      || [[difference]]  || Example
+| <code>-</code> || [[negate]]      || [[difference]]  ||
+|
 |-
-| <code>*</code> || Example || Example || [[first]]       || [[multiply]]    || Example
+| <code>*</code> || [[first]]       || [[multiply]]    ||
+|
 |-
-| <code>%</code> || Example || Example || [[square root]] || [[divide]]      || Example
+| <code>%</code> || [[square root]] || [[divide]]      ||
+|
 |-
-| <code>!</code> || Example || Example || [[enum]], [[odometer]], [[keys]] || [[modulus]], [[create dict]] || Example
+| <code>!</code> || [[enum]], [[odometer]], [[keys]] || [[modulus]], [[create dict]] ||
+|
 |-
-| <code>&</code> || Example || Example || [[where]]       || [[minimum]]     || Example
+| <code>&</code> || [[where]]       || [[minimum]]     ||
+|
 |-
-| <code>&#124;</code>||Example||Example|| [[reverse]]     || [[maximum]]     || Example
+| <code>&#124;</code>|| [[reverse]]     || [[maximum]]     ||
+|
 |-
-| <code><</code> || Example || Example || [[grade up]]    || [[lesser]]      || Example
+| <code><</code> || [[grade up]]    || [[lesser]]      ||
+|
 |-
-| <code>></code> || Example || Example || [[grade down]]  || [[greater]]     || Example
+| <code>></code> || [[grade down]]  || [[greater]]     ||
+|
 |-
-| <code>=</code> || Example || Example || [[group]], [[identity matrix]] || [[equal]] || Example
+| <code>=</code> || [[group]], [[identity matrix]] || [[equal]] ||
+|
 |-
-| <code>~</code> || Example || Example || [[not]]         || [[match]]       || Example
+| <code>~</code> || [[not]]         || [[match]]       ||
+|
 |-
-| <code>,</code> || Example || Example || [[enlist]]      || [[concatenate]] || Example
+| <code>,</code> || [[enlist]]      || [[concatenate]] ||
+|
 |-
-| <code>^</code> || Example || Example || [[null?]]       || [[except]]      || Example
+| <code>^</code> || [[null?]]       || [[except]]      || sort
+|cut
 |-
-| <code>#</code> || Example || Example || [[length]]      || [[take]], [[reshape]] || Example
+| <code>#</code> || [[length]]      || [[take]], [[reshape]] || filter
+|
 |-
-| <code>_</code> || Example || Example || [[floor]], [[lowercase]] || [[drop]], [[remove-dict]], [[cut]] || Example
+| <code>_</code> || [[floor]], [[lowercase]] || [[drop]], [[remove-dict]], [[cut]] || filter-out
+|
 |-
-| <code>$</code> || Example || Example || [[string]]      || [[pad]], [[cast]] || Example
+| <code>$</code> || [[string]]      || [[pad]], [[cast]] ||
+|
 |-
-| <code>?</code> || Example || Example || [[distinct]], [[random-float]] || [[find]], [[random]] || Example
+| <code>?</code> || [[distinct]], [[random-float]] || [[find]], [[random]] ||
+|
 |-
-| <code>@</code> || Example || Example || [[type]]        || n/a             || Example
+| <code>@</code> || [[type]]        || n/a             ||
+|cast
 |-
-| <code>.</code> || Example || Example || [[eval]]        || n/a             || Example
+| <code>.</code> || [[eval]]        || n/a             ||
+|
 |}
 
 == Adverbs ==
