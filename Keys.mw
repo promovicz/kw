@@ -1,5 +1,5 @@
 {{primitive}}
-'''Keys''' is a primitive that retrieves the list of keys from a dictionary.
+'''Keys''' is a primitive that returns the list of keys of a dictionary.
   d:`a`b!0 1
   !d
  `a`b
