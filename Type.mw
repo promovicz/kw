@@ -7,13 +7,13 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 !k9
 !Examples
 |-
-|rowspan=11|lists
+|rowspan=11|list
 |colspan=2|generic list
 |<tt>`A</tt>
 |<tt>`* `LT</tt>
 |<tt>()   ,"ab"   (0;`1;2;{3};%)</tt>
 |-
-|rowspan=10|typed lists
+|rowspan=10|typed list
 |char list
 |<tt>`C</tt>
 |<tt>`C</tt>
@@ -70,8 +70,8 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 |<tt>`a</tt>
 |<tt>`a`b!0 1</tt>
 |-
-|rowspan=18|atoms
-|rowspan=10|data atoms
+|rowspan=18|atom
+|rowspan=10|data atom
 |char atom
 |<tt>`c</tt>
 |<tt>`c</tt>
@@ -114,7 +114,7 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 |N/A
 |?
 |-
-|rowspan=8|functions
+|rowspan=8|function
 |user-defined function
 |<tt>`o</tt>
 |rowspan=6|<tt>`.</tt>
