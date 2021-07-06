@@ -1,24 +1,30 @@
 {{primitive}}
-'''Transpose''' (a.k.a. '''flip''') swaps the leading two axes of a 2+ dimensional rectangular array. Dialects differ in their treatment of atoms, lists, and ragged arrays.
-
+'''Transpose''', a.k.a. '''flip''', swaps the two leading axes of a 2+ dimensional rectangular array. Dialects differ in their treatment of atoms, lists, and ragged arrays.
   +("ab";"cd";"ef")
  ("ace"
   "bdf")
- 
+Atoms in otherwise rectangular arrays are extended to the full length of the corresponding dimension:
   +(`a`b`c;`d)
  (`a`d
   `b`d
   `c`d)
-
-== Atoms and lists ==
-
+==Atoms and lists==
 Transposing a list in oK or ngn/k [[enlist]]s it. Transposing an atom enlists twice:
-
   +,0
  ,,0
   +0
  ,,0
-
 K4 and Kona return the argument as-is.
 
 K9 throws a rank error.
+==Ragged arrays==
+oK and ngn/k reshape shorter rows to the length of the longest row:
+  +(`a`b`c;`d`e)
+ (`a`d
+  `b`e
+  `c`d)
+K9 pads shorter rows with nulls:
+  +(`a`b`c;`d`e)
+ (`a`d
+  `b`e
+  `c`)
