@@ -9,3 +9,16 @@
  (`a`d
   `b`d
   `c`d)
+
+== Atoms and lists ==
+
+Transposing a list in oK or ngn/k [[enlist]]s it. Transposing an atom enlists twice:
+
+  +,0
+ ,,0
+  +0
+ ,,0
+
+K4 and Kona return the argument as-is.
+
+K9 throws a rank error.
