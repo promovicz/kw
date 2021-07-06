@@ -56,17 +56,17 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 
 {| class="wikitable"
 |-
-! !! K3 !! K4 !! K6 !! K9
+! !! K3-K6 !! K9
 |-
-| <code>'</code> || Example || Example || [[each]] | [[binary search]] || Example
+| <code>'</code>  || [[each]] | [[binary search]] ||
 |-
-| <code>/</code> || Example || Example || [[fold]] | [[join]] | [[base encode]] || Example
+| <code>/</code>  || [[fold]] | [[join]] | [[base encode]] ||
 |-
-| <code>\</code> || Example || Example || [[scan]] | [[split]] | [[base decode]] || Example
+| <code>\</code>  || [[scan]] | [[split]] | [[base decode]] ||
 |-
-| <code>':</code> || Example || Example || [[each prior]] | [[windows]] || Example
+| <code>':</code> || [[each prior]] | [[windows]] ||
 |-
-| <code>/:</code> || Example || Example || [[each right]] || Example
+| <code>/:</code> || [[each right]] ||
 |-
-| <code>\:</code> || Example || Example || [[each left]] || Example
+| <code>\:</code> || [[each left]] ||
 |}
