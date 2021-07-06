@@ -35,7 +35,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>~</code> || Example || Example || [[not]]         || [[match]]       || Example
 |-
-| <code>,</code> || Example || Example || [[singleton]]   || [[concatenate]] || Example
+| <code>,</code> || Example || Example || [[enlist]]      || [[concatenate]] || Example
 |-
 | <code>^</code> || Example || Example || [[null?]]       || [[except]]      || Example
 |-
