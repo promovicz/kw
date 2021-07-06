@@ -151,3 +151,5 @@ The '''type''' primitive returns an atom (usually a symbol or a character or an 
 |?
 |<tt></tt>
 |}
+
+See also: [https://code.kx.com/q/basics/datatypes/ k4 types]
