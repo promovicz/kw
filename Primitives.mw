@@ -23,7 +23,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>!</code> || Example || Example || [[range]], [[odometer]], [[keys]] | [[modulus]], [[create dict]] || Example
 |-
-| <code>&</code> || Example || Example || [[where]], [[where-dict]] | [[minimum]] || Example
+| <code>&</code> || Example || Example || [[where]] | [[minimum]] || Example
 |-
 | <code>&#124;</code> || Example || Example || [[reverse]] | [[maximum]] || Example
 |-
