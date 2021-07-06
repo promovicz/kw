@@ -15,21 +15,21 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>+</code> || [[transpose]]   || [[add]]         || ||
 |-
-| <code>-</code> || [[negate]]      || [[difference]]  || ||
+| <code>-</code> || [[negate]]      || [[subtract]]    || ||
 |-
 | <code>*</code> || [[first]]       || [[multiply]]    || ||
 |-
 | <code>%</code> || [[square root]] || [[divide]]      || ||
 |-
-| <code>!</code> || [[enum]], [[odometer]], [[keys]] || [[modulus]], [[create dict]] || ||
+| <code>!</code> || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || ||
 |-
-| <code>&amp;</code> || [[where]]       || [[minimum]]     || ||
+| <code>&amp;</code> || [[where]]   || [[min]]         || ||
 |-
-| <code>&#124;</code>|| [[reverse]]     || [[maximum]]     || ||
+| <code>&#124;</code>|| [[reverse]] || [[max]]         || ||
 |-
-| <code>&lt;</code>|| [[grade up]]    || [[lesser]]      || ||
+| <code>&lt;</code>|| [[grade up]]  || [[lesser]]      || ||
 |-
-| <code>&gt;</code>|| [[grade down]]  || [[greater]]     || ||
+| <code>&gt;</code>|| [[grade down]]|| [[greater]]     || ||
 |-
 | <code>=</code> || [[group]], [[identity matrix]] || [[equal]] || ||
 |-
@@ -37,7 +37,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>,</code> || [[enlist]]      || [[concatenate]] || ||
 |-
-| <code>^</code> || [[null?]]       || [[except]]      || [[sort]] || [[cut]]
+| <code>^</code> || [[null?]]       || [[except]], [[fill]] || [[sort]] || [[cut]]
 |-
 | <code>#</code> || [[length]]      || [[take]], [[reshape]] || || [[filter]]
 |-
