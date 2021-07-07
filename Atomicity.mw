@@ -21,7 +21,12 @@ A two-argument(dyadic) primitive can be '''fully atomic, right atomic''' or '''n
 [[mod]] is an example of this kind:<syntaxhighlight lang="apl">
   3!34 2 8
 1 2 2
-</syntaxhighlight>'''Left atomic''' dyads are a rare sight due to the nature of K's right-to left evaluation, but they are effectively the flipped version of right-atomic primitives.
+</syntaxhighlight>
+[https://ngn.bitbucket.io/k/#eJwzVjQ2UTBSsAAABksBZg== Try It(ngn/k)]
+
+'''Left atomic''' dyads are a rare sight due to the nature of K's right-to left evaluation, but they are effectively the flipped version of right-atomic primitives.
+
+
 
 '''Fully atomic''' dyadic primitives can take arrays on both sides, and perform a zipped operation on arbitrarily nested lists, as long as the structure of the arrays allow such an operation(length, distribution of atoms, and so on). They also borrow the characteristics of right atomic and left atomic primitives.
 
@@ -31,3 +36,4 @@ An example of this is [[add]].<syntaxhighlight lang="apl">
  4 5
  10)
 </syntaxhighlight>
+[https://ngn.bitbucket.io/k/#eJzT1dAwtjbVtDbUBAAKJAHf Try It(ngn/k)]
