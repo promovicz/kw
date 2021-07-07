@@ -1,4 +1,5 @@
-Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×''n'' matrix with ones in the main diagonal and zeros elsewhere.<syntaxhighlight>
+{{Primitive}}
+Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×''n'' matrix with ones in the main diagonal and zeros elsewhere.<syntaxhighlight lang=text>
  =5
 (1 0 0 0 0
  0 1 0 0 0
@@ -11,12 +12,11 @@ Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×
 
  =0
 ()
-</syntaxhighlight>This primitive is not available in all dialects, It can be implemented in K as:<syntaxhighlight>
+</syntaxhighlight>This primitive is not available in all dialects, It can be implemented in K as:<syntaxhighlight lang=text>
  im:{(2#x)#1,&x}
  im[4]
 (1 0 0 0
  0 1 0 0
  0 0 1 0
  0 0 0 1)
-
 </syntaxhighlight>
