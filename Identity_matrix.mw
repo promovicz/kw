@@ -1,6 +1,7 @@
 {{Primitive}}
 Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×''n'' matrix with ones in the main diagonal and zeros elsewhere.
 
+[https://ngn.bitbucket.io/k#eJyzNeWyNeSyNQAABlwBYg== Try it!]
 <syntaxhighlight lang=text>
  =5
 (1 0 0 0 0
