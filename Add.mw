@@ -1,0 +1,8 @@
+The '''Add''' function, generally denoted by `+`, is used for addition in K.
+
+The ''Add'' primitive is [[Atomicity|fully atomic.]]
+
+<pre>
+ 1+2
+3
+</pre>
