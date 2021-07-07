@@ -17,11 +17,22 @@ Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×
 ()
 </syntaxhighlight>{{Works in|ngn/k}}
 
-This primitive is not available in all dialects, It can be implemented in K as:<syntaxhighlight lang=text>
- im:{(2#x)#1,&x}
+This primitive is not available in all dialects. There are multiple ways to implement it in K:<syntaxhighlight lang=text>
+ im:{t=/:t:!x}
  im[4]
 (1 0 0 0
  0 1 0 0
  0 0 1 0
  0 0 0 1)
-</syntaxhighlight>
+
+ im:{(2#x)#1,&x}
+ im[2]
+(1 0
+ 0 1)
+
+ im:{(x-1)(0 :':)\~!x}   / fast
+ im[3]
+(1 0 0
+ 0 1 0
+ 0 0 1)
+ </syntaxhighlight>
