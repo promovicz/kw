@@ -1,6 +1,6 @@
 The '''negate''' function, generally denoted by <code>-</code>, is used for getting the additive inverse of a number in K(numeric negation).
 
-When applied directly to a numeric list literal, <code>-</code> should be followed by a space to prevent it from becoming sign of the first item.
+When applied directly to a numeric literal, <code>-</code> should be followed by a space to prevent it from becoming the sign of its first item.
 
 The negate primitive is [[Atomicity|right atomic.]]<pre>
  -[3]
