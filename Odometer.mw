@@ -5,15 +5,15 @@ The '''odometer''' for an int list <tt>x</tt> generates the Cartesian product of
  (0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
   0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 1 1 1 2 2 2 3 3 3
   0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2)
-You can think of odometer as generating all matrix paths, and it can be used for indexing:<syntaxhighlight>
+Odometer generates all paths to elements in a matrix, with each column a path and each row a dimension. It can be used for indexing:<syntaxhighlight>
  : m:(`a`b`c;`d`e`f;`g`h`i)
 (`a`b`c
  `d`e`f
  `g`h`i)
- : paths: !2 2  / top-left corner
+ : p: !2 2  / top-left corner
 (0 0 1 1
  0 1 0 1)
- (m') . paths
+ (m') . p
 `a`b`d`e
 </syntaxhighlight>Some K implementations(K2/K3) do not have this primitive. It can be defined as follows:
 
