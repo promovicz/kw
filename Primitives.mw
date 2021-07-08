@@ -16,7 +16,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>:</code> 
 |
-| || [[self]]        || [[right]]       || ||
+| || [[right|identity]] || [[right]]       || ||
 |-
 | <code>+</code> 
 |
