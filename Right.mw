@@ -1,4 +1,4 @@
-{{primitive}}
+{{primitive|(:)[x;y]}}
 '''Right''', a.k.a. '''dex''', is a function that returns its rightmost argument.
   (:)[1;2]
  2
