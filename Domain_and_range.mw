@@ -1,0 +1,5 @@
+The '''domain''' of a function is the set of arguments for which it is defined. Its '''range''' is the set of values it could return. Thanks to the [[at|unification]] of function application, list indexing, and dictionary lookup, the concepts of domain and range extend to any k object.
+
+The domain of a list is <code>!#x</code> and its range is the list itself. This is valid for tables too.
+
+The domain of a dictionary is its keys <code>!x</code> and the range is its values <code>. x</code>.
