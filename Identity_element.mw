@@ -1,0 +1,3 @@
+The '''identity element''' (or '''left identity element''') for a given type and dyadic function <code>f</code> is an object <code>x</code> such that <code>f[x;y]~y</code> for all (or almost all) <code>y</code>.
+
+Identity elements corresponding to primitive dyadic verbs act as a default seed for [[fold]], [[scan]], and [[each prior]].
