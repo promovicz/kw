@@ -1,4 +1,4 @@
-{{primitive}}
+{{primitive|!i}}
 '''Enum''', a.k.a. '''til''' (k4), '''range''' (from Python?), '''iota''' (from APL), generates a list of integers from 0 to a given integer <tt>x</tt> (left-inclusive right-exclusive).
   !5
  0 1 2 3 4
