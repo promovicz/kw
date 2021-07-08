@@ -5,7 +5,7 @@
 For a boolean list it returns the positions of the truthy items:
   &0 0 1 1 0 1
  2 3 5
-For a single integer it generates that many zeroes:
+For an integer atom it generates that many zeroes:
   &3
  0 0 0
 For a dictionary it uses the keys instead of indices:
