@@ -9,9 +9,9 @@ Some K implementations(K2/K3) do not have this primitive. It can be defined as f
 
 '''K3'''<ref>https://chat.stackexchange.com/transcript/message/58561631#58561631</ref>
 
-provides a transposed version.<syntaxhighlight lang="apl">
+provides a transposed version.<syntaxhighlight>
 {x _vs!*/x}
-</syntaxhighlight>'''K6<ref>https://chat.stackexchange.com/transcript/message/58561596#58561596</ref>'''<syntaxhighlight lang="apl">
+</syntaxhighlight>'''K6<ref>https://chat.stackexchange.com/transcript/message/58561596#58561596</ref>'''<syntaxhighlight>
 {+x\'!*/x}
 </syntaxhighlight>
 
