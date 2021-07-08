@@ -5,6 +5,14 @@ The '''odometer''' for an int list <tt>x</tt> generates the Cartesian product of
  (0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
   0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 1 1 1 2 2 2 3 3 3
   0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2)
-Some K implementations(K2/K3) do not have this primitive. It can be defined as follows<ref>https://chat.stackexchange.com/transcript/message/58561596#58561596</ref>:<syntaxhighlight lang="apl">
+Some K implementations(K2/K3) do not have this primitive. It can be defined as follows:
+
+'''K3'''<ref>https://chat.stackexchange.com/transcript/message/58561631#58561631</ref>
+
+provides a transposed version.<syntaxhighlight lang="apl">
+{x _vs!*/x}
+</syntaxhighlight>'''K6<ref>https://chat.stackexchange.com/transcript/message/58561596#58561596</ref>'''<syntaxhighlight lang="apl">
 {+x\'!*/x}
 </syntaxhighlight>
+
+== References ==
