@@ -1,5 +1,5 @@
 {{primitive|(:)}}
-'''Right''', a.k.a. '''dex''', is a function that returns its rightmost argument.
+'''Right''', a.k.a. '''dex''' (from Latin [https://en.wiktionary.org/wiki/dexter#Latin ''dexter'']), is a function that returns its rightmost argument.
   (:)[1;2]
  2
 When it accepts only one argument, it could be referred to as '''identity''' or '''identity function'''.
