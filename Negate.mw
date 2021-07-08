@@ -1,0 +1,15 @@
+The '''negate''' function, generally denoted by <code>-</code>, is used for getting the additive inverse of a number in K(numeric negation).
+
+
+The negate primitive is [[Atomicity|right atomic.]]<pre>
+ -[3]
+-3
+
+ -(9;8;7)
+-9 -8 -7
+
+ -(9;(8;-56);(7;-65))
+(-9
+ -8 56
+ -7 65)
+</pre>
