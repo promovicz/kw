@@ -1,0 +1,9 @@
+A '''projection''' is a partially applied function.
+
+A projection is created by applying a function to fewer arguments than it requires.
+  f:{x+y*z}
+  f[1;2;3]
+ 7
+  g:f[;2] /projection (x omitted, y set to 2, z omitted)
+  g[1;3]  /provide x and z
+ 7
