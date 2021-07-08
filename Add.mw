@@ -1,6 +1,6 @@
 The '''Add''' function, generally denoted by <code>+</code>, is used for addition in K.
 
-The ''Add'' primitive is [[Atomicity|fully atomic.]]<syntaxhighlight lang="apl">
+The ''Add'' primitive is [[Atomicity|fully atomic.]]<syntaxhighlight>
  1+2
 3
 
