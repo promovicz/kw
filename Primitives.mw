@@ -7,49 +7,92 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
-! rowspan=2| !! colspan="2" |K3-K6 !! colspan="2" |K9
+! rowspan=2| 
+! colspan="2" |K3!! colspan="2" |K4-K6 !! colspan="2" |K9
 |-
+!monad
+!dyad
 !                            monad!!dyad!!monad!!dyad
 |-
-| <code>:</code> || [[self]]        || [[right]]       || ||
+| <code>:</code> 
+|
+| || [[self]]        || [[right]]       || ||
 |-
-| <code>+</code> || [[transpose]]   || [[add]]         || ||
+| <code>+</code> 
+|
+| || [[transpose]]   || [[add]]         || ||
 |-
-| <code>-</code> || [[negate]]      || [[subtract]]    || ||
+| <code>-</code> 
+|
+| || [[negate]]      || [[subtract]]    || ||
 |-
-| <code>*</code> || [[first]]       || [[multiply]]    || ||
+| <code>*</code> 
+|
+| || [[first]]       || [[multiply]]    || ||
 |-
-| <code>%</code> || [[square root]] || [[divide]]      || ||
+| <code>%</code> 
+|
+| || [[square root]] || [[divide]]      || ||
 |-
-| <code>!</code> || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || ||
+| <code>!</code> 
+|
+| || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || ||
 |-
-| <code>&amp;</code> || [[where]]   || [[min]]         || ||
+| <code>&amp;</code> 
+|
+| || [[where]]   || [[min]]         || ||
 |-
-| <code>&#124;</code>|| [[reverse]] || [[max]]         || ||
+| <code>&#124;</code>
+|
+| || [[reverse]] || [[max]]         || ||
 |-
-| <code>&lt;</code>|| [[grade up]]  || [[lesser]]      || ||
+| <code>&lt;</code>
+|
+| || [[grade up]]  || [[lesser]]      || ||
 |-
-| <code>&gt;</code>|| [[grade down]]|| [[greater]]     || ||
+| <code>&gt;</code>
+|
+| || [[grade down]]|| [[greater]]     || ||
 |-
-| <code>=</code> || [[group]], [[identity matrix]] || [[equal]] || ||
+| <code>=</code> 
+|
+| || [[group]], [[identity matrix]] || [[equal]] || ||
 |-
-| <code>~</code> || [[not]]         || [[match]]       || ||
+| <code>~</code> 
+|
+| || [[not]]         || [[match]]       || ||
 |-
-| <code>,</code> || [[enlist]]      || [[concatenate]] || ||
+| <code>,</code> 
+|
+| || [[enlist]]      || [[concatenate]] || ||
 |-
-| <code>^</code> || [[null?]]       || [[except]], [[fill]] || [[sort]] || [[cut]]
+| <code>^</code> 
+|[[shape]]
+|[[power]]|| [[null?]]       || [[except]], [[fill]] || [[sort]] || [[cut]]
 |-
-| <code>#</code> || [[length]]      || [[take]], [[reshape]] || || [[filter]]
+| <code>#</code> 
+|
+| || [[length]]      || [[take]], [[reshape]] || || [[filter]]
 |-
-| <code>_</code> || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || || [[filter-out]]
+| <code>_</code> 
+|
+| || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || || [[filter-out]]
 |-
-| <code>$</code> || [[string]]      || [[pad]], [[cast]] || ||
+| <code>$</code> 
+|
+| || [[string]]      || [[pad]], [[cast]] || ||
 |-
-| <code>?</code> || [[distinct]], [[random-float]] || [[find]], [[random]] || ||
+| <code>?</code> 
+|
+| || [[distinct]], [[random-float]] || [[find]], [[random]] || ||
 |-
-| <code>@</code> || [[type]]        || [[at]]            || || [[cast]]
+| <code>@</code> 
+|[[Type|atom?]]
+| || [[type]]        || [[at]]            || || [[cast]]
 |-
-| <code>.</code> || [[eval]]        || [[dot]]           || ||
+| <code>.</code> 
+|
+| || [[eval]]        || [[dot]]           || ||
 |}
 
 == Adverbs ==
