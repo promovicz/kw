@@ -6,3 +6,15 @@ The '''group''' primitive, denoted by <code>=</code>, is used to group the indic
  =`a`a`b`c`c`d`c`a`a`k
 `a`b`c`d`k!(0 1 7 8;,2;3 4 6;,5;,9)
 </pre>
+
+The [[keys]] from the '''group''' dictionary represent the [[distinct]] elements of the array.
+
+<pre>
+ ="abracadabra"
+"abrcd"!(0 3 5 7 10;1 8;2 9;,4;,6)
+
+ !="abracadabra"
+"abrcd"
+ ?"abracadabra"
+"abrcd"
+</pre>{{Works in|ngn/k}}
