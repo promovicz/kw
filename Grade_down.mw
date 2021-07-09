@@ -1,0 +1,12 @@
+{{primitive|>x}}
+The '''grade down''' primitive is used to get the indices of an array that would sort it in descending order.
+
+Since grading is not the same as sorting, a general idiom used to sort arrays is <code>{x(>x)}</code> or other equivalent.
+
+For numeric arrays:
+<pre>
+ >34 -1 0 67 32767
+4 3 0 2 1
+</pre>
+
+Grading of string arrays largely depends upon the implementation, as shown in [[grade up]].
