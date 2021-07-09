@@ -1,7 +1,7 @@
 {{primitive|x-y}}
 The '''Subtract''' or '''Minus''' function, generally denoted by <code>-</code>, is used for subtraction in K.
 
-The ''Subtract'' primitive is [[Atomicity|fully atomic.]]<syntaxhighlight>
+The ''Subtract'' primitive is [[Atomicity|fully atomic.]]<pre>
  1-2
 -1
 
@@ -11,4 +11,4 @@ The ''Subtract'' primitive is [[Atomicity|fully atomic.]]<syntaxhighlight>
  ((23;45);(3;4)) - ((45;78);(9;0))
 (-22 -33
  -6 4)
-</syntaxhighlight>
+</pre>
