@@ -1,4 +1,4 @@
-{{primitive|!I}}
+{{primitive|!I|in=k3(transposed), k4-k9}}
 [[File:Счётчик мех.jpg|256px|right]]
 The '''odometer''' for an int list <tt>x</tt> generates the Cartesian product of <code>!x[0]</code>, <code>!x[1]</code>, .., <code>!x[-1+#x]</code> as the columns of a <code>#x</code> by <code>*/x</code> matrix.
   !2 4 3
