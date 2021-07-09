@@ -1,4 +1,4 @@
-{{primitive|=x}}
+{{primitive|&#61;x}}
 
 The '''group''' primitive, denoted by <code>=</code>, is used to group the indices of an array by the values they represent in the array, returning a dictionary.
 
