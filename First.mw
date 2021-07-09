@@ -8,9 +8,10 @@ or the first record of a table.
   t:+`a`b!(0 1;2 3)
   *t
  `a`b!0 2
-It has no effect on atoms.
+It has no effect on atoms, which can be used to check if a value is an atom.
   *12
  12
+  x~*x /is atom?
 It treats a dictionary as the list of its values.
   d:`a`b!0 1
   *d
