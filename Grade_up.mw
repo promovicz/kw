@@ -1,0 +1,22 @@
+{{primitive|<x}}
+The '''grade up''' primitive is used to get the indices of an array that would sort it in ascending order.
+
+Since grading is not the same as sorting, a general idiom used to sort arrays is <code>{x(<x)}</code> or other equivalent.
+
+For integer arrays:
+<pre>
+ <34 -1 0 67 32767
+1 2 0 3 4</pre>
+
+Grading of string arrays largely depends upon the implementation.
+
+For ngn/k(K6), groups by length and sorts each individual group:
+<pre>
+ {x(<x)}("xyz";"a";"k";"j";"apl";"bqn")
+("apl"
+ "bqn"
+ "xyz"
+ "a"
+ "j"
+ "k")
+</pre>
