@@ -1,0 +1,13 @@
+{{primitive|~x}}
+The '''not''' function, generally denoted by <code>~</code>, gives the logical negation of an atom in K.
+
+The not primitive is [[Atomicity|right atomic.]]
+
+For numbers, returns 0 for nonzero numbers, and 1 if zero. characters also behave as integers.
+<pre>
+ ~1 2 0
+0 0 1
+
+ ~"sadasd"
+0 0 0 0 0 0
+</pre>
