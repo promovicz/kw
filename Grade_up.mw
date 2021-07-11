@@ -12,7 +12,7 @@ For numeric arrays:
 
 Grading of string arrays largely depends upon the implementation.
 
-For ngn/k(K6), groups by length and sorts each individual group:
+For ngn/k(K6), groups by type and sorts each individual group:
 <pre>
  {x(<x)}("xyz";"a";"k";"j";"apl";"bqn")
 ("apl"
