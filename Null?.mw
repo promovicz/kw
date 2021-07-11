@@ -1,0 +1,16 @@
+{{primitive|^x}}
+The '''null''' primitive returns a value indicating whether its argument is a null value or not.
+
+The general null values for each datatype are:
+* Integer: <code>0N</code>
+* Float: <code>0n</code>
+* Character: <code>" "</code>
+* Symbol: <code>`</code>
+
+<pre>
+ ^(0;0N;`;(0n;" ";{}))
+(0
+ 1
+ 1
+ 1 1 0)
+</pre>
