@@ -1,7 +1,7 @@
 {{primitive|_x}}
 The '''floor''' function is used to round numbers down in K.
 
-Flooring is a no-op on integers and characters, meaning that they remain the same.
+Flooring is a no-op on integers, meaning that they remain the same.
 
 The floor primitive is [[Atomicity|right atomic]].
 
