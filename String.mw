@@ -1,6 +1,6 @@
 {{primitive|$x}}The '''string''' function, generally denoted by <code>$</code>, converts atoms to their string equivalents.
 
-`$` on a character is the equivalent of [[enlisting|enlist]] it.
+<code>$</code> on a character is the equivalent of [[enlist|enlisting]] it.
 
 The string primitive is [[Atomicity|right atomic.]]<pre>
   $120 4
