@@ -1,0 +1,9 @@
+{{primitive|.x}}
+'''Eval''', also known as '''value''', evaluates a string as a K expression.
+
+Eval may or may not evaluate its argument in the current scope based on the implementation.
+
+<pre>
+ ."+/1 2 3 4"
+10
+</pre>
