@@ -1,0 +1,16 @@
+{{primitive|_x}}
+The '''floor''' function is used to round numbers down in K.
+
+Flooring is a no-op on integers and characters, meaning that they remain the same.
+
+The floor primitive is [[Atomicity|right atomic]].
+
+A ceiling function (round up) can be made with floor as well: <code>(1+_)</code>
+
+<pre>
+ _3
+3
+
+ _-3.7 4.789 80 0n
+-4 4 80 0N
+</pre>
