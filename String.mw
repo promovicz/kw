@@ -1,0 +1,10 @@
+{{primitive|$x}}The '''string''' function, generally denoted by <code>$</code>, converts atoms to their string equivalents.
+
+`$` on a character is the equivalent of [[enlisting|enlist]] it.
+
+The string primitive is [[Atomicity|right atomic.]]<pre>
+  $120 4
+("120";,"4")
+  $`beef
+"beef"
+</pre>
