@@ -3,6 +3,8 @@ The '''grade up''' primitive is used to get the indices of an array that would s
 
 Since grading is not the same as sorting, a general idiom used to sort arrays is <code>{x(<x)}</code> or other equivalent.
 
+Grade primitives generally use a [https://en.wikipedia.org/wiki/Category:Stable_sorts stable sort], which means that an ascending grade may not always be the inverse of a descending grade.
+
 For numeric arrays:
 <pre>
  <34 -1 0 67 32767
