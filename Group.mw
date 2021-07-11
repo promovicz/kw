@@ -7,6 +7,8 @@ The '''group''' primitive, denoted by <code>=</code>, is used to group the indic
 `a`b`c`d`k!(0 1 7 8;,2;3 4 6;,5;,9)
 </pre>
 
+
+
 The [[keys]] from the '''group''' dictionary represent the [[distinct]] elements of the array.
 
 <pre>
@@ -18,3 +20,28 @@ The [[keys]] from the '''group''' dictionary represent the [[distinct]] elements
  ?"abracadabra"
 "abrcd"
 </pre>{{Works in|ngn/k}}
+
+
+In K2 and K3, the group primitive returns a nested array:<pre>
+ ="abracadabra"
+(0 3 5 7 10
+ 1 8
+ 2 9
+ ,4
+ ,6)
+</pre>{{Works in|Kona}}
+
+In order to mimic the K6 behaviour, you can use [[distinct]]: <code>{(?x)!=x}</code> to get a dict.
+
+<pre>
+ {(?:x)!=x}`a`a`b`c
+.((`a
+   0 1
+   )
+  (`b
+   ,2
+   )
+  (`c
+   ,3
+   ))
+</pre>{{Works in|Kona}}
