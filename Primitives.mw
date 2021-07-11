@@ -31,7 +31,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 | || [[first]]       || [[multiply]]    || ||
 |-
 | <code>%</code> 
-|
+|[[reciprocal]]
 | || [[square root]] || [[divide]]      || ||
 |-
 | <code>!</code> 
