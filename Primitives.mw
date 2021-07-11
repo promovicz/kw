@@ -92,7 +92,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>.</code> 
 |
-| || [[eval]]        || [[dot]]           || ||
+| || [[eval]], [[values]]        || [[dot]]           || ||
 |}
 
 == Adverbs ==
