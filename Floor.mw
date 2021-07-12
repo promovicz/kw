@@ -5,7 +5,7 @@ Flooring is a no-op on integers, meaning that they remain the same.
 
 The floor primitive is [[Atomicity|right atomic]].
 
-A ceiling function (round up) can be made with floor using a [[tacit]] definition: <code>(1+_)</code>
+A ceiling function (round up) can be made with floor using <code>-_-</code>. 
 
 <pre>
  _3
