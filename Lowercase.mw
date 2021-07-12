@@ -1,8 +1,11 @@
-{{primitive|_x}}The '''lowercase''' function, generally denoted by <code>_</code>, is used for converting a character to lowercase.
+{{primitive|_x}}The '''lowercase''' function, generally denoted by <code>_</code>, is used for converting a character or symbol to lowercase. Non-alphabetical characters are unchanged.
 
-non-alphabetical characters remain the same.
+
 
 The lowercase primitive is [[Atomicity|right atomic.]]<pre>
  _"abc123ABC"
 "abc123abc"
+
+ _`abc123ABC
+`abc123ABC
 </pre>
