@@ -1,0 +1,32 @@
+{{primitive|^z|in=K9}}
+
+The '''sort''' primitive sorts a list, dictionary, or table x into ascending order. 
+
+<pre>
+ ^0 3 2 1
+0 1 2 3
+</pre>
+
+Dictionaries are sorted using the keys and tables by the first column field.
+<pre>
+^`b`a!((0 1 2);(7 6 5))     / sort dictionary by key
+[a:7 6 5;b:0 1 2]
+</pre>
+
+One can sort tables by arbitrary columns by first reordering the columns in the table using take or by extracting the sort column by index or expression.
+ 
+<pre>
+ ^[[]z:`c`a`b;y:3 2 1]      / sort table by 1st col
+z y
+- -
+a 2
+b 1
+c 3
+
+ ^`y`z#[[]z:`c`a`b;y:3 2 1] / sort table by new 1st col
+y z
+- -
+1 b
+2 a
+3 c
+</pre>
