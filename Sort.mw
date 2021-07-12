@@ -1,6 +1,6 @@
 {{primitive|^z|in=K9}}
 
-The '''sort''' primitive sorts a list, dictionary, or table x into ascending order. 
+The '''sort''' primitive sorts a list, dictionary, or table x into ascending order.<ref>https://estradajke.github.io/k9-simples/k9/Verb.html#sort</ref> 
 
 <pre>
  ^0 3 2 1
@@ -30,3 +30,5 @@ y z
 2 a
 3 c
 </pre>
+
+== References ==
