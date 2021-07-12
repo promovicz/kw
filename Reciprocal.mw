@@ -1,0 +1,15 @@
+{{primitive|%x|in=K2, K3}}
+
+'''Reciprocal''' returns the reciprocal or multiplicative inverse of a number, as a float.
+
+The reciprocal primitive is [[atomicity|right atomic.]]
+
+<pre>
+  %2
+0.5
+  % 0 1 2 3 4
+0i 1 0.5 0.3333333 0.25
+  %%2
+2.0
+</pre>
+{{Works in|Kona}}
