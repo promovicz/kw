@@ -7,5 +7,5 @@ The lowercase primitive is [[Atomicity|right atomic.]]<pre>
 "abc123abc"
 
  _`abc123ABC
-`abc123ABC
+`abc123abc
 </pre>
