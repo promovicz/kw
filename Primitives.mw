@@ -4,6 +4,8 @@ All of K's primitives are made to be multipurpose, and have varied meanings base
 
 == Verbs ==
 Single argument forms(monadic) listed first, two-argument forms(dyadic) listed second.
+
+Empty cells indicate that the primitives are the same as K4-K6.
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
