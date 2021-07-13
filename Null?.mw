@@ -2,13 +2,42 @@
  |in=[https://code.kx.com/q/ref/null/ k4], [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md#user-content-null oK], ngn/k
  |not=k3, kona, k7, k9}}
 
-The '''null''' primitive returns a value indicating whether its argument is a null value or not.
+The '''null''' primitive returns a value indicating whether its argument is a null value or not. It is [[atomicity|right atomic]].
 
-The general null values for each datatype are:
-* Integer: <code>0N</code>
-* Float: <code>0n</code>
-* Character: <code>" "</code>
-* Symbol: <code>`</code>
+Each atomic type has a distinguished null value used to represent missing data.
+
+{| class="wikitable"
+! rowspan="2" |Type 
+! colspan="4" |Null
+|-
+!oK
+!k7
+!k9
+!other
+|-
+|int
+| rowspan="3" |<code>0N</code>
+|<code>Ø</code>
+|<code>0</code>||<code>0N</code>
+|-
+|float
+|<code>ø</code>
+|<code>0.0</code>|| <code>0n</code>
+|-
+|char
+| colspan="3" |<code>" "</code>
+|-
+|symbol
+| colspan="4" |<code>`</code>
+|-
+|function
+|N/A
+| colspan="2" |''special''
+''value''
+
+''of type <code>`</code>''
+|<code>[[Identity function|::]]</code>
+|}
 
 <pre>
  ^(0;0N;`;(0n;" ";{}))
