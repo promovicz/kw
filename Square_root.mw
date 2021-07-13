@@ -2,7 +2,7 @@
 
 The '''square root''' function, generally denoted by <code>%</code>, gets the floating point square root of a given number.
 
-The result of square root is undefined for negative numbers, and returns <code>0N</code>.
+The result of square root is undefined for negative numbers, and returns <code>0n</code>.
 
 The square root primitive is [[Atomicity|right atomic.]]<pre>
  %4
