@@ -1,4 +1,7 @@
-{{primitive|^x}}
+{{primitive|^x
+ |in=[https://code.kx.com/q/ref/null/ k4], [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md#user-content-null oK], ngn/k
+ |not=k3, kona, k7, k9}}
+
 The '''null''' primitive returns a value indicating whether its argument is a null value or not.
 
 The general null values for each datatype are:
