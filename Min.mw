@@ -1,0 +1,15 @@
+{{primitive|x&y}}
+
+'''Min''', also known as '''and''', takes the minimum of two arguments.
+
+On boolean arguments, effectively works as an AND operator.
+
+The min primitive is [[atomicity|fully atomic]].
+
+<pre>
+ 3 5 7&0 6 9
+0 5 7
+
+ "abc"&"01d"
+48 49 99
+</pre>
