@@ -1,0 +1,19 @@
+{{primitive|&lt;x<br>&gt;x}}
+'''Grade''' returns the [[domain]] of a collection (list, table, or dictionary) sorted by its [[range]]. It has two versions: '''up''' (<code>&lt;x</code>) and '''down''' (<code>&gt;x</code>), a.k.a. '''asc''' and '''desc''' by analogy with SQL.
+
+Grade uses a [https://en.wikipedia.org/wiki/Category:Stable_sorts stable] sorting algorithm - [[match|equivalent]] items are sorted in their original order.
+
+Sorting (as in sorting the range by itself) can be implemented through the idiom <code>x@&lt;x</code> or <code>x@&gt;x</code>. K7 and k9 support an additional dedicated sort-ascending primitive: [[sort|<code>^x</code>]].
+
+<pre>
+ >34 -1 0 67 32767
+4 3 0 2 1
+
+ {x(<x)}("xyz";"a";"k";"j";"apl";"bqn")
+("apl"
+ "bqn"
+ "xyz"
+ "a"
+ "j"
+ "k")
+</pre>
