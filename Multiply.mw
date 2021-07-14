@@ -1,0 +1,13 @@
+{{primitive|x*y}}The '''Multiply''' function is generally denoted by <code>*</code>.
+
+The multiply primitive is [[Atomicity|fully atomic.]]<pre>
+ 1*2
+2
+
+ 1 2 3+4 5 6
+4 10 18
+
+ ((23;45);(3;4))*((45;78);(9;0))
+(1035 3510
+ 27 0)
+</pre>
