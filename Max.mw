@@ -1,0 +1,15 @@
+{{primitive|x&#124;y}}
+
+'''Max''', also known as '''or''', takes the maximum of two arguments.
+
+On boolean arguments, effectively works as an OR operator.
+
+The max primitive is [[atomicity|fully atomic]].
+
+<pre>
+ 3 5 7|0 6 9
+3 6 9
+
+ "abc"|"01d"
+97 98 100
+</pre>
