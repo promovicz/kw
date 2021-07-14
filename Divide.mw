@@ -1,0 +1,15 @@
+{{primitive|x%y}}The '''Divide''' function is generally denoted by <code>%</code>.
+
+Divide always performs float division. For integer division, use [[floor]] along with this primitive: <code>(_%)</code>
+
+The divide primitive is [[Atomicity|fully atomic.]]<pre>
+ 1%2
+0.5
+
+ 1 2 3+4 5 6
+0.25 0.4 0.5
+
+ ((23;45);(3;4))*((45;78);(9;0))
+(1035 3510
+ 27 0)
+</pre>
