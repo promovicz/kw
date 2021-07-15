@@ -1,6 +1,7 @@
 {{primitive|x!y}}
 
 The '''create dict''' primitive, a.k.a. '''map''', takes two lists of equal length and makes a [[dictionary]] using the left argument as keys, and the right argument as the values.
+Uniqueness of the keys is not enforced.
 
 <pre>
   `a`b!3 4
