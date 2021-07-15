@@ -1,0 +1,20 @@
+{{primitive|x,y}}
+
+The '''concatenate''' builtin concatenates its two arguments into a single unit, based on the [[type]] of the arguments.
+
+If both <code>x</code> and <code>y</code> are dictionaries, the result is a dictionary, and otherwise the result is an array.
+
+<pre>
+ 1,2
+1 2
+
+1 2,"abc"
+(1
+ 2
+ "a"
+ "b"
+ "c")
+
+(1 2!2 3),2 3!3 4
+1 2 3!2 3 4
+</pre>
