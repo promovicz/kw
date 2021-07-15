@@ -1,8 +1,8 @@
 {{primitive|x&lt;y<br>x&gt;y<br>x&#61;y}}
 
-The comparison primitives in K are <code><</code>, <code>></code> and <code>=</code> which stand for lesser than, greater than and equal to respectively.
+The comparison primitives in K are <code><</code>, <code>></code> and <code>=</code> which stand for lesser than, greater than and equal to respectively. Comparisons are [[atomicity|fully atomic]].
 
-character comparison is done via ASCII codes/UTF-8 code points, based on the implementation.
+Character comparison is done via ASCII codes/UTF-8 code points, based on the implementation.
 
 The comparison functions always give a boolean value, 1 or 0.
 
