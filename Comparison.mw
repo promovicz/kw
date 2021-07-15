@@ -1,4 +1,4 @@
-{{primitive|x&lt;y<br>x&gt;y}}
+{{primitive|x&lt;y<br>x&gt;y<br>x&#61;y}}
 
 The comparison primitives in K are <code><</code>, <code>></code> and <code>=</code> which stand for lesser than, greater than and equal to respectively.
 
