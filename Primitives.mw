@@ -74,7 +74,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>#</code> 
 |
-| || [[length]]      || [[take]], [[reshape]] || || [[filter]]
+| || [[length]]      || [[Take/Reshape|take/reshape]]|| || [[filter]]
 |-
 | <code>_</code> 
 |
