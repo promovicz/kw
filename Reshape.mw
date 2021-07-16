@@ -1,0 +1,16 @@
+{{primitive|x#y}}
+
+The '''reshape''' primitive takes the elements of an array <code>y</code>, and fits them in a rectangular nested array shape given by <code>x</code>.
+
+The array elements are repeated to fit the shape given in <code>x</code>, if the product of x is greater than the length of y.
+
+<pre>
+ 3 3#3
+(3 3 3
+ 3 3 3
+ 3 3 3)
+
+ 2 4 1#("ab";56;`sdas)
+((,"ab";,56;,`sdas;,"ab")
+ (,56;,`sdas;,"ab";,56))
+</pre>Ad
