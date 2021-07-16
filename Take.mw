@@ -1,0 +1,18 @@
+{{primitive|a#y}}
+
+The '''take''' primitive takes <code>a</code> elements from a given list <code>y</code>.
+
+Positive <code>a</code> takes elements from the beginning, and negative values will take from the end.
+
+If <code>a > #y</code>(a is greater than y's length), <code>y</code> is repeated to that length.
+
+<pre>
+ 3#"abcde"
+"abc"
+
+ -3#"abcde"
+"cde"
+
+ 5#,5
+5 5 5 5 5
+</pre>
