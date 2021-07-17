@@ -4,6 +4,8 @@ The '''cut''' primitive partitions the array <code>y</code> before the indices g
 
 The portion of the array before the first index is ignored.
 
+Indices must be given in ascending order.
+
 <pre>
  0 4_"feedface"
 ("feed";"face")
