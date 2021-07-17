@@ -1,0 +1,13 @@
+{{primitive|a_y}}
+
+The '''drop''' primitive removes elements from the start or the end of an array.
+
+positive <code>a</code> removes elements from the start, and negative <code>a</code> removes from the end, similar to [[take]].
+
+<pre>
+ 1_1 2 3
+2 3
+
+ -2_"abcde"
+"abc"
+</pre>
