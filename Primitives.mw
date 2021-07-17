@@ -1,9 +1,11 @@
 K's primitives are designed to fit a large range of diverse functionality within the ASCII character set. This makes it typable on a keyboard, while keeping the language expressive and interesting to use.
 
-All of K's primitives are made to be multipurpose, and have varied meanings based on the context they are used in. Primitives can be either 1 or 2 characters long.
+All of K's primitives are made to be multipurpose, and have varied meanings based on the context they are used in. Symbol primitives can be either 1 or 2 characters long.
 
 == Verbs ==
 Single argument forms(monadic) listed first, two-argument forms(dyadic) listed second.
+
+Empty cells indicate that the primitives are the same as K4-K6.
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
@@ -31,7 +33,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 | || [[first]]       || [[multiply]]    || ||
 |-
 | <code>%</code> 
-|
+|[[reciprocal]]
 | || [[square root]] || [[divide]]      || ||
 |-
 | <code>!</code> 
@@ -72,7 +74,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>#</code> 
 |
-| || [[length]]      || [[take]], [[reshape]] || || [[filter]]
+| || [[length]]      || [[take]], [[reshape]]|| || [[filter]]
 |-
 | <code>_</code> 
 |
@@ -92,24 +94,56 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 |-
 | <code>.</code> 
 |
-| || [[eval]]        || [[dot]]           || ||
+| || [[eval]], [[values]]        || [[dot]]           || ||
+|}
+{| class="wikitable"
+|+Table of named primitives based on implementation
+!
+!oK
+!K7
+!K9
+|-
+|utility
+| [[Sin(oK)|in]] prm
+|in within bin like find freq prm cmb
+|
+|-
+|math
+|sin [[cos]] exp log
+|sqrt sin cos abs [n]log [n]exp [n]rand
+|
+|-
+|stats
+|
+|count first last min max sum avg var dev med
+|
+|-
+|table(K7+)
+|
+|<nowiki>[f]asc [f]dsc [f]key [select|update]A by B from T where C</nowiki>
+|
+|-
+|misc
+|
+|min max asc
+|
 |}
 
-== Adverbs ==
+==Adverbs ==
 
 {| class="wikitable"
 |-
-! !! K3-K6 !! K9
+! !! K3-K6!! K9
 |-
-| <code>'</code>  || [[each]] | [[binary search]] ||
+| <code>'</code>|| [[each]] | [[binary search]] ||
 |-
-| <code>/</code>  || [[fold]] | [[join]] | [[base encode]] ||
+| <code>/</code>|| [[fold]] | [[join]] | [[base encode]]||
 |-
-| <code>\</code>  || [[scan]] | [[split]] | [[base decode]] ||
+|<code>\</code>||[[scan]] | [[split]] | [[base decode]]||
 |-
-| <code>':</code> || [[each prior]] | [[windows]] ||
+|<code>':</code>||[[each prior]] | [[windows]]||
 |-
-| <code>/:</code> || [[each right]] ||
+|<code>/:</code>||[[each right]]||
 |-
-| <code>\:</code> || [[each left]] ||
+|<code>\:</code>||[[each left]]||
 |}
