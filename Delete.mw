@@ -1,0 +1,13 @@
+{{primitive|x_a}}
+
+The '''delete''' primitive deletes the element at a specific index in an array.
+
+<pre>
+ "abcde"_2
+"abde"
+
+ (1 2 3;,6;"abC";"def")_0
+(,6
+ "abC"
+ "def")
+</pre>
