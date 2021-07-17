@@ -7,6 +7,7 @@ The portion of the array before the first index is ignored.
 <pre>
  0 4_"feedface"
 ("feed";"face")
+
  3 5_"adfdsfsdfa"
 ("ds"
  "fsdfa")
