@@ -1,0 +1,13 @@
+{{primitive|x_y}}
+
+The '''cut''' primitive partitions the array <code>y</code> before the indices given in array <code>x</code>.
+
+The portion of the array before the first index is ignored.
+
+<pre>
+ 0 4_"feedface"
+("feed";"face")
+ 3 5_"adfdsfsdfa"
+("ds"
+ "fsdfa")
+</pre>
