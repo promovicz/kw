@@ -1,4 +1,4 @@
-{{primitive|x$y}}
+{{primitive|x$s}}
 
 '''Pad''' pads a string with spaces on one side to a specific length, based on an integer <code>x</code>.
 
