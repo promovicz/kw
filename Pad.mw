@@ -1,0 +1,18 @@
+{{primitive|x$y}}
+
+'''Pad''' pads a string with spaces on one side to a specific length, based on an integer <code>x</code>.
+
+Positive integers pad on the right, and negative integers pad on the left.
+
+Padding is [[atomicity|fully atomic]], and special cased to treat strings as atoms.
+
+<pre>
+  10$"abc"
+"abc       "
+
+  (3;4;(5;6))$("xy";"za";("bc";"cd"))
+("xy "
+ "za  "
+ ("bc   "
+  "cd    "))
+</pre>
