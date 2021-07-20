@@ -1,0 +1,11 @@
+{{primitive|a?b}}
+
+'''Random''' takes two integers <code>a</code> and <code>b</code> and generates <code>a</code> random integers in the range <code>0..b</code>.
+
+<pre>
+ 6?5
+0 1 1 2 3 2
+
+ 6?5
+0 2 4 1 4 0
+</pre>
