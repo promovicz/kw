@@ -1,0 +1,11 @@
+{{primitive|x^y|in=K2, K3}}
+
+'''Power''' raises one number to the power of another, and provides a float value.
+
+Power is [[atomicity|fully atomic.]]
+
+<pre>
+ 3 4^5 6
+243 4096.0
+</pre>
+{{Works in|Kona}}
