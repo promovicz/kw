@@ -78,7 +78,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>_</code> 
 |
-| || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || || [[filter-out]]
+| || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || || [[Filter|filter-out]]
 |-
 | <code>$</code> 
 |
