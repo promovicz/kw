@@ -1,0 +1,13 @@
+{{primitive|f.y}}
+
+'''Dot''' or '''dot-apply''' is used to apply a list of arguments to a function.
+
+If all required arguments are not given, dot returns a partially applied function.
+
+<pre>
+ {x+y}.2 3
+5
+
+ {x+y}.,2
+{x+y}[2]
+</pre>
