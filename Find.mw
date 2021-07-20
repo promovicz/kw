@@ -1,0 +1,12 @@
+{{primitive|x&amp;y}}
+
+The '''find''' primitive is used to find the index of an atom <code>y</code> in array <code>x</code>. It returns <code>0N</code> if the element is not found.
+
+Find is [[atomicity|right atomic]].
+
+<pre>
+ "XYZ"?"XYXZB"
+0 1 0 2 0N
+ 5 8 5?56 8 1 5
+0N 1 0N 0
+</pre>
