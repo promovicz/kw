@@ -1,0 +1,43 @@
+{{primitive|x$y}}
+
+'''cast''', also known as '''dollar''', casts a value to a different datatype based on a given value. The required casting value for <code>x</code> varies between dialects.
+
+The cast primitive is [[atomicity|fully atomic]].
+
+==== K6 ====
+Uses symbols to indicate cast target.
+
+{| class="wikitable"
+|+ Caption text
+|-
+! Symbol !! Type
+|-
+| <code>`i</code>|| Integer
+|-
+| <code>`b</code> || Boolean
+|-
+| <code>`f</code> || Float
+|-
+| <code>`c</code> || Character
+|}
+<pre>
+ `i$"Hello."
+72 101 108 108 111 46
+ `c$72 101 108 108 111 46
+"Hello."
+ `f`i`b$31
+31 31 1
+</pre>
+
+==== K3<ref>https://github.com/kevinlawler/kona/wiki/Dollar</ref> ==== 
+<pre>
+  0$"123"  /parse as int
+123
+  0.0$"123.45678"  /parse as float
+123.45678
+  0.0$"123.456789999999"  /parse as float (note that default precision (\p) is set to 7)
+123.4568
+  `$"zzz"  /convert string to symbol
+`zzz
+```
+= References =
