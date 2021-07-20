@@ -10,3 +10,8 @@ Find is [[atomicity|right atomic]].
  5 8 5?56 8 1 5
 0N 1 0N 0
 </pre>
+For dictionaries, returns the keys associated with the given values:
+<pre>
+ (`a`b`c`d!23 14 9 5)?9 14
+`c`b
+</pre>
