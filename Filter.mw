@@ -14,7 +14,7 @@ Note that filters are verbs and hence cannot take a primitive as argument. <code
 0 2 4 6
 </pre>
 
-There is disticnt behaviour between the filters implemented in K6 and K9. A toy prototype to highlight the difference could be implemented as:
+There is distinct behavior between the filters implemented in K6 and K9. A toy prototype to highlight the difference could be implemented as:
 <pre>
  f6:{[f;x] x@&f'x}  / k6 variant
  f9:{[f;x] x@&f x}  / k9 variant
