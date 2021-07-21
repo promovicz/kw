@@ -13,4 +13,16 @@ The array elements are repeated to fit the shape given in <code>x</code>, if the
  2 4 1#("ab";56;`sdas)
 ((,"ab";,56;,`sdas;,"ab")
  (,56;,`sdas;,"ab";,56))
-</pre>Ad
+</pre>
+
+K6 and its successors allow [[null?|<code>0N</code>]] as one of the dimensions to allow omitting one dimension.
+
+Effectively, it means "maximize this dimension with respect to the other dimension and the size of the array."
+
+This can result in non-rectangular arrays, since it splits the array <code>y</code> to fit the constraints in <code>x</code>.
+<pre>
+ 3 0N#1 2 3
+(,1
+ ,2
+ ,3)
+</pre>
