@@ -1,6 +1,19 @@
-{{primitive|x!y}}
+{{primitive|.x<br>x!y}}
 
-The '''create dict''' primitive, a.k.a. '''map''', takes two lists of equal length and makes a [[dictionary]] using the left argument as keys, and the right argument as the values.
+The '''create dict''' primitive, a.k.a. '''map''' converts its argument(s) to a dictionary.
+
+==== K3 ====
+Takes a an array of pairs and converts it to a dictionary.
+<pre>
+ .((`a;10);(`b;20))  
+.((`a;10;)
+  (`b;20;))
+</pre>
+{{works in|Kona}}
+
+==== K6+ ====
+
+Takes two lists of equal length and makes a [[dictionary]] using the left argument as keys, and the right argument as the values.
 Uniqueness of the keys is not enforced.
 
 <pre>
