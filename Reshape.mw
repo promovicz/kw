@@ -15,9 +15,11 @@ The array elements are repeated to fit the shape given in <code>x</code>, if the
  (,56;,`sdas;,"ab";,56))
 </pre>
 
-K6 and its successors allow [[null?|<code>0N</code>]] as one of the dimensions to allow omitting one dimension.
+In K3, -1 can be given as a dimension to get a rectangular array. Note that if the length of the array isn't evenly divisible by the dimension, it will throw an error.
 
 Effectively, it means "maximize this dimension with respect to the other dimension and the size of the array."
+
+K6 and its successors allow [[null?|<code>0N</code>]] as the first or last dimension. 
 
 This can result in non-rectangular arrays, since it splits the array <code>y</code> to fit the constraints in <code>x</code>.
 <pre>
