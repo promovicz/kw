@@ -16,6 +16,7 @@ A single-argument(monadic) primitive can be '''right atomic''' or '''non-atomic.
 A two-argument(dyadic) primitive can be '''fully atomic, right atomic''' or '''non-atomic.''' 
 
 
+
 '''Right atomic''' dyadic primitives will zip the left atom with each atom present in the right argument:
 
 [[mod]] is an example of this kind:<syntaxhighlight lang="apl">
@@ -37,3 +38,10 @@ An example of this is [[add]].<syntaxhighlight lang="apl">
  10)
 </syntaxhighlight>
 [https://ngn.bitbucket.io/k/#eJzT1dAwtjbVtDbUBAAKJAHf Try It(ngn/k)]
+
+Some fully atomic primitives, notably arithmetic primitives allow dictionaries as arguments, and perform their operation across common keys.
+<pre>
+ [a:1;b:2;c:3]*[b:10;d:99]
+[a:1;b:20;c:3;d:99]
+</pre>
+{{works in|oK}}
