@@ -13,3 +13,36 @@ Note that filters are verbs and hence cannot take a primitive as argument. <code
  (2!)_!8
 0 2 4 6
 </pre>
+
+There is disticnt behaviour between the filters implemented in K6 and K9. A toy prototype to highlight the difference could be implemented as:
+<pre>
+ f6:{[f;x] x@&f'x}  / k6 variant
+ f9:{[f;x] x@&f x}  / k9 variant
+</pre>
+
+Both try to abstract the very common pattern in the array programming languages of constructing a boolean mask on the items of the array and using that mask to index back into the array. This effectively filters the array where the boolean predicate returns true. 
+
+The difference is that K6 calls <code>f</code> on each element of the array while K9 calls <code>f</code> on the whole array. Considering the [[atomicity]] of most K primitives, applying a function to each element and applying to the whole array may be equivalent, then results agree:
+<pre>
+/filter greater than 5
+f6[5<;!10]
+ 6 7 8 9
+f9[5<;!10]
+ 6 7 8 9
+</pre>
+
+However, one drawback of the K6 variant is that does not allow the data in <code>x</code> to be used as a reference for constructing the boolean mask. For exemple, consider the problem of filtering all values equal to the maximum in a list. In K9 one could do:
+<pre>
+ {x=|/x}#3 2 1 3  / equivalent to f9[{x=|/x};3 2 1 3] 
+3 3
+</pre>{{Works in|K9}}
+In K6, on the other hand, since the filter does not see the whole array, the value to filter for has to be pre-computed or the filter in f9 has to be reimplemented:
+<pre>
+ m:|/3 2 1 3;(m=)#3 2 1 3  / pre-computing the maximum and filtering
+3 3
+
+ {x@&x=|/x}3 2 1 3   /f9 pattern
+3 3
+</pre>{{Works in|ngn/k}}
+
+In this regard, K9 filter can be seen as more general. One possible explanation for the prior implementation using [[each]] is that it mirrors the most common form of the filter function implemented in other programming languages<ref>https://en.wikipedia.org/wiki/Filter_(higher-order_function)</ref>.
