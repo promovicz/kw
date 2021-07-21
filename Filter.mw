@@ -31,7 +31,7 @@ f9[5<;!10]
  6 7 8 9
 </pre>
 
-However, one drawback of the K6 variant is that does not allow the data in <code>x</code> to be used as a reference for constructing the boolean mask. For exemple, consider the problem of filtering all values equal to the maximum in a list. In K9 one could do:
+However, one drawback of the K6 variant is that does not allow the data in <code>x</code> to be used as a reference for constructing the boolean mask. For example, consider the problem of filtering all values equal to the maximum in a list. In K9 one could do:
 <pre>
  {x=|/x}#3 2 1 3  / equivalent to f9[{x=|/x};3 2 1 3] 
 3 3
