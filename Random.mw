@@ -1,11 +1,27 @@
-{{primitive|a?b}}
+{{primitive|a?b<br>a?y}}
 
-'''Random''' takes two integers <code>a</code> and <code>b</code> and generates <code>a</code> random integers in the range <code>0..b</code>.
+'''Random''' takes two values and returns random values based on their types.
 
+When given two integers, generates <code>a</code> random integers in the range <code>!b</code>. 
 <pre>
  6?5
 0 1 1 2 3 2
 
  6?5
 0 2 4 1 4 0
+</pre>
+
+When the right argument is an array, makes <code>a</code> random choices from array <code>y</code>.
+
+If <code>a</code> is negative, deals <code>[[abs]] a</code> elements from the array without replacement(no repeats of previously chosen elements).
+<pre>
+ 10?"ABCDE"
+"ABBCDCACEB"
+ 10?"ABCDE"
+"EABABDACEA"
+
+ -3?"ABCDE"
+"DAE"
+ -3?"ABCDE"
+"DCE"
 </pre>
