@@ -20,3 +20,10 @@ If <code>x</code> is an atom, it will be repeated for each element in <code>y</c
  5 3
  5 4)
 </pre>
+
+Each also generalizes to multiple arguments and n-adic functions:
+
+<pre>
+ {x+y-z}'[1 2 3;4 5 6;7 8 9]
+-2 -1 0
+</pre>
