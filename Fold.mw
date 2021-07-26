@@ -1,0 +1,24 @@
+{{primitive|f/y<br>x f/y}}
+
+'''Fold''', also known as '''reduce''', '''foldl''' and '''over''', takes a dyadic function <code>f</code> and reduces an array <code>y</code> using it.
+
+Fold is a very strong utility. For example, you can sum a list using <code>+/</code>.
+
+<pre>
+ +/1 2 3 4
+10
+ ,/("ab";1;`d`a`b)
+("a"
+ "b"
+ 1
+ `d
+ `a
+ `b)
+</pre>
+
+Specifying a left argument <code>x</code> uses it as an initial value.
+
+<pre>
+ 3 +/1 2 3 4
+13
+</pre>
