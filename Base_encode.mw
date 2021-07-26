@@ -1,0 +1,14 @@
+{{primitive|x/y}}
+
+'''Base encode''' or just '''encode''' takes a digit array <code>y</code> and encodes it into a single number using the bases in <code>x</code>.
+
+If <code>x</code> is an atom, repeats it for all elements in <code>y</code>.
+
+<pre>
+ 2 2 2/1 0 1
+5
+ 2/1 0 1
+5
+ 10 10 10/3 4 5
+345
+</pre>
