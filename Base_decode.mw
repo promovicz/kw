@@ -1,0 +1,14 @@
+{{primitive|x/y}}
+
+'''Base decode''' or just '''decode''' takes an integer <code>y</code> and decodes it into a digit array using the bases in <code>x</code>. It performs the inverse of [[base encode]].
+
+If <code>x</code> is an atom, decodes the number fully, using <code>x</code> as many times as needed.
+
+<pre>
+ 2 2\5
+0 1
+ 2\5
+1 0 1
+ 24 60 60\1000
+0 16 40
+</pre>
