@@ -1,0 +1,16 @@
+{{primitive|a f':y}}
+
+'''Windows''' or '''Stencil''' is used to apply a function to each <code>a</code>-size overlapping windows of the list <code>y</code>.
+
+To simply get windows of an array, <code>f</code> can be <code>(::)</code> or <code>{x}</code> can be used.
+
+<pre>
+  3 (::)':1 2 3 4 5 6
+(1 2 3
+ 2 3 4
+ 3 4 5
+ 4 5 6)
+
+  3 +/':1 2 3 4 5 6
+6 9 12 15
+</pre>
