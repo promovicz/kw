@@ -1,0 +1,13 @@
+{{primitive|x f\:y}}
+
+'''Each left''' applies a two argument function <code>f</code> to the entirety of <code>y</code> and each element of <code>x</code>.
+
+<pre>
+ 3 4 5 +\:(2 3;4 5;6)
+((5 6;7 8;9)
+ (6 7;8 9;10)
+ (7 8;9 10;11))
+</pre>
+
+== See Also ==
+[[each right]]
