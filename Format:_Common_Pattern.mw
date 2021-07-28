@@ -1,0 +1,14 @@
+<pre>
+=== (Pattern Name) ===
+<code>(pattern code)</code>
+
+'''Description:''' function|phrase which|to (description text) 
+
+'''Examples'''
+<code>ex1</code>
+<code>ex2</code>
+
+'''Dialects''': [[dialect1], [[dialect2]] | all
+
+'''Primitives''': [[name1]], [[name2]]
+</pre>
