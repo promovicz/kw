@@ -22,15 +22,15 @@ If you would like to add to this list, modify the template given in [[Format: Co
 
 '''Description:''' Function to find the differences between members of an array. Comes in various flavors.
 
-'''Examples'''
+'''Examples:'''
+
 <code>-':1 2 3 4 -> 1 1 1 1  /the builtin eachp prepends an array with zero before evaluation, so the output is the same size</code>
 
 <code>-':5 2 4 8 -> 5 -3 2 4</code>
 
 <code>{y/(1_;-1_)@\:x}[6 7 8;-] -> 1 1  /you can substitute the default eachp with your own for different behaviour, like this shakti example that just evaluates over each pair in x without prepending 0</code>
 
-<code>/the difference is highlighted here:
--':6 7 8 -> 6 1 1</code>
+<code>-':6 7 8 -> 6 1 1  /the difference is highlighted here</code>
 
 '''Dialects''': all, syntax may vary
 
