@@ -1,1 +1,17 @@
-#redirect [[fixedpoint]]
+{{primitive|g f/y<br>g f\y}}
+
+'''while''' and '''scan-while''' are adverbs which apply a single-argument(monadic) function to a given noun <code>y</code> as long as the condition in <code>g</code> returns a [[truthy]] value when applied to <code>y</code>.
+
+while(<code>/</code>) produces a single value, the final value.
+
+Scan-while(<code>\</code>) produces a list of all intermediate values.
+
+<pre>
+ {6>#x}{x,2*x}\2 3
+2 3 4 6 4 6 8 12
+
+ {6>#x}{x,2*x}\2 3
+(2 3
+ 2 3 4 6
+ 2 3 4 6 4 6 8 12)
+</pre>
