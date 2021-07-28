@@ -1,0 +1,20 @@
+{{primitive|n f/y<br>n f\y}}
+
+'''for''' and '''scan-for''' are adverbs which apply a single-argument(monadic) function to a given noun <code>y</code> <code>n</code> times.
+
+For(<code>/</code>) produces a single value, the final value.
+
+Scan-for(<code>\</code>) produces a list of all intermediate values.
+
+<pre>
+ 5{1_x}/!10
+5 6 7 8 9
+
+ 5{1_x}\!10
+(0 1 2 3 4 5 6 7 8 9
+ 1 2 3 4 5 6 7 8 9
+ 2 3 4 5 6 7 8 9
+ 3 4 5 6 7 8 9
+ 4 5 6 7 8 9
+ 5 6 7 8 9)
+</pre>
