@@ -137,9 +137,9 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>'</code>|| [[each]] | [[binary search]] ||
 |-
-| <code>/</code>|| [[fold]] | [[join]] | [[base encode]]||
+| <code>/</code>|| [[over]] | [[fixedpoint]] | [[for]] | [[while]] | [[join]] | [[base encode]]||
 |-
-|<code>\</code>||[[scan]] | [[split]] | [[base decode]]||
+|<code>\</code>|| [[scan]] | [[scan-fixedpoint]] | [[scan-for]] | [[scan-while]] | [[split]] | [[base decode]]||
 |-
 |<code>':</code>||[[each prior]] | [[windows]]||
 |-
