@@ -1,10 +1,10 @@
 This page is intended as a list of commonly used snippets and functions that can be used in K code.
 
-If you would like to add to this list, modify the template given in [[Format: Common Pattern]].
+If you would like to add to this list, modify the template given in [[Format: Common Pattern]] and paste it in.
 
 == Patterns ==
 
-==== Sum ====
+=== Sum ===
 <code>+/</code>
 
 '''Description:''' function to sum an array. Can be used with initial value.
