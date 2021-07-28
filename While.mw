@@ -7,7 +7,7 @@ while(<code>/</code>) produces a single value, the final value.
 Scan-while(<code>\</code>) produces a list of all intermediate values.
 
 <pre>
- {6>#x}{x,2*x}\2 3
+ {6>#x}{x,2*x}/2 3
 2 3 4 6 4 6 8 12
 
  {6>#x}{x,2*x}\2 3
