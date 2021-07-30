@@ -104,28 +104,28 @@ Empty cells indicate that the primitives are the same as K4-K6.
 !K9
 |-
 |utility
-| [[Sin(oK)|in]] prm
-|in within bin like find freq prm cmb
+| [[in]] [[prm]]
+| [[in]] [[within]] [[bin]] [[like]] [[find]] [[freq]] [[prm]] [[cmb]]
 |
 |-
 |math
-|sin [[cos]] exp log
-|sqrt sin cos abs [n]log [n]exp [n]rand
+| [[sin]] [[cos]] [[exp]] [[log]]
+| [[sqrt]] [[sin]] [[cos]] [[abs]] [n][[log]] [n][[exp]] [n][[rand]]
 |
 |-
 |stats
 |
-|count first last min max sum avg var dev med
+|[[count]] [[first]] [[last]] [[min]] [[max]] [[sum]] [[avg]] [[var]] [[dev]] [[med]]
 |
 |-
 |table(K7+)
 |
-|<nowiki>[f]asc [f]dsc [f]key [select|update]A by B from T where C</nowiki>
+|[[asc]] [[dsc]] [[key]] 
 |
 |-
 |misc
 |
-|min max asc
+|[[min]] [[max]] [[asc]]
 |
 |}
 
