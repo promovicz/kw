@@ -1,6 +1,6 @@
 {{primitive|x'y}}
 
-'''Binary search''' performs a binary search on a numeric array <code>x</code> with search element <code>y</code>, assuming <code>x</code> is [[grade|sorted]] in ascending order. It will return the index that is closest to the given search element.
+'''Binary search''' performs a binary search for <code>y</code> in a list <code>x</code>, assuming <code>x</code> is [[grade|sorted]] in ascending order. It will return the index that is closest to the given search element.
 
 binary search is [[atomicity|right atomic]].
 
