@@ -1,0 +1,10 @@
+{{primitive|x in y}}
+
+The '''in''' primitive tells if <code>x</code> is present in <code>y</code>, giving <code>1</code> for present and <code>0</code> for not present.
+
+The in primitive is [[atomicity|left atomic]].
+
+<pre>
+ 1 3 7 in 1 2 3 4 5
+1 1 0
+</pre>
