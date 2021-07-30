@@ -1,0 +1,38 @@
+{{primitive|prm x|in=oK, K7, K9}}
+
+'''prm''' generates all permutations of its input array.
+
+If given a number, generates all permutations of the range [[enum|<code>!x</code>]].
+
+In oK, the permutations are represented by the rows:
+
+<pre>
+ prm "ABC"
+("ABC"
+ "ACB"
+ "BAC"
+ "BCA"
+ "CAB"
+ "CBA")
+</pre>
+
+Shakti(K7) onwards does not accept arrays as an argument, so a construct like <code>{x@prm#x}</code> may be used.
+
+<pre>
+ {x@prm#x}@"ABC"
+ABC
+BAC
+BCA
+ACB
+CAB
+CBA
+</pre>
+
+Shakti(K9) returns the permutations as columns:
+
+<pre>
+ prm 3
+0 1 1 0 2 2
+1 0 2 2 0 1
+2 2 0 1 1 0
+</pre>
