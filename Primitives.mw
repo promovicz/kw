@@ -1,4 +1,4 @@
-K's primitives are designed to fit a large range of diverse functionality within the ASCII character set. This makes it typable on a keyboard, while keeping the language expressive and interesting to use.
+fK's primitives are designed to fit a large range of diverse functionality within the ASCII character set. This makes it typable on a keyboard, while keeping the language expressive and interesting to use.
 
 All of K's primitives are made to be multipurpose, and have varied meanings based on the context they are used in. Symbol primitives can be either 1 or 2 characters long.
 
@@ -22,51 +22,51 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>+</code> 
 |
-| || [[transpose]]   || [[add]]         || ||
+| || [[transpose]]   || [[add]]         || [[transpose]]||[[add]]
 |-
 | <code>-</code> 
 |
-| || [[negate]]      || [[subtract]]    || ||
+| || [[negate]]      || [[subtract]]    || [[negate]]||[[subtract]]
 |-
 | <code>*</code> 
 |
-| || [[first]]       || [[multiply]]    || ||
+| || [[first]]       || [[multiply]]    || [[first]]||[[multiply]]
 |-
 | <code>%</code> 
 |[[reciprocal]]
-| || [[square root]] || [[divide]]      || ||
+| || [[square root]] || [[divide]]      || ||[[divide]]
 |-
 | <code>!</code> 
 |
-| || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || ||
+| || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || [[enum]] ([[odometer]]), [[keys]]||[[create dict]]
 |-
 | <code>&amp;</code> 
 |
-| || [[where]]   || [[min]]         || ||
+| || [[where]]   || [[min]]         || [[where]]||[[min]]
 |-
 | <code>&#124;</code>
 |
-| || [[reverse]] || [[max]]         || ||
+| || [[reverse]] || [[max]]         || [[reverse]]||[[max]]
 |-
 | <code>&lt;</code>
 |
-| || [[grade up]]  || [[lesser]]      || ||
+| || [[grade up]]  || [[lesser]]      || [[Grade up|ascending]]||[[lesser]]
 |-
 | <code>&gt;</code>
 |
-| || [[grade down]]|| [[greater]]     || ||
+| || [[grade down]]|| [[greater]]     || [[Grade down|descending]]||[[greater]]
 |-
 | <code>=</code> 
 |
-| || [[group]], [[identity matrix]] || [[equal]] || ||
+| || [[group]], [[identity matrix]] || [[equal]] || [[group]]||[[equal]]
 |-
 | <code>~</code> 
 |
-| || [[not]]         || [[match]]       || ||
+| || [[not]]         || [[match]]       || [[not]]||[[match]]
 |-
 | <code>,</code> 
 |
-| || [[enlist]]      || [[concatenate]] || ||
+| || [[enlist]]      || [[concatenate]] || [[enlist]]||[[concatenate]]
 |-
 | <code>^</code> 
 |[[shape]]
@@ -74,27 +74,27 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>#</code> 
 |
-| || [[length]]      || [[take]], [[reshape]]|| || [[filter]]
+| || [[length]]      || [[take]], [[reshape]]|| [[count]]|| [[filter]], [[take]]
 |-
 | <code>_</code> 
 |
-| || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || || [[Filter|filter-out]]
+| || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || [[floor]]|| [[Filter|filter-out]], [[drop]]
 |-
 | <code>$</code> 
 |
-| || [[string]]      || [[pad]], [[cast]] || ||
+| || [[string]]      || [[pad]], [[cast]] || [[string]]||[[parse]]
 |-
 | <code>?</code> 
 |
-| || [[distinct]], [[random-float]] || [[find]], [[random]] || ||
+| || [[distinct]], [[random-float]] || [[find]], [[random]] || [[unique]]||[[find]], [[random]] (with floats)
 |-
 | <code>@</code> 
 |[[Type|atom?]]
-| || [[type]]        || [[at]]            || || [[cast]]
+| || [[type]]        || [[at]]            || [[type]]|| [[cast]]
 |-
 | <code>.</code> 
 |
-| || [[eval]], [[values]]        || [[dot]]           || ||
+| || [[eval]], [[values]]        || [[dot]]           || [[eval]]||[[dot]]
 |}
 {| class="wikitable"
 |+Table of named primitives based on implementation
@@ -106,27 +106,27 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |utility
 | [[in]] [[prm]]
 | [[in]] [[within]] [[bin]] [[like]] [[find]] [[freq]] [[prm]] [[cmb]]
-|
+|[[in]] [[bin]] [[within]] [[has]] [[prm]] [[freq]] [[cmb]]
 |-
 |math
 | [[sin]] [[cos]] [[exp]] [[log]]
 | [[sqrt]] [[sin]] [[cos]] [[abs]] [n][[log]] [n][[exp]] [n][[rand]]
-|
+|[[sin]] [[cos]] [[log]] [[div]](`i) [[exp]] [[sqr]] [[sqrt]] [[Dot product|dot]] [[bar]] [[deltas]] [[sum]] [[sums]] [[rand]]
 |-
 |stats
 |
 |[[count]] [[first]] [[last]] [[min]] [[max]] [[sum]] [[avg]] [[var]] [[dev]] [[med]]
-|
+|[[count]] [[first]] [[last]] [[avg]] [[med]] [[mode]] [[var]] [[mavg]] [[msum]]
 |-
 |table(K7+)
 |
 |[[asc]] [[dsc]] [[key]] 
-|
+|[[top]] [[key]] [[unkey]] [[meta]]
 |-
 |misc
 |
 |[[min]] [[max]] [[asc]]
-|
+|[[min]] [[max]] [[countd]]?
 |}
 
 ==Adverbs ==
@@ -135,15 +135,15 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 ! !! K3-K6!! K9
 |-
-| <code>'</code>|| [[each]] | [[binary search]] ||
+| <code>'</code>|| [[each]] | [[binary search]] ||[[Each|each |]] [[binary search]]
 |-
-| <code>/</code>|| [[over]] | [[fixedpoint]] | [[for]] | [[while]] | [[join]] | [[base encode]]||
+| <code>/</code>|| [[over]] | [[fixedpoint]] | [[for]] | [[while]] | [[join]] | [[base encode]]||[[over]] | [[join]] | [[base encode]]
 |-
-|<code>\</code>|| [[scan]] | [[scan-fixedpoint]] | [[scan-for]] | [[scan-while]] | [[split]] | [[base decode]]||
+|<code>\</code>|| [[scan]] | [[scan-fixedpoint]] | [[scan-for]] | [[scan-while]] | [[split]] | [[base decode]]||[[scan]] | [[split]] | [[base decode]]
 |-
-|<code>':</code>||[[each prior]] | [[windows]]||
+|<code>':</code>||[[each prior]] | [[windows]]||[[each prior]]
 |-
-|<code>/:</code>||[[each right]]||
+|<code>/:</code>||[[each right]]||[[each right]]
 |-
-|<code>\:</code>||[[each left]]||
+|<code>\:</code>||[[each left]]||[[each left]]
 |}
