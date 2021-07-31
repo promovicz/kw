@@ -1,8 +1,8 @@
 {{primitive|!i}}
-'''Enum''', a.k.a. '''til'''<ref>https://code.kx.com/q/ref/til/</ref>, '''range''' (from Python), '''iota''' (from APL), generates a list of integers from 0 to a given integer <code>x</code> (left-inclusive right-exclusive).
+'''Enum''', a.k.a. '''til'''<ref>https://code.kx.com/q/ref/til/</ref>, '''range''' (from Python), '''iota''' (from APL), generates a list of integers [[between]] 0 and a given integer <code>x</code>.
   !5
  0 1 2 3 4
-Dialects based on k6 support negative integers - the generated range in that case is from <code>x</code> to 0 (again left-inclusive right-exclusive):
+Dialects based on k6 support negative integers - the generated range in that case is [[between]] <code>x</code> and 0:
   !-5
  -5 -4 -3 -2 -1
 [[Odometer]] is an extension of enum for int lists.
