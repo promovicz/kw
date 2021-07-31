@@ -1,6 +1,6 @@
 {{primitive|n f/y<br>n f\y}}
 
-'''for''' and '''scan-for''' are adverbs which apply a single-argument(monadic) function to a given noun <code>y</code> <code>n</code> times.
+'''for''' and '''scan-for''' are adverbs that apply a [[monadic]] function to a given noun <code>y</code> <code>n</code> times.
 
 For(<code>/</code>) produces a single value, the final value.
 
