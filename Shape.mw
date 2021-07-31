@@ -1,7 +1,5 @@
-{{primitive|^x}}
+{{primitive|^x|in=k3, kona|not=k4, oK, ngn/k, k9}}
 '''Shape''' is a primitive that returns the list of lengths along all axes of a uniform array. For ragged arrays it returns only as many items as there are levels of uniformity.
-
-Shape is available in k3 and kona, and not available in k4, oK, ngn/k, and k9.
   ^(0 1 2;"ab",`c)
  2 3
   ^(0 1 2;"abcd")
