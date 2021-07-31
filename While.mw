@@ -1,6 +1,6 @@
 {{primitive|g f/y<br>g f\y}}
 
-'''while''' and '''scan-while''' are adverbs which apply a single-argument(monadic) function to a given noun <code>y</code> as long as the condition in <code>g</code> returns a [[truthy]] value when applied to <code>y</code>.
+'''while''' and '''scan-while''' are adverbs that apply a [[monadic]] function to a given noun <code>y</code> as long as the condition in <code>g</code> returns a [[truthy]] value when applied to <code>y</code>.
 
 while(<code>/</code>) produces a single value, the final value.
 
