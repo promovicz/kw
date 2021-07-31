@@ -20,16 +20,12 @@ list
 |<code>`L'''T'''</code>
 |<code>(0 1;2 3)</code>
 |-
-|    rowspan=10|typed
+| rowspan="10" |typed
 list
-| colspan="2" |chars (string)
-|<code>10</code>
-|<code>"c"</code>||<code>`C</code>||<code>`C</code>||<code>"ab"</code>
-|-
 | rowspan="5" |ints
 |                          1-bit (bool)    
 |<code>1</code>
-|<code>"b"</code>||N/A        ||rowspan=5|<code>`I</code>||<code>0 1</code>
+|<code>"b"</code>||N/A        || rowspan="5" |<code>`I</code>||<code>0 1</code>
 |-
 |                         8-bit (byte)
 |<code>4</code>
@@ -56,6 +52,13 @@ list
 |<code>9</code>
 |<code>"f"</code>||<code>`D</code>||<code>`F</code>||<code>3.14 -0w 0w 1.2e308 0n</code>
 |-
+| colspan="2" |chars (string)
+|<code>10</code>
+|<code>"c"</code>
+|<code>`C</code>
+|<code>`C</code>
+|<code>"ab"</code>
+|-
 | colspan="2" |symbols
 |<code>11</code>
 |<code>"s"</code>||<code>`S</code>||<code>`N</code>||<code>``a`b</code>
@@ -72,17 +75,13 @@ list
 | colspan="2" |<code>99</code>
 | <code>99</code>||<code>`m</code>||<code>`a</code>||<code>`a`b!0 1</code>
 |-
-|rowspan=18|atom
-|    rowspan=10|data
+| rowspan="18" |atom
+| rowspan="10" |data
 atom
-| colspan="2" |char
-| colspan="2" |<code>-10</code>
-| <code>-10</code>||<code>`c</code>||<code>`c</code>||<code>"a"</code>
-|-
 | rowspan="5" |int
 |                              1-bit (bool)
 | colspan="2" |<code>-1</code>
-| rowspan="7" | <code>-9</code>||N/A        ||rowspan=5|<code>`i</code>||<code>1</code>
+| rowspan="7" | <code>-9</code>||N/A        || rowspan="5" |<code>`i</code>||<code>1</code>
 |-
 |                         8-bit (byte)
 | colspan="2" |<code>-4</code>|| rowspan="3" |<code>`i</code>||<code>100</code>
@@ -103,6 +102,13 @@ atom
 |                      64-bit (double)
 | colspan="2" |<code>-9</code>||<code>`d</code>||<code>`f</code>||<code>3.14</code>
 |-
+| colspan="2" |char
+| colspan="2" |<code>-10</code>
+|<code>-10</code>
+|<code>`c</code>
+|<code>`c</code>
+|<code>"a"</code>
+|-
 | colspan="2" |symbol
 | colspan="2" |<code>-11</code>
 | <code>-11</code>||<code>`s</code>||<code>`n</code>||<code>`</code>
@@ -114,11 +120,31 @@ atom
 |rowspan=8|function
 | colspan="2" |user-defined
 | colspan="2" |<code>100</code>
-| <code>102</code>||<code>`o</code>|| rowspan="6" |<code>`.</code>||<code>{}</code>
+| <code>102</code>||<code>`o</code>|| rowspan="3" |<code>`.</code>||<code>{}</code>
+|-
+| rowspan="3" |primitive
+|monadic verb
+| colspan="2" |<code>101</code>
+| rowspan="2" |<code>107</code>
+|<code>`u</code>
+|<code>+:</code>
+|-
+|dyadic verb
+| colspan="2" |<code>102</code>
+|<code>`v</code>
+|<code>+</code>
+|-
+|adverb
+| colspan="2" |<code>103</code>
+|N/A
+|<code>`w</code>
+|N/A
+|<code>/</code>
 |-
 | colspan="2" |projection
 | colspan="2" |<code>104</code>
-| rowspan="2" | <code>107</code>||<code>`p</code>||<code>1+</code>
+| rowspan="2" | <code>107</code>||<code>`p</code>
+| rowspan="3" |<code>`.</code>||<code>1+</code>
 |-
 | colspan="2" |composition
 | colspan="2" |<code>105</code>||<code>`q</code>||<code>++</code>
@@ -126,18 +152,6 @@ atom
 | colspan="2" |derived verb
 | colspan="2" |<code>106..111</code>
 | N/A||<code>`r</code>||<code>+/</code>
-|-
-| rowspan="3" |primitive
-|                 monadic verb
-| colspan="2" |<code>101</code>
-| rowspan="2" | <code>107</code>||<code>`u</code>||<code>+:</code>
-|-
-|                  dyadic verb
-| colspan="2" |<code>102</code>||<code>`v</code>||<code>+</code>
-|-
-|                                 adverb
-| colspan="2" |<code>103</code>
-| N/A||<code>`w</code>||N/A                   ||<code>/</code>
 |-
 | colspan="2" |external
 | colspan="2" |<code>112</code>
