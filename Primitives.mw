@@ -135,7 +135,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 ! !! K3-K6!! K9
 |-
-| <code>'</code>|| [[each]] | [[binary search]] ||[[Each|each |]] [[binary search]]
+| <code>'</code>|| [[each]] | [[binary search]] ||[[Each|each]] | [[binary search]]
 |-
 | <code>/</code>|| [[over]] | [[fixedpoint]] | [[for]] | [[while]] | [[join]] | [[base encode]]||[[over]] | [[join]] | [[base encode]]
 |-
