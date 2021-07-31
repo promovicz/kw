@@ -1,0 +1,27 @@
+'''Valence''', a.k.a. '''arity''' or '''adicity''', is the number of arguments a function accepts.
+The minimum valence of a k function is 1 and the maximum is 8.
+Applying a function to fewer arguments creates a [[projection]]. Applying it to more arguments usually causes a rank error, though some primitives may support more arguments than their nominal valence.
+
+The following Greek and Latin-based English words are commonly used to describe a function of a particular valence<ref>https://en.wikipedia.org/wiki/Arity#Terminology</ref>:
+{| class="wikitable"
+|+
+!
+!Greek
+!Latin
+|-
+|1
+|monadic
+|unary
+|-
+|2
+|dyadic
+|binary
+|-
+|3
+|triadic
+|ternary
+|-
+|4
+|tetradic
+|quaternary
+|}
