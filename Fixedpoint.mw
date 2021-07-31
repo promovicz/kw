@@ -1,6 +1,6 @@
 {{primitive|f/y<br>f\y}}
 
-'''fixedpoint''' and '''scan-fixedpoint''' are adverbs which apply a single-argument(monadic) function to a given noun <code>y</code> until it stops changing, or the initial value has been repeated.
+'''fixedpoint''' and '''scan-fixedpoint''' are adverbs that apply a [[monadic]] function to a given noun <code>y</code> until it stops changing, or the initial value has been repeated.
 
 Fixedpoint(<code>/</code>) produces a single value, the final value.
 
