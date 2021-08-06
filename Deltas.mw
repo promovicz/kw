@@ -1,0 +1,10 @@
+{{primitive|deltas}}
+
+'''deltas''' is used to get the deltas of a numeric array.
+
+It is equivalent to <code>-':</code> in most K dialects.
+
+<pre>
+ deltas 1 6 2 3 4
+1 5 -4 1 1
+</pre>
