@@ -1,6 +1,8 @@
-{{primitive|%x}}
+{{primitive|%x<br>sqrt x}}
 
 The '''square root''' function, generally denoted by <code>%</code>, gets the floating point square root of a given number.
+
+It is also present in K7 and K9 as <code>sqrt</code>.
 
 The result of square root is undefined for negative numbers, and returns <code>0n</code>.
 
