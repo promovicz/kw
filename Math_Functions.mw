@@ -1,0 +1,26 @@
+This page documents all math primitives included in K releases.
+
+all primitives are [[atomicity|right atomic]] if [[monadic]], [[atomicity|fully atomic]] if [[dyadic]].
+
+== sin ==
+Computes the sine of a value given in radians. 
+<pre>
+ sin 12 25 360 24
+-0.5365729 -0.1323518 0.9589157 -0.9055784
+</pre>
+
+== cos ==
+Computes the cosine of a value given in radians. 
+<pre>
+ cos 12 25 360 24
+0.843854 0.9912028 -0.2836911 0.424179
+</pre>
+
+== exp ==
+In monadic form, uses ''e'' as the base.
+<pre>
+ exp 5
+148.4132
+ 4 5 exp 5 6 
+1024 15625f
+</pre>
