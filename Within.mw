@@ -2,7 +2,9 @@
 
 The '''within''' primitive checks if an integer/character <code>i</code> is in the range defined by a two element vector <code>a</code>.
 
-Like all K ranges, the range is inclusive of first element and exclusive of the second element.
+
+== K7 ==
+In K7+, the range is inclusive of first element and exclusive of the second element.
 
 <pre>
  1 within 1 3
@@ -14,3 +16,8 @@ Like all K ranges, the range is inclusive of first element and exclusive of the 
  "a" within "cz"
 0
 </pre>
+
+== K4 ==
+In K4<ref>https://code.kx.com/q/ref/within/</ref>, the range is inclusive of both the first and the second element.
+
+== References ==
