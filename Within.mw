@@ -1,0 +1,16 @@
+{{primitive|i within a}}
+
+The '''within''' primitive checks if an integer/character <code>i</code> is in the range defined by a two element vector <code>a</code>.
+
+Like all K ranges, the range is inclusive of first element and exclusive of the second element.
+
+<pre>
+ 1 within 1 3
+1
+ 3 within 1 3
+0
+ "a" within "az"
+1
+ "a" within "cz"
+0
+</pre>
