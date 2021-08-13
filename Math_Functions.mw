@@ -1,7 +1,12 @@
 This page documents all math primitives included in K releases.
 
 all primitives are [[atomicity|right atomic]] if [[monadic]], [[atomicity|fully atomic]] if [[dyadic]].
-
+== abs ==
+Gets the absolute value of any number.
+<pre>
+ abs -1 1
+1 1
+</pre>
 == sin ==
 Computes the sine of a value given in radians. 
 <pre>
