@@ -2,6 +2,8 @@
 
 '''Random''' takes two values and returns random values based on their types.
 
+For the [[monadic]] version, see [[random-float]].
+
 When given two integers, generates <code>a</code> random integers in the range <code>!b</code>. 
 <pre>
  6?5
