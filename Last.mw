@@ -1,0 +1,7 @@
+{{primitive|x lst y}}
+
+'''last''' gets the last value of an array. 
+
+<pre>
+last 1 2 3
+</pre>
