@@ -1,6 +1,6 @@
 {{primitive|a?b<br>a?y}}
 
-'''Random''' takes two values and returns random values based on their types.
+'''Random''' takes two values and returns random values based on their types. The named version in K7+ is called '''rand'''.
 
 For the [[monadic]] version, see [[random-float]].
 
