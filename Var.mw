@@ -1,0 +1,12 @@
+{{primitive|var x|in=K7, K9}}
+
+'''Var''' gets the variance of a list.
+
+It can also be made using the [[avg]] function.
+<pre>
+ var !10
+8.25
+
+ {(+/x*x:x-avg x)%#x}@!10
+8.25
+</pre>
