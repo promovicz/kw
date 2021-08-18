@@ -1,0 +1,17 @@
+{{primitive|sum x}}
+
+'''sum''' is a primitive that is used to sum arrays or integers or characters.
+
+It is equivalent to <code>+/</code> in most K dialects.
+
+<pre>
+ sum 1 2 3
+6.
+ sum 1 2 
+3.
+ sum 1 2 67
+70.
+ sum "abc"
+294.
+</pre>
+{{works in|K7, K9}}
