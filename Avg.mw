@@ -1,0 +1,13 @@
+{{primitive|avg x|in=K7, K9}}
+'''Avg''' computes the average of a numeric or character array in K.
+
+<pre>
+ avg 1 2 3
+2.
+ avg 67 78 1
+48.66667
+ avg "abc"
+98.
+</pre>
+<!--{{works in|K7, K9}}
+-->
