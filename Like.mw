@@ -1,0 +1,13 @@
+{{primitive|x like y|in=K7}}
+'''Like''' takes a pattern string <code>x</code> and string <code>y</code>, and performs a pattern match on it similar to SQL's LIKE keyword.
+
+<code>*</code> indicates a wildcard in the pattern.
+
+<pre>
+ "abc" like "abc"
+1
+ "abc" like "*abc"
+1
+ "dsfasfsdabc" like "*abc"
+1
+</pre>
