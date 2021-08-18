@@ -1,0 +1,18 @@
+{{primitive|med x|in=K7}}
+
+'''Med''' computes the median of a list.
+
+In K7, chooses the largest element among the middle elements.
+
+<pre>
+ med 3 3 3
+3
+ med 3 4 5
+4
+ med 3 4 5 5
+5
+ med 3 5 4 5
+5
+ med 3 3 4 5
+4
+</pre>
