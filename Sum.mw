@@ -1,4 +1,4 @@
-{{primitive|sum x}}
+{{primitive|sum x|in=K7, K9}}
 
 '''sum''' is a primitive that is used to sum arrays or integers or characters.
 
