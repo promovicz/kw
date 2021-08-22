@@ -106,7 +106,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |utility
 | [[in]] [[prm]]
 | [[in]] [[within]] [[bin]] [[like]] [[find]] [[freq]] [[prm]] [[cmb]]
-|[[in]] [[bin]] [[within]] [[has]] [[prm]] [[freq]] [[cmb]]
+|[[in]] [[bin]] [[within]] [[prm]] [[freq]] [[cmb]]
 |-
 |math
 | [[sin]] [[cos]] [[exp]] [[log]]
