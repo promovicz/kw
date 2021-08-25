@@ -2,36 +2,47 @@ This page is intended as a list of commonly used snippets and functions that can
 
 If you would like to add to this list, modify the template given in [[Format: Common Pattern]] and paste it in.
 
-== Patterns ==
-
-=== Sum ===
+== Sum ==
 <code>+/</code>
 
 '''Description:''' function to sum an array. Can be used with initial value.
 
 '''Examples'''
-<code>+/1 2 3 4 5 -> 15</code>
-<code>+/(1 2;2 3) -> 3 5</code>
+<pre>+/1 2 3 4 5
++/(1 2;2 3)</pre>[https://ngn.bitbucket.io/k/#eJxLs6pOUDCwSshWqKjl4kpz0NY3VDBSMFYwUTAF8zSAXGuggCYA1kYJFw== ngn/k]
 
 '''Dialects''': all
 
 '''Primitives''': [[plus]], [[over]]
 
-=== Deltas ===
+== Deltas ==
 <code>-':</code>
 
 '''Description:''' Function to find the differences between members of an array. Comes in various flavors.
 
 '''Examples:'''
 
-<code>-':1 2 3 4 -> 1 1 1 1  /the builtin eachp prepends an array with zero before evaluation, so the output is the same size</code>
+<pre>-':1 2 3 4 /the builtin eachp prepends an array with zero before evaluation, so the output is the same size
 
-<code>-':5 2 4 8 -> 5 -3 2 4</code>
+-':5 2 4 8
 
-<code>{y/(1_;-1_)@\:x}[6 7 8;-] -> 1 1  /you can substitute the default eachp with your own for different behaviour, like this shakti example that just evaluates over each pair in x without prepending 0</code>
+{y/(1_;-1_)@\:x}[6 7 8;-] /you can substitute the default eachp with your own for different behaviour, like this shakti example that just evaluates over each pair in x without prepending 0
 
-<code>-':6 7 8 -> 6 1 1  /the difference is highlighted here</code>
+-':6 7 8  /the difference is highlighted here</pre>[https://ngn.bitbucket.io/k/#eJw1kMFuwjAQRO98xdzaSkRAS1sULvxHW8Em2eAtwY7sNQQQ/14nJQdb2l175s3W+W2Heb47oLtPJvUme8oXeMUblpipYRRRGhULptK0aD23bKsAsiDv6YKzqMGVvUPBtfMMPlETScXZKYJDr+GitlEhYagCHdMlV37YvSe7JVZ9dbvMnhfbdbbYvmy+8+7+9YFPrNbZD2YXF1Em1xCLoKJReRCruKbY6ANvgEkvPdzZIuGgkrpmz1YTnqGTpNkUjRz634knGDqogDs6tk3fI8VvDDqm4AB3Yj/IoyXxSKvoBp8UalyH2D3mjzQDMf53N5qX3Gc3sjdNOsoVTGr/AWGNf3M= ngn/k]
 
 '''Dialects''': all, syntax may vary
 
 '''Primitives''': [[each prior|eachp]], [[minus]]
+
+== Rotate 90 degrees left ==
+<code>|+:</code>
+
+'''Description:''' function which rotates a matrix 90 degrees left(counterclockwise).
+
+'''Example'''
+
+<pre>|+3 3#!9</pre>[https://ngn.bitbucket.io/k#eJyr0TZWMFZWtAQACJcBqw== ngn/k]
+
+'''Dialects''': all
+
+'''Primitives''': [[transpose]], [[reverse]]
