@@ -1,0 +1,8 @@
+{{primitive|asc t}}
+
+'''asc''' is a dict/table primitive which orders key and value pairs by their value.
+
+<pre> asc  1 2 3!(3 2;2 4; 4 5)
+2|2 4
+1|3 2
+3|4 5</pre>
