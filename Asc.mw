@@ -1,6 +1,6 @@
-{{primitive|asc t}}
+{{primitive|asc t|in=K7}}
 
-'''asc''' is a dict/table primitive which orders key and value pairs by their value.
+'''asc''' is a dict/table primitive which orders key and value pairs by their value, in ascending order.
 
 <pre> asc  1 2 3!(3 2;2 4; 4 5)
 2|2 4
