@@ -1,0 +1,8 @@
+{{primitive|dsc t|in=K7}}
+
+'''dsc''' is a dict/table primitive which orders key and value pairs by their value, in descending order.
+
+<pre> dsc 1 2 3!(3 2;2 4; 4 5)
+3|4 5
+1|3 2
+2|2 4</pre>
