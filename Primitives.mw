@@ -10,7 +10,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |+ Table of Primitives in major dialects
 |-
 ! rowspan=2| 
-! colspan="2" |K3!! colspan="2" |K4-K6 !! colspan="2" |K9
+! colspan="2" |K3!! colspan="2" |K4-K6 !! colspan="2" |K9<sup>*</sup>
 |-
 !monad
 !dyad
@@ -101,7 +101,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 !
 !oK
 !K7
-!K9
+!K9<sup>*</sup>
 |-
 |utility
 | [[in]] [[prm]]
@@ -133,7 +133,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 
 {| class="wikitable"
 |-
-! !! K3-K6!! K9
+! !! K3-K6!! K9<sup>*</sup>
 |-
 | <code>'</code>|| [[each]] | [[binary search]] ||[[Each|each]] | [[binary search]]
 |-
@@ -147,3 +147,5 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 |<code>\:</code>||[[each left]]||[[each left]]
 |}
+
+'''<sup>*</sup>''': K9 is a nascent dialect which is still currently undergoing changes. Some pages may not be up to date with the latest build, and some are intentionally left unwritten in case of later changes.
