@@ -86,7 +86,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 | <code>?</code> 
 |
-| || [[distinct]], [[random-float]] || [[find]], [[random]] || [[unique]]||[[find]], [[random]] (with floats)
+| || [[distinct]], [[random-float]] || [[find]], [[random]] || [[unique]]||[[find]], [[random]]
 |-
 | <code>@</code> 
 |[[Type|atom?]]
@@ -110,8 +110,8 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 |math
 | [[sin]] [[cos]] [[exp]] [[log]]
-| [[sqrt]] [[sin]] [[cos]] [[abs]] [n][[log]] [n][[exp]] [n][[rand]]
-|[[sin]] [[cos]] [[log]] [[div]](`i) [[exp]] [[sqr]] [[sqrt]] [[Dot product|dot]] [[bar]] [[deltas]] [[sum]] [[sums]] [[rand]]
+| [[sqrt]] [[sin]] [[cos]] [[abs]] [[log]] [[exp]] [[rand]]
+|[[sin]] [[cos]] [[log]] [[div]] [[exp]] [[sqr]] [[sqrt]] [[Dot product|dot]] [[bar]] [[deltas]] [[sum]] [[sums]] [[rand]]
 |-
 |stats
 |
@@ -126,7 +126,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |misc
 |
 |[[min]] [[max]] [[asc]]
-|[[min]] [[max]] [[countd]]?
+|[[min]] [[max]] [[countd]]
 |}
 
 ==Adverbs ==
