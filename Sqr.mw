@@ -1,0 +1,15 @@
+{{primitive|sqr x}}
+
+'''Sqr''' takes a number and squares it. It always provides a floating point result.
+
+Sqr is [[atomicity|fully atomic.]]
+
+<pre> sqr 5
+25.
+ sqr 36
+1296.
+ sqr 1.5
+2.25
+ sqr 1 2 3
+1. 4. 9.
+</pre>
