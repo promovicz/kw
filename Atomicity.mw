@@ -6,7 +6,7 @@ A single-argument(monadic) primitive can be '''right atomic''' or '''non-atomic.
 
 '''Right atomic''' monadic primitives will apply their operation to the individual cells of a ragged array:
 
-[[negate]] is an example of this kind:<syntaxhighlight lang="apl">
+[[negate]] is an example of this kind:<syntaxhighlight>
  -((3;5);1)
 (-3 -5
  -1)
@@ -19,7 +19,7 @@ A two-argument(dyadic) primitive can be '''fully atomic, right atomic''' or '''n
 
 '''Right atomic''' dyadic primitives will zip the left atom with each atom present in the right argument:
 
-[[mod]] is an example of this kind:<syntaxhighlight lang="apl">
+[[mod]] is an example of this kind:<syntaxhighlight>
   3!34 2 8
 1 2 2
 </syntaxhighlight>
@@ -31,7 +31,7 @@ A two-argument(dyadic) primitive can be '''fully atomic, right atomic''' or '''n
 
 '''Fully atomic''' dyadic primitives can take arrays on both sides, and perform a zipped operation on arbitrarily nested lists, as long as the structure of the arrays allow such an operation(length, distribution of atoms, and so on). They also borrow the characteristics of right atomic and left atomic primitives.
 
-An example of this is [[add]].<syntaxhighlight lang="apl">
+An example of this is [[add]].<syntaxhighlight>
   1 3 5+(3; 1 2; 5)
 (4
  4 5
