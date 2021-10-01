@@ -97,6 +97,29 @@ Empty cells indicate that the primitives are the same as K4-K6.
 | || [[eval]], [[values]]        || [[dot]]           || [[eval]]||[[dot]]
 |}
 {| class="wikitable"
+|+Special Forms
+!
+!Name
+|-
+|<code>@</code>
+|[[amend]]
+|-
+|<code>.</code>
+|[[drill]], [[try]]
+|-
+|<code>#</code>
+|[[select]]
+|-
+|<code>$</code>
+|[[if]]
+|-
+|<code>_</code>
+|[[update]]
+|-
+|<code>?</code>
+|[[splice]]
+|}
+{| class="wikitable"
 |+Table of named primitives based on implementation
 !
 !oK
