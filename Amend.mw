@@ -1,0 +1,22 @@
+{{primitive|@[x;y;z[;u]]}}
+
+'''Amend''' is a special form of the <code>@</code> verb which takes multiple arguments.
+
+Amend takes 3 or 4 arguments, where:
+* <code>x</code> is an array to amend
+* <code>y</code> is the index(or indices) to amend
+* <code>z</code> is the function to be applied to those indices
+* <code>u</code> is an extra argument if <code>z</code> takes two arguments
+
+<code>x</code> can be a value or a symbol. If given a symbol, amend will modify the variable that is indicated by the symbol.
+<pre>
+ v:1 2 3
+ v
+1 2 3
+ @[v;1;:;3]
+1 3 3
+ v
+1 2 3
+ @[`v;1;:;3];
+ v
+1 2 3</pre>
