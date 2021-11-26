@@ -1,7 +1,6 @@
 {{primitive|.[x;y[;f];z]}}
 
-'''Deep Amend''', also known as '''dmend''' or '''drill''' is a deep version of [[Amend]] which allows modification of elements which are nested deep
- inside an array.
+'''Deep Amend''', also known as '''dmend''' or '''drill''' is a deep version of [[Amend]] which allows modification of elements which are nested deep inside an array.
 
 Deep Amend takes 3 or 4 arguments, where:
 * <code>x</code> is an array to amend
