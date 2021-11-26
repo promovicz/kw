@@ -1,4 +1,4 @@
-{{primitive|@[x;y[;z];u]}}
+{{primitive|@[x;y[;f];z]<br>@[x;y;f[;z]]}}
 
 '''Amend''' is a special form of the <code>@</code> verb which takes multiple arguments.
 
@@ -24,4 +24,4 @@ Amend takes 3 or 4 arguments, where:
 1 2 3</pre>
 
 == ngn/k ==
-ngn/k's amend has <code>u</code> as the optional argument, instead of having <code>z</code> as an optional argument.
+ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
