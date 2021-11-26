@@ -1,0 +1,15 @@
+{{primitive|.[x;y[;f];z]}}
+
+'''Deep Amend''', also known as '''dmend''' or '''drill''' is a deep version of [[Amend]] which allows modification of elements which are nested deep
+ inside an array.
+
+Deep Amend takes 3 or 4 arguments, where:
+* <code>x</code> is an array to amend
+* <code>y</code> is the index route to amend
+* <code>z</code>(optional), is the function to apply to those indices
+* <code>u</code> is the second argument to <code>z</code>
+
+It is very similar to [[Amend]] in its functionality. The main difference is that <code>y</code> when given an array indexes into subarrays when used.
+
+== ngn/k ==
+ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
