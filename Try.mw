@@ -1,0 +1,14 @@
+{{primitive|.[f;y;g]}}
+
+''This article is limited to ngn/k. There is scope for addition of the functionality of other major K implementations, if there are any differences.''
+
+'''Try''' is a primitive which allows executing functions which would otherwise error.
+
+* <code>f</code> is the function to be tried.
+* <code>y</code> is the list of arguments to be given to the function(like in [[dot]]).
+* <code>g</code> is the function to be applied the the error message(given as a string), in case <code>f.y</code> errors.
+
+<pre> .[+;1 2;"E:",]
+3
+ .[+;1,`2;"E:",]
+"E:lmt"</pre>
