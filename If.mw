@@ -1,0 +1,9 @@
+{{primitive|$[c;t;[c1..]f]}}
+
+'''If''' or '''cond''' is the main form of conditional evaluation in K.
+
+If is special, because its arguments are evaluated based on the value of the conditions given. Multiple conditions can be given.<ref>https://code.kx.com/q/style/conditionals/</ref>
+
+The return value of multi argument <code>$</code> is the one which is after the first condition satisfied. If none of the conditions are satisfied, the last argument is returned.
+
+== References ==
