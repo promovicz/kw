@@ -1,0 +1,23 @@
+[[adventofcode.com/|Advent of Code]] (AoC) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language.
+This page documents attempts by users to solve the Advent of Code challenges in K or K derivatives.
+
+The main private leaderboard for K programmers is at <code>419401-2f52b175</code>.
+
+{| class="wikitable"
+|+ List of All Solutions
+| [[ngn]] || [https://codeberg.org/ngn/k/ 2019-2021]
+|-
+| [https://github.com/mkst mkst] || [https://github.com/mkst/aoc 2015-2021](K/QDB+)
+|-
+| [http://copy.sh copy] || [http://copy.sh/k/ 2020-2021]
+|-
+| [https://github.com/chrispsn chrispsn] || [https://github.com/chrispsn/aoc2017 2017] [https://github.com/chrispsn/aoc2019 2019] [https://github.com/chrispsn/aoc2020 2020]
+|-
+| [https://github.com/xpqz xpqz] || [https://gist.github.com/xpqz/6e05b8fc54a6aa1876d32d5b18632ea5 2021]
+|-
+| [https://github.com/leahneukirchen leahneukirchen] || [https://github.com/leahneukirchen/adventofcode2015 2015] [https://github.com/leahneukirchen/adventofcode2016 2016] [https://github.com/leahneukirchen/adventofcode2017 2017] [https://github.com/leahneukirchen/adventofcode2018 2018] [https://github.com/leahneukirchen/adventofcode2019 2019](all partly done in K)
+|-
+| [https://github.com/FrankBro FrankBro] || [https://github.com/FrankBro/aoc 2020-2021]
+|-
+| [https://github.com/TechnoJo4 TechnoJo4] || [https://github.com/TechnoJo4/aoc2021 2021]
+|}
