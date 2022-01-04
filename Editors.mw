@@ -37,4 +37,8 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |[https://github.com/a2ndrade/q-intellij-plugin q-intellij-plugin]
 |JetBrains IDEs
 |Syntax highlighting, code completion, declaration finding, code folding
+|-
+|[https://github.com/eepgwde/kdbp-mode kdbp-mode]
+|Emacs
+| -
 |}
