@@ -1,0 +1,3 @@
+{{primitive|?[x;y;z;u]}}
+
+'''select''' is a K4/qdb+<ref>https://code.kx.com/q/basics/funsql/#select</ref> special form which selects cells from a table, and returns another table with the form given by its arguments. Its syntax is similar to K4's [[update]].
