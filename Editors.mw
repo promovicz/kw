@@ -25,4 +25,16 @@ The following editors/editor plugins add syntax highlighting and support for K:
 | [http://johnearnest.github.io/ok/mobile.html oK mobile]
 | oK mobile
 | graphing, plotting functionality, oK code execution, keyboard<br />
+|-
+|[https://github.com/jshinonome/vscode-q vscode-q]
+|VS Code
+|Syntax highlighting, language server, query visualization
+|-
+|[https://github.com/quintanar401/language-kdb-q language-kdb-q]
+|Atom
+|q/kdb+ language support
+|-
+|[https://github.com/a2ndrade/q-intellij-plugin q-intellij-plugin]
+|JetBrains IDEs
+|Syntax highlighting, code completion, declaration finding, code folding
 |}
