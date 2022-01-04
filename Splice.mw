@@ -1,0 +1,14 @@
+{{primitive|?[x;(s;e);z]|in=K5,K6}}
+
+'''Splice''' is a special form of the <code>?</code> verb which takes 3 arguments.
+
+* <code>x</code> is the array to be modified.
+* <code>(s;e)</code> is a two element array indicating start index and end index
+* <code>z</code> is the replacement array.
+
+In ngn/k, splice removes the portion of the array <code>x</code> from <code>s</code> to <code>e</code>, exclusive of <code>e</code> and inserts <code>z</code> in that place.
+
+<pre> ?["abcd";3 3;"x"]
+"abcxd"
+ ?["abcd";3 4;"x"]
+"abcx"</pre>
