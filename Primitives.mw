@@ -107,17 +107,17 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |<code>.</code>
 |[[deep amend]], [[try]]
 |-
-|<code>#</code>
-|[[select]]
-|-
 |<code>$</code>
 |[[if]]
 |-
-|<code>_</code>
-|[[update]]
+|<code>!</code>
+|[[update]] (K4/qdb)
 |-
 |<code>?</code>
 |[[splice]]
+|-
+|<code>?</code>
+|[[select]] (K4/qdb)
 |}
 
 {| class="wikitable"
