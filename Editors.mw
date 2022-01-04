@@ -14,18 +14,6 @@ The following editors/editor plugins add syntax highlighting and support for K:
 | Vim
 | K syntax highlighting, file detection.
 |-
-| [https://github.com/KxSystems/jupyterq jupyterq]
-| Jupyter Notebook
-| K and q syntax highlighting, code completion, code help, inline charts and plots
-|-
-| [https://github.com/leahneukirchen/k_kernel ngn/k kernel]
-| Jupyter Notebook
-| ngn/k support for jupyter kernel<br />
-|-
-| [http://johnearnest.github.io/ok/mobile.html oK mobile]
-| oK mobile
-| graphing, plotting functionality, oK code execution, keyboard<br />
-|-
 |[https://github.com/jshinonome/vscode-q vscode-q]
 |VS Code
 |Syntax highlighting, language server, query visualization
@@ -37,6 +25,22 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |[https://github.com/a2ndrade/q-intellij-plugin q-intellij-plugin]
 |JetBrains IDEs
 |Syntax highlighting, code completion, declaration finding, code folding
+|-
+|[https://github.com/komsit37/sublime-q sublime-q]
+|Sublime Text
+|q/kdb+ syntax highlighting, server connection, plotting support, custom routines
+|-
+| [https://github.com/KxSystems/jupyterq jupyterq]
+| Jupyter Notebook
+| K and q syntax highlighting, code completion, code help, inline charts and plots
+|-
+| [https://github.com/leahneukirchen/k_kernel ngn/k kernel]
+| Jupyter Notebook
+| ngn/k support for jupyter kernel<br />
+|-
+| [http://johnearnest.github.io/ok/mobile.html oK mobile]
+| oK mobile
+| graphing, plotting functionality, oK code execution, keyboard<br />
 |-
 |[https://github.com/eepgwde/kdbp-mode kdbp-mode]
 |Emacs
