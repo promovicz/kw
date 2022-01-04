@@ -41,4 +41,8 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |[https://github.com/eepgwde/kdbp-mode kdbp-mode]
 |Emacs
 | -
+|-
+|[https://github.com/adotsch/dqweb dqweb]
+|DQWeb
+|Online interface for K processes with editing, syntax highlighting, autosave, persistence
 |}
