@@ -1,0 +1,28 @@
+The following editor plugins add syntax highlighting and support for K:
+
+{| class="wikitable" 
+|-
+! Name<br />
+! Editor
+! Features<br />
+|-
+| [https://github.com/psaris/q-mode q-mode]
+| Emacs
+| K and q syntax highlighting, debugging tools, interaction with executable<br />
+|-
+| [https://codeberg.org/ngn/k/src/branch/master/vim-k ngn/k/vim-k]
+| Vim
+| K syntax highlighting, file detection.
+|-
+| [https://github.com/KxSystems/jupyterq jupyterq]
+| Jupyter Notebook
+| K and q syntax highlighting, code completion, code help, inline charts and plots
+|-
+| [https://github.com/leahneukirchen/k_kernel ngn/k kernel]
+| Jupyter Notebook
+| ngn/k support for jupyter kernel<br />
+|-
+| [http://johnearnest.github.io/ok/mobile.html oK mobile]
+| oK mobile
+| graphing, plotting functionality, oK code execution, keyboard<br />
+|}
