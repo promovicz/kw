@@ -8,7 +8,7 @@
 | dev = John Earnest (beyondloom)
 | rel = Jan 4, 2015
 | dialects = K5, K6
-| ntype = int, float
+| ntype = float only
 | unicode = full support
 | implang = JavaScript
 | plats = Web, node.js
