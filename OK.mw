@@ -1,1 +1,72 @@
 {{lowercase title}}
+
+{{Infobox Language
+| title = oK
+| headerstyle = (defaults to background-color:grey)
+| image = [[File:OK icon.png|200px]]
+| caption = oK mobile logo
+| dev = John Earnest (beyondloom)
+| rel = Jan 4, 2015
+| dialects = K5, K6
+| ntype = int, float
+| unicode = full support
+| implang = JavaScript
+| plats = Web, node.js
+| license = [https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt MIT]
+| url = [https://github.com/JohnEarnest/ok Github]
+| docs = [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md oK Manual]
+| runurl = [https://johnearnest.github.io/ok/ repl]
+}}
+
+'''oK'''(open K) is an open source implementation of the K5(and later K6) dialect created by [[John Earnest]]. The main aim of oK is to be an easily accessible environment to learn and understand the fundamentals of K. oK was hence written as a learning oriented toy language with code simplicity in mind, and is not very suitable for use in bigger projects.
+
+== History ==
+
+oK was released in January 2015. It was one of the first open source K implementations alongside [[Kona]](K3), which was released in 2014.
+
+In early 2015, work had begun on the oK docs.
+
+On 4th August 2015, interactive K environment(iKe) was introduced to oK. Alongside the existing interpreter, iKe was originally intended to be a [https://processing.org/ Processing]-like 2D drawing and animation tool.
+
+On 16th October 2016, the initial prototype for the oK mobile UI was added.
+
+== Learning Resources ==
+oK has comprehensive documentation on its primitives and syntax now, which is now situated in its [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md manual].
+
+The oK repository also contains resources and learning materials for programming in K, a general rarity in K implementations. 
+
+The <code>docs</code> folder in the repository contains articles on programming in K, Trees, and the manual.
+
+The <code>examples</code> folder in the repository contains many examples of simple programs in oK, some with line-by-line explanations.
+
+== Running oK ==
+The main method of running ok is via the [https://johnearnest.github.io/ok/ online repl].
+
+oK can be used in HTML+JS websites as a tool to enhance the expressiveness of your code. One way to add oK code to your site can be through <code>script</code> tags:
+<pre><script language='ok'>...</script></pre>
+
+Another way to use oK is with the help of node.js. <code>node repl.js</code> will open a REPL in the terminal, similar to the browser based REPL.
+
+oK has a <code>package.json</code> file for the npm registry, but it is not available from npm.
+
+== Interactive K Environment ==
+
+[[File:ikelogo.png|iKe logo.|thumb]]
+
+iKe is a toy frontend for oK which allows users to create graphical, event driven programs in K. Some notable features are:
+* mouse and keyboard support
+* iKe gists
+* gif recording functionality
+* Sound support
+* builtin color palettes and bitmaps
+* AJAX HTTP requests
+* image and vector imports
+
+iKe is not built as an embeddable tool, but there are ways to use its source to draw on the HTML canvas using K.
+
+== oK Mobile ==
+[[File:oKMobile.png|oK mobile interface|thumb]]
+oK Mobile is a mobile-oriented interface for oK which allows display of graphs and plotting. oK mobile comes with an in-site keyboard which has convenient symbols and digraphs for quick use in the oK REPL.
+
+
+[[Category: K implementations]]
