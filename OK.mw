@@ -42,8 +42,7 @@ The <code>examples</code> folder in the repository contains many examples of sim
 == Running oK ==
 The main method of running ok is via the [https://johnearnest.github.io/ok/ online repl].
 
-oK can be used in HTML+JS websites as a tool to enhance the expressiveness of your code. One way to add oK code to your site can be through <code>script</code> tags:
-<pre><script language='ok'>...</script></pre>
+oK can be used in HTML+JS websites as a tool to enhance the expressiveness of your code.
 
 Another way to use oK is with the help of node.js. <code>node repl.js</code> will open a REPL in the terminal, similar to the browser based REPL.
 
