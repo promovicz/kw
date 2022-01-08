@@ -38,7 +38,7 @@ K was originally created as a proprietary language, but the main implementations
 |-
 | ThePlatform || Rust || K-like || temporarily closed source || https://theplatform.technology/platform/install.html
 |-
-| ktye/i || Go || K-like || proprietary || https://github.com/ktye/i
+| ktye/i || Go || K-like || public domain(no license) || https://github.com/ktye/i
 |-
 | ngn/k || C || K6 || [https://codeberg.org/ngn/k/src/branch/master/LICENSE AGPL3] || https://codeberg.org/ngn/k
 |-
