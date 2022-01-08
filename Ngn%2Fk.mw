@@ -34,7 +34,7 @@ sort=newest</ref>. It has remained in that state ever since.
 
 The codebase was the moved to Sourcetree on December 21, 2020<ref>https://chat.stackexchange.com/transcript/90748?m=56558503#56558503</ref>.
 
-The current version of ngn/k resides in Codeberg, and the move was officially announced on My 21, 2021<ref>https://chat.stackexchange.com/transcript/message/57843141#57843141</ref>. The codeberg repository has its initial commit at 2019, where it had support for x86_64 linux only.
+The current version of ngn/k resides in Codeberg, and the move was officially announced on May 21, 2021<ref>https://chat.stackexchange.com/transcript/message/57843141#57843141</ref>. The codeberg repository has its initial commit at 2019, where it had support for x86_64 linux only.
 
 == Running ==
 The main way of running ngn/k is building it. This can be done reliably on Unix-like systems with the help of either <code>clang-12</code> or <code>gcc-10</code> C compilers, and the <code>make</code> utility. Build instructions can be found in the ngn/k README file.
