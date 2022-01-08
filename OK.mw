@@ -18,15 +18,15 @@
 | runurl = [https://johnearnest.github.io/ok/ repl]
 }}
 
-'''oK'''(open K) is an open source implementation of the K5(and later K6) dialect created by [[John Earnest]]. The main aim of oK is to be an easily accessible environment to learn and understand the fundamentals of K. oK was hence written as a learning oriented toy language with code simplicity in mind, and is not very suitable for use in bigger projects.
+'''oK''' (open K) is an open source implementation of the K5 (and later K6) dialect created by [[John Earnest]]. The main aim of oK is to be an easily accessible environment to learn and understand the fundamentals of K. oK was hence written as a learning oriented toy language with code simplicity in mind, and is not very suitable for use in bigger projects.
 
 == History ==
 
-oK was released in January 2015. It was one of the first open source K implementations alongside [[Kona]](K3), which was released in 2014.
+oK was released in January 2015. It was one of the first open source K implementations alongside [[Kona]] (K3), which was released in 2014.
 
 In early 2015, work had begun on the oK docs.
 
-On 4th August 2015, interactive K environment(iKe) was introduced to oK. Alongside the existing interpreter, iKe was originally intended to be a [https://processing.org/ Processing]-like 2D drawing and animation tool.
+On 4th August 2015, interactive K environment (iKe) was introduced to oK. Alongside the existing interpreter, iKe was originally intended to be a [https://processing.org/ Processing]-like 2D drawing and animation tool.
 
 On 16th October 2016, the initial prototype for the oK mobile UI was added.
 
