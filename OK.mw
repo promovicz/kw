@@ -31,7 +31,7 @@ On 4th August 2015, interactive K environment (iKe) was introduced to oK. Alongs
 On 16th October 2016, the initial prototype for the oK mobile UI was added.
 
 == Learning Resources ==
-oK has comprehensive documentation on its primitives and syntax now, which is now situated in its [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md manual].
+oK has comprehensive documentation on its primitives and syntax, which is now situated in its [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md manual].
 
 The oK repository also contains resources and learning materials for programming in K, a general rarity in K implementations. 
 
