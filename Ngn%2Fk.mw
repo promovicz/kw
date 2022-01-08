@@ -2,22 +2,44 @@
 
 {{Infobox Language
 | title = ngn/k
-| headerstyle = (defaults to background-color:grey) *
-| image = [[File:File:Ngn-k-logo.jpg|200px]] *
-| dev = [[ngn|User:ngn]]
+| image = [[File:Ngn-k-logo.jpg|200px]]
+| dev = [[ngn]]
 | rel = 2017
-| dialects = K(3|4|5|6|7|9) *
-| dialect = K(3|4|5|6|7|9) *
-| ntype = numeric types
-| unicode = full|partly|no support
-| implang = single language *
-| implangs = multiple languages *
-| plats = platforms
-| oses = operating systems *
-| license = license
-| url = [https://website.com name]
-| docs = [https://docs.com name]
-| runurl = [https://run.com run online]
-| influenced = influenced languages *
-| infby = influenced by languages *
+| dialect = K6
+| ttype = none
+| table = yes (no prettyprinting)
+| proto = yes
+| unicode = full support
+| implang = C
+| plats = x86_64
+| oses = Linux, BSD, Windows(unofficial)
+| license = [https://codeberg.org/ngn/k/src/branch/master/LICENSE AGPL]
+| url = [https://codeberg.org/ngn/k/ Codeberg]
+| docs = [https://codeberg.org/ngn/k/src/branch/master/repl.k#L10 in repl]
+| runurl = editor ([https://ngn.bitbucket.io/k/# Bitbucket], [https://ngn.codeberg.page/k/# Codeberg]), repl ([https://ngn.bitbucket.io/k/#r Bitbucket], [https://ngn.codeberg.page/k/#r Codeberg])
+| infby = K7, K9
 }}
+
+'''ngn/k''' is an implementation of the K6 standard created by [[ngn]]. It has been rewritten more than once, and has undergone many changes from its original iteration, borrowing ideas from many [[Arthur Whitney]] Ks, and occasionally deviating from their functionality.
+
+ngn/k is written in [[Whitney-style C]], and is written to be performant, compact, and with minimal dependencies.
+
+== History ==
+Development on ngn/k was started on April 9, 2017<ref>https://github.com/ngn/k/commits/aff40c33f75eeab4c5f69fa55b795d83fbd6288a</ref>. The older Github repository for ngn/k points towards kparc.io<ref>https://kparc.com/k.txt</ref> for its spec.
+
+The codebase was then moved to Gitlab. The exact date is not known since the repository no longer exists on the site.
+
+The ngn/k repl and editor was created in October 2020 and subsequently moved from <code>ngn.bitbucket.io</code> to <code>ngn.bitbucket.io/k</code><ref>https://chat.stackexchange.com/search?q=ngn.bitbucket.io&Room=90748&page=10&pagesize=50&
+sort=newest</ref>. It has remained in that state ever since.
+
+The codebase was the moved to Sourcetree on December 21, 2020<ref>https://chat.stackexchange.com/transcript/90748?m=56558503#56558503</ref>.
+
+The current version of ngn/k resides in Codeberg, and the move was officially announced on My 21, 2021<ref>https://chat.stackexchange.com/transcript/message/57843141#57843141</ref>. The codeberg repository has its initial commit at 2019, where it had support for x86_64 linux only.
+
+== Running ==
+The main way of running ngn/k is building it. This can be done reliably on Unix-like systems with the help of either <code>clang-12</code> or <code>gcc-10</code> C compilers, and the <code>make</code> utility. Build instructions can be found in the ngn/k README file.
+
+ngn/k has a WASM distribution available online. These can be accessed from the "Run Online" links in the sidebar. The Codeberg page is restricted in some countries.
+
+[[User:Traws|Traws]] has a fork of ngn/k on [https://github.com/traws0/ngnk-windows Github] which is made for compilation under cosmopolitan libc.
+== References ==
