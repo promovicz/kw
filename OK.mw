@@ -8,8 +8,10 @@
 | dev = John Earnest (beyondloom)
 | rel = Jan 4, 2015
 | dialects = K5, K6
-| ntype = float only
-| unicode = full support
+| ttype = none
+| table = none
+| proto = yes
+| unicode = none
 | implang = JavaScript
 | plats = Web, node.js
 | license = [https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt MIT]
