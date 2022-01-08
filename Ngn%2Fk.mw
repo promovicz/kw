@@ -1,0 +1,23 @@
+{{lowercase title}}
+
+{{Infobox Language
+| title = ngn/k
+| headerstyle = (defaults to background-color:grey) *
+| image = [[File:File:Ngn-k-logo.jpg|200px]] *
+| dev = [[ngn|User:ngn]]
+| rel = 2017
+| dialects = K(3|4|5|6|7|9) *
+| dialect = K(3|4|5|6|7|9) *
+| ntype = numeric types
+| unicode = full|partly|no support
+| implang = single language *
+| implangs = multiple languages *
+| plats = platforms
+| oses = operating systems *
+| license = license
+| url = [https://website.com name]
+| docs = [https://docs.com name]
+| runurl = [https://run.com run online]
+| influenced = influenced languages *
+| infby = influenced by languages *
+}}
