@@ -32,7 +32,7 @@ The codebase was then moved to Gitlab. The exact date is not known since the rep
 The ngn/k repl and editor was created in October 2020 and subsequently moved from <code>ngn.bitbucket.io</code> to <code>ngn.bitbucket.io/k</code><ref>https://chat.stackexchange.com/search?q=ngn.bitbucket.io&Room=90748&page=10&pagesize=50&
 sort=newest</ref>. It has remained in that state ever since.
 
-The codebase was the moved to Sourcetree on December 21, 2020<ref>https://chat.stackexchange.com/transcript/90748?m=56558503#56558503</ref>.
+The codebase was the moved to Sourcehut (sr.ht) on December 21, 2020<ref>https://chat.stackexchange.com/transcript/90748?m=56558503#56558503</ref>.
 
 The current version of ngn/k resides in Codeberg, and the move was officially announced on May 21, 2021<ref>https://chat.stackexchange.com/transcript/message/57843141#57843141</ref>. The codeberg repository has its initial commit at 2019, where it had support for x86_64 linux only.
 
