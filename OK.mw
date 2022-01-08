@@ -39,7 +39,7 @@ The <code>docs</code> folder in the repository contains articles on programming 
 
 The <code>examples</code> folder in the repository contains many examples of simple programs in oK, some with line-by-line explanations.
 
-== Running oK ==
+== Running ==
 The main method of running ok is via the [https://johnearnest.github.io/ok/ online repl].
 
 <code>oK.js</code> can be used in HTML+JS websites as a tool to enhance the expressiveness of your code.
