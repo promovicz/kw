@@ -8,7 +8,7 @@
 | dialect = K6
 | ttype = none
 | table = yes (no prettyprinting)
-| proto = partial
+| proto = partial support
 | unicode = full support
 | implang = C
 | plats = x86_64
