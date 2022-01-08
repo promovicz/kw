@@ -23,13 +23,13 @@
 
 == History ==
 
-oK was released in January 2015. It was one of the first open source K implementations alongside [[Kona]] (K3), which was released in 2014.
+oK was released in January 2015.<ref>https://github.com/JohnEarnest/ok/commits/gh-pages?after=97956bf6f2ea795178cd19bd7ae80ebe3a4111de+570&branch=gh-pages</ref> It was one of the first open source K implementations alongside [[Kona]] (K3), which was released in 2014.
 
-In early 2015, work had begun on the oK docs.
+In early 2015<ref>https://github.com/JohnEarnest/ok/commits/gh-pages?after=97956bf6f2ea795178cd19bd7ae80ebe3a4111de+50&branch=gh-pages&path[]=docs</ref>, work had begun on the oK docs.
 
-On 4th August 2015, interactive K environment (iKe) was introduced to oK. Alongside the existing interpreter, iKe was originally intended to be a [https://processing.org/ Processing]-like 2D drawing and animation tool.
+On 4th August 2015<ref>https://github.com/JohnEarnest/ok/commits/gh-pages?after=97956bf6f2ea795178cd19bd7ae80ebe3a4111de+104&branch=gh-pages&path%5B%5D=ike</ref>, interactive K environment (iKe) was introduced to oK. Alongside the existing interpreter, iKe was originally intended to be a [https://processing.org/ Processing]-like 2D drawing and animation tool.
 
-On 16th October 2016, the initial prototype for the oK mobile UI was added.
+On 16th October 2016<ref>https://github.com/JohnEarnest/ok/commits/gh-pages/mobile.html</ref>, the initial prototype for the oK mobile UI was added.
 
 == Learning Resources ==
 oK has comprehensive documentation on its primitives and syntax, which is now situated in its [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md manual].
@@ -68,5 +68,5 @@ iKe is not built as an embeddable tool, but there are ways to use its source to 
 [[File:oKMobile.png|oK mobile interface|thumb]]
 oK Mobile is a mobile-oriented interface for oK which allows display of graphs and plotting. oK mobile comes with an in-site keyboard which has convenient symbols and digraphs for quick use in the oK REPL.
 
-
+== References ==
 [[Category: K implementations]]
