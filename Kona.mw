@@ -4,7 +4,9 @@
 | dev = [[Kevin Lawler]]
 | rel = 26th August 2010 / 24th September 2014 (package release)
 | dialect = K3
-| ntype = int, float
+| ttype = none
+| table = no support
+| proto = yes
 | unicode = no support
 | implang = C
 | plats = x86, x86_64
@@ -34,6 +36,6 @@ Kona's in-repl help (accessed with <code>\</code>) is the most complete referenc
 == Running ==
 All releases of Kona on Github are built for Windows.
 
-For mac, Homebrew builds are available via `brew install kona`.
+For Mac, Homebrew builds are available via <Code>brew install kona</code>.
 
-For linux/Android, kona must be built from source. The build instructions are given in [https://github.com/kevinlawler/kona#installation Kona#installation]
+For Linux/Android, kona must be built from source. The build instructions are given in [https://github.com/kevinlawler/kona#installation Kona#installation]
