@@ -1,0 +1,39 @@
+{{Infobox Language
+| title = Kona
+| image = [[File:Konalogo.png|200px]]
+| dev = [[Kevin Lawler]]
+| rel = 26th August 2010 / 24th September 2014 (package release)
+| dialect = K3
+| ntype = int, float
+| unicode = no support
+| implang = C
+| plats = x86, x86_64
+| oses = Windows, Linux, MacOS, Android
+| license = [https://github.com/kevinlawler/kona/blob/master/LICENSE ISC]
+| url = [http://kona.github.io/#/ Kona]
+| docs = [https://github.com/kevinlawler/kona/wiki Github]
+| runurl = [https://tio.run/#k-kona TIO] (outdated)
+}}
+
+'''Kona''' is an implementation of the K3 standard made by [[Kevin Lawler]]. Kona was the first known open source K implementation. It is written in Whitney-style C, and has attracted many users over the years. Kona has a semi active community in its mailing lists and Github repository.
+
+== History ==
+Kona was the first open source implementation of an official K dialect.
+
+Work on Kona was started on 26th August 2010, with the initial commits setting up the foundation of the interpreter. 
+
+The landing page for the Kona documentation were added to its Github wiki on 11th March 2011. Subsequent work was done on it from Kevin Lawler and the Kona community to bring to its current state, with more example pages.
+
+== Learning Resources ==
+Kona's wiki has sparse documentation on primitives, and vast number of examples to learn from. Much of the documentation is written and maintained by the Kona community. Any user with a Github login can add to the Kona wiki. Many pages related to primitives and the functionality of kona are incomplete.
+
+The wiki also contains other relevant sections: discussion lists, links, screencasts and user groups.
+
+Kona's in-repl help (accessed with <code>\</code>) is the most complete reference available on its functionality.
+
+== Running ==
+All releases of Kona on Github are built for Windows.
+
+For mac, Homebrew builds are available via `brew install kona`.
+
+For linux/Android, kona must be built from source. The build instructions are given in [https://github.com/kevinlawler/kona#installation Kona#installation]
