@@ -6,11 +6,17 @@ The portion of the array before the first index is ignored.
 
 Indices must be given in ascending order.
 
-<pre>
- 0 4_"feedface"
+<pre> 0 4_"feedface"
 ("feed";"face")
 
  3 5_"adfdsfsdfa"
 ("ds"
- "fsdfa")
-</pre>
+ "fsdfa")</pre>
+
+Repeating indices add empty cuts in that location:
+<pre> 0 2 4 4 4_"abcde"
+("ab"
+ "cd"
+ ""
+ ""
+ ,"e")</pre>
