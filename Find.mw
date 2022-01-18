@@ -15,3 +15,7 @@ For dictionaries, returns the keys associated with the given values:
  (`a`b`c`d!23 14 9 5)?9 14
 `c`b
 </pre>
+
+== K3 ==
+
+In K3, Find is [[atomicity|non-atomic.]] It considers <code>y</code> as a single unit, and will return a single index for it. <code>?/:</code> is needed to simulate the functionality of later Ks.
