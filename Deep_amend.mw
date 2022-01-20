@@ -5,10 +5,15 @@
 Deep Amend takes 3 or 4 arguments, where:
 * <code>x</code> is an array to amend
 * <code>y</code> is the index route to amend
-* <code>z</code>(optional), is the function to apply to those indices
-* <code>u</code> is the second argument to <code>z</code>
+* <code>z</code> is the function to apply to those indices
+* <code>u</code> (optional), is the second argument to <code>z</code>
 
 It is very similar to [[Amend]] in its functionality. The main difference is that <code>y</code> when given an array indexes into subarrays when used.
+
+<pre> .[3 3#!9;1 1;-:]
+0 1 2
+3 -4 5
+6 7 8</pre>
 
 == ngn/k ==
 ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
