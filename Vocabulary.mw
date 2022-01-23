@@ -10,6 +10,8 @@ A noun is a basic value in K, which can be a:
 * Table
 
 == Verb ==
+A verb is a primitive function in K. K has 20 primitive verbs which represent multiple overloads that form its base functionality.
+
 == Adverb ==
 == Dictionary ==
 == Function ==
