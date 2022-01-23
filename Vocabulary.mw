@@ -13,6 +13,8 @@ A noun is a basic value in K, which can be a:
 A verb is a primitive function in K. K has 20 primitive verbs which represent multiple overloads that form its base functionality.
 
 == Adverb ==
+An adverb is a primitive syntactical form in K which takes 1 or 2 functions on the left and changes their functionality.
+
 == Dictionary ==
 == Function ==
 == Valence ==
