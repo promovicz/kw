@@ -41,6 +41,8 @@ A matrix is a 2D array (a list of lists) where all elements have the same length
 The shape of an array is the length of each dimension in it.
 
 == Conform ==
+Conforming is a rule that applies to arithmetic verbs in K. A conforming operation is one which can take two arrays with arbitrary shape and line up each atom with a corresponding atom, preserving the structure of one of the given arguments. Conforming operations can only be done on arrays which recursively conform in terms of element length.
+
 == Atomic ==
 == Vector ==
 == Scalar ==
