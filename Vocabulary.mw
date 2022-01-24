@@ -57,3 +57,4 @@ A vector is a simple list that contains no subarrays.
 A scalar is the smallest individual unit that can the added to an array, that is not an array. Otherwise this is  See [[Vocabulary#Atomic|Atomic]] for the types of scalars.
 
 == Lambda ==
+The basic universal syntax for defining functions is the K lambda. A lambda with no arguments defined has its first three arguments stored in variables x, y and z. A lambda also has a variable for self reference (recursion).
