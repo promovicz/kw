@@ -26,6 +26,8 @@ A function can be a:
 * Projection of any of the above.
 
 == Valence ==
+The valence of a noun which supports application(function, array, dict) is the number of arguments it can take. K primitives are usually multi-valent and support different overloads for different valences.
+
 == Monad ==
 == Dyad ==
 == Matrix ==
