@@ -54,4 +54,6 @@ An atomic operation is one which can work on the lowest atoms of an array. Atoms
 A vector is a simple list that contains no subarrays.
 
 == Scalar ==
+A scalar is the smallest individual unit that can the added to an array, that is not an array. Otherwise this is  See [[Vocabulary#Atomic|Atomic]] for the types of scalars.
+
 == Lambda ==
