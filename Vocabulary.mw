@@ -38,6 +38,8 @@ A Dyad is a function which has valence 2 (two argument function).
 A matrix is a 2D array (a list of lists) where all elements have the same length.
 
 == Shape ==
+The shape of an array is the length of each dimension in it.
+
 == Conform ==
 == Atomic ==
 == Vector ==
