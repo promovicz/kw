@@ -19,6 +19,12 @@ An adverb is a primitive syntactical form in K which takes 1 or 2 functions on t
 A K dictionary is a mapping from a set of K nouns as keys to a set of  K nouns which constitute the values of the dictionary. Keys may not need to be unique, depending on the K version.
 
 == Function ==
+A function can be a:
+* Primitive verb 
+* Lambda
+* Train
+* Projection of any of the above.
+
 == Valence ==
 == Monad ==
 == Dyad ==
