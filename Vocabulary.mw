@@ -51,5 +51,7 @@ An atomic operation is one which can work on the lowest atoms of an array. Atoms
 * Symbol
 
 == Vector ==
+A vector is a simple list that contains no subarrays.
+
 == Scalar ==
 == Lambda ==
