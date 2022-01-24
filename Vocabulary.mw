@@ -29,6 +29,8 @@ A function can be a:
 The valence of a noun which supports application(function, array, dict) is the number of arguments it can take. K primitives are usually multi-valent and support different overloads for different valences.
 
 == Monad ==
+A Monad is a function which has valence 1 (single argument function).
+
 == Dyad ==
 == Matrix ==
 == Shape ==
