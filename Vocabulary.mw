@@ -35,6 +35,8 @@ A Monad is a function which has valence 1 (single argument function).
 A Dyad is a function which has valence 2 (two argument function).
 
 == Matrix ==
+A matrix is a 2D array (a list of lists) where all elements have the same length.
+
 == Shape ==
 == Conform ==
 == Atomic ==
