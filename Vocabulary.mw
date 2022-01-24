@@ -32,6 +32,8 @@ The valence of a noun which supports application(function, array, dict) is the n
 A Monad is a function which has valence 1 (single argument function).
 
 == Dyad ==
+A Dyad is a function which has valence 2 (two argument function).
+
 == Matrix ==
 == Shape ==
 == Conform ==
