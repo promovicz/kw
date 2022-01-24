@@ -16,6 +16,8 @@ A verb is a primitive function in K. K has 20 primitive verbs which represent mu
 An adverb is a primitive syntactical form in K which takes 1 or 2 functions on the left and changes their functionality.
 
 == Dictionary ==
+A K dictionary is a mapping from a set of K nouns as keys to a set of  K nouns which constitute the values of the dictionary. Keys may not need to be unique, depending on the K version.
+
 == Function ==
 == Valence ==
 == Monad ==
