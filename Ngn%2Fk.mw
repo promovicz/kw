@@ -22,7 +22,7 @@
 
 '''ngn/k''' is an implementation of K6 created by [[ngn]]. It has been rewritten more than once, and has undergone many changes from its original iteration, borrowing ideas from many [[Arthur Whitney]] Ks, and occasionally deviating from their functionality.
 
-ngn/k is written in [[Whitney-style C]], and is written to be performant, compact, and with minimal dependencies.
+ngn/k is written in [[Arthur_Whitney#Programming_Style|Whitney-style C]], and is written to be performant, compact, and with minimal dependencies.
 
 == History ==
 Development on ngn/k was started on April 9, 2017<ref>https://github.com/ngn/k/commits/aff40c33f75eeab4c5f69fa55b795d83fbd6288a</ref>. The older Github repository for ngn/k points towards kparc.io<ref>https://kparc.com/k.txt</ref> for its spec.
