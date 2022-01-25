@@ -1,0 +1,28 @@
+
+{{Infobox Language
+| title = K3
+| image = [[File:K3logo.jpg|200px]]
+| dev = [[KX Systems]]
+| rel = 1998
+| ttype = none
+| table = no
+| proto = none
+| implang = C
+| plats = x86_64
+| oses = Windows
+| license = proprietary
+| url = none
+| docs = [https://archive.org/download/kmanuals/kreflite.pdf Reference Manual]
+| infby = K2, K1
+}}
+
+K3 is the dialect and K implementation following K2 and K1. It was implemented and designed by KX Systems in 1998. The design of K3 is highly similar to to its predecessors, and K3 is used as an umbrella term to refer to the designs of its predecessors.
+
+
+== History ==
+''Requires more direct references.''
+<ref>https://archive.org/details/kmanuals</ref>
+
+<ref>http://nsl.com/k/k2/k295/</ref>
+
+== References ==
