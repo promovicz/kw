@@ -21,7 +21,7 @@ Amend takes 3 or 4 arguments, where:
 1 2 3
  @[`v;1;3];
  v
-1 2 3</pre>
+1 3 3</pre>
 
 == ngn/k ==
 ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
