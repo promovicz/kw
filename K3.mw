@@ -3,26 +3,27 @@
 | title = K3
 | image = [[File:K3logo.jpg|200px]]
 | dev = [[KX Systems]]
-| rel = 2000
-| ttype = yes
+| rel = 1998
+| ttype = none
 | table = no
 | proto = none
 | implang = C
-| plats = x86, ARM
-| oses = Windows, Linux, OSX
+| plats = x86_64
+| oses = Windows
 | license = proprietary
-| url = https://kx.com
-| docs = [https://code.kx.com/home/ Online Documentation]
+| url = none
+| docs = [https://archive.org/download/kmanuals/kreflite.pdf Reference Manual]
+| infby = K2, K1
 }}
 
-''This page is incomplete.''
-
-K4 is the major dialect behind the primary implementation provided by [[KX Systems]]. The K4 spec is generally paired with kdb+, and Q, its accompanying query language.
+K3 is the dialect and K implementation following the K2 and K1 prototypes. It was implemented and designed at KX Systems in 1998. The design of K3 is highly similar to to its predecessors, and K3 is used as an umbrella term to refer to the designs of its predecessors.
 
 
 == History ==
+One of the first K3 manuals was released in 1998.<ref>https://archive.org/details/kmanuals</ref> K3 remains the only K dialect to have its own official manual that serves as a complete formal definition for other non-commercial implementations like [[Kona]].
 
-== Changes from K3 ==
+Along with the K3 manual's release, KX Systems released the database kdb+ and along with it, the Q language.<ref>https://web.archive.org/web/20070101213150/http://vector.org.uk/weblog/archive/000036.html, January 1, 2007</ref> 
+
 K3 is no longer supported by KX Systems, and binaries of K3 are no longer available.<ref>https://kx.com/</ref>
 
 
