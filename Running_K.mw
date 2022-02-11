@@ -18,11 +18,14 @@ K was originally created as a proprietary language, but the main implementations
 |-
 | ThePlatform || [https://theplatform.technology/webrepl.htm REPL]
 |-
-|k7(kparc)
+|k7 (kparc)
 |https://kparc.io/kc/
 |-
-|k9(kparc)
+|k9 (kparc)
 |https://kparc.io/k/
+|-
+|k2 (nsl archive)
+|http://nsl.com/k/k2/k295/
 |}
 
 <sub>[https://tio.run Try It Online!] is an online programming environment which supports ngn/k, oK and Kona. It is not listed in the table since the owner has not updated the K versions for years.</sub>
