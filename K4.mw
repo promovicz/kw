@@ -1,0 +1,36 @@
+
+{{Infobox Language
+| title = K4
+| image = [[File:K3logo.jpg|200px]]
+| dev = [[KX Systems]]
+| rel = 2000
+| ttype = yes
+| table = no
+| proto = none
+| implang = C
+| plats = x86, ARM
+| oses = Windows, Linux, OSX
+| license = proprietary
+| url = https://kx.com
+| docs = [https://code.kx.com/home/ Online Documentation]
+}}
+
+''This page is incomplete.''
+
+K4 is the major dialect behind the primary implementation provided by [[KX Systems]]. The K4 spec is generally paired with kdb+, and Q, its accompanying query language.
+
+
+== History ==
+
+== Changes from K3 ==
+
+Many changes can be seen from K3 to K4.
+
+'''Primitive changes:'''
+* % from reciprocal to square root
+* ^ from shape/power to except/fill
+* monadic @ from atom? to type
+
+The system values (prefixed with an underscore) from K3 are no longer present in K4, which uses 
+
+== References ==
