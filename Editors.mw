@@ -53,4 +53,12 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |[https://beyondloom.com/tools/codemirror/kmode.js Special K mode]
 |Codemirror
 |Special K(K subset) syntax highlighting
+|-
+|[http://vrabi.web.elte.hu/k/#SyntaxHighlighting k.esy]
+|EmEditor
+|Syntax Highlighting
+|-
+|[http://vrabi.web.elte.hu/k/#SyntaxHighlighting k.syn]
+|Vedit
+|Syntax Highlighting 
 |}
