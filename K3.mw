@@ -20,9 +20,11 @@ K3 is the dialect and K implementation following K2 and K1. It was implemented a
 
 
 == History ==
-''Requires more direct references.''
-<ref>https://archive.org/details/kmanuals</ref>
+One of the first K3 manuals was released in 1998.<ref>https://archive.org/details/kmanuals</ref> K3 remains the only K dialect to have its own official manual that serves as a complete formal definition for other non-commercial implementations like [[Kona]].
 
-<ref>http://nsl.com/k/k2/k295/</ref>
+Along with the K3 manual's release, KX Systems released the database kdb+ and along with it, the Q language.<ref>{{citation|last=Garland|first=Simon|url=http://vector.org.uk/weblog/archive/000036.html|title=Q Language Widening the Appeal of Vectors|publisher=Vector UK|date=December 28, 2004|url-status=dead|archive-url=https://web.archive.org/web/20070101213150/http://vector.org.uk/weblog/archive/000036.html|archive-date=January 1, 2007}}</ref> 
+
+K3 is no longer supported by KX Systems, and binaries of K3 are no longer available.<ref>https://kx.com/</ref>
+
 
 == References ==
