@@ -30,6 +30,6 @@ Many changes can be seen from K3 to K4.
 * ^ from shape/power to except/fill
 * monadic @ from atom? to type
 
-The system values (prefixed with an underscore) from K3 are no longer present in K4, which uses 
+The system values (prefixed with an underscore) from K3 are no longer present in K4, which uses predefined names for system functions. Some other functions are prefixed with a <code>.</code>.
 
 == References ==
