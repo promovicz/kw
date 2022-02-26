@@ -14,12 +14,13 @@
 | docs = [https://code.kx.com/home/ Online Documentation]
 }}
 
-''This page is incomplete.''
-
 K4 is the major dialect behind the primary implementation provided by [[KX Systems]]<ref>https://kx.com</ref>. The K4 spec is generally paired with kdb+, and Q, its accompanying query language.
 
 
 == History ==
+K4 is the longest surviving dialect of K, due to Kx Systems' support of it for more than 20 years as of current date.
+
+In 2018<ref>https://www.anaconda.com/blog/anaconda-and-kx-systems-partner-to-deliver-kdb-database-system-and-related-machine-learning-libraries</ref>, KX Systems released Fusion<ref>https://code.kx.com/q/interfaces/fusion/</ref>, an open source language integration project that was added alongside their existing IPC and C/C++ interfaces. 
 
 == Changes from K3 ==
 
