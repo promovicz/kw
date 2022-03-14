@@ -41,5 +41,19 @@ The main way of running ngn/k is building it. This can be done reliably on Unix-
 
 ngn/k has a WASM distribution available online. These can be accessed from the "Run Online" links in the sidebar. The Codeberg page is restricted in some countries.
 
+== Features ==
+
+=== I/O Verbs ===
+ngn/k's I/O verbs are defined as per the K6 standard. They are made up of a single digit, followed by a <code>:</code> symbol: <code>loc u: data</code> for output and <code>u: loc</code> for input.
+
+A symbol, string or number can be given as <Code>loc</code>. Any number given must be a valid tie number (see: [[Tie(ngn/k)]]).
+
+Every input verb is classified by <code>data</code>:
+* `0:` takes lists of strings. (concatenates them with newlines)
+* `1:` takes a single string.
+
+* <code>0:</code> reads and writes lines of characters
+* <code>1:</code> reads and writes lines of characters
+
 [[User:Traws|Traws]] has a fork of ngn/k on [https://github.com/traws0/ngnk-windows Github] which is made for compilation under cosmopolitan libc.
 == References ==
