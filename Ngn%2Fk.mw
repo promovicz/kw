@@ -49,11 +49,8 @@ ngn/k's I/O verbs are defined as per the K6 standard. They are made up of a sing
 A symbol, string or number can be given as <Code>loc</code>. Any number given must be a valid tie number (see: [[Tie(ngn/k)]]).
 
 Every input verb is classified by <code>data</code>:
-* `0:` takes lists of strings. (concatenates them with newlines)
-* `1:` takes a single string.
-
-* <code>0:</code> reads and writes lines of characters
-* <code>1:</code> reads and writes lines of characters
+* <code>0:</code> takes lists of strings. (concatenates them with newlines)
+* <Code>1:</code> takes a single string.
 
 [[User:Traws|Traws]] has a fork of ngn/k on [https://github.com/traws0/ngnk-windows Github] which is made for compilation under cosmopolitan libc.
 == References ==
