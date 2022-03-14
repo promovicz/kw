@@ -41,6 +41,8 @@ The main way of running ngn/k is building it. This can be done reliably on Unix-
 
 ngn/k has a WASM distribution available online. These can be accessed from the "Run Online" links in the sidebar. The Codeberg page is restricted in some countries.
 
+[[User:Traws|Traws]] has a fork of ngn/k on [https://github.com/traws0/ngnk-windows Github] which is made for compilation under cosmopolitan libc.
+
 == Features ==
 
 === I/O Verbs ===
@@ -52,5 +54,9 @@ Every input verb is classified by <code>data</code>:
 * <code>0:</code> takes lists of strings. (concatenates them with newlines)
 * <Code>1:</code> takes a single string.
 
-[[User:Traws|Traws]] has a fork of ngn/k on [https://github.com/traws0/ngnk-windows Github] which is made for compilation under cosmopolitan libc.
+=== Reserved Symbols ===
+ngn/k has reserved symbols used for providing access to features that are not important enough to be added as primitives, but still warrant a name for quick use. These symbols can be used like any other nouns.
+
+The ngn/k help topic for adverbs is available at <code>\`</code> in the ngn/k repl.
+
 == References ==
