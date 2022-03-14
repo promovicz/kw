@@ -59,4 +59,9 @@ ngn/k has reserved symbols used for providing access to features that are not im
 
 The ngn/k help topic for adverbs is available at <code>\`</code> in the ngn/k repl.
 
+=== Defined Verbs ===
+ngn/k allows creation of new verbs that can be used infix, as part of its syntax. These must be defined as follows (using <code>∇</code> as an example symbol):
+
+<pre>(∇:): monad
+(∇): dyad</pre>
 == References ==
