@@ -23,29 +23,31 @@ Due to major differences in APL and K's array models, some of these may not be c
 {| class="wikitable"
 |+ 
 |-
-! rowspan="2" | APL !! colspan="2" | Monad!! colspan="2" | Dyad
+! rowspan="2" | APL !! colspan="4" | Monad!! colspan="4" | Dyad
 |-
 ! K3
-! K4-K6
-! K3 !! K4-K6
+! K4 
+! K6
+! K7
+! K3 !! K4 !! K6 !! K7
 |-
-| <code>*</code> || <code>_exp</code> || <code>exp</code> ([[oK]] only) || colspan="2"| <code>{*/y#x}</code> for integer <code>y</code> 
+| <code>*</code> || <code>_exp</code> ||<code>exp</code> ||<code>exp</code> ([[oK]] only) ||<code>exp</code> || colspan="4"| <code>{*/y#x}</code> for integer <code>y</code> 
 |-
-| <code>⍟</code> || <code>_log</code> || <code>log</code> ([[oK]] only) || <code>_log</code> || <code>{(log x)%log y}</code>
+| <code>⍟</code> || <code>_log</code> || <code>log</code> ||<code>log</code> ([[oK]] only) || <code>log</code> || <code>_log</code> || <code>xlog</code> || colspan="2" | <code>{(log x)%log y}</code>
 |-
-| <code>!</code> || colspan="2" | <code>(*/1+)</code> || colspan="2" | <code>{{(*/x+y)%*/y}[y-x;1+!x]}</code>
+| <code>!</code> || colspan="4" | <code>(*/1+)</code> || colspan="4" | <code>{{(*/x+y)%*/y}[y-x;1+!x]}</code>
 |-
-| <code>○</code> || colspan="2" | <code>(3.141592654*)</code> || [https://github.com/kevinlawler/kona/wiki#monadic-verbs See here] || <code>sin</code>, <code>cos</code> ([[oK]] only, more in iKe)
+| <code>○</code> || colspan="4" | <code>(3.141592654*)</code> || [https://github.com/kevinlawler/kona/wiki#monadic-verbs See here] ||  <code>sin</code>, <code>cos</code>,.. || <code>sin</code>, <code>cos</code> ([[oK]] only, more in iKe) ||  <code>sin</code>, <code>cos</code>,..
 |-
-| <code>~</code> || colspan="2" | <code>~</code> || <code>{x@&(#y)=y?/:x}</code> || <code>^</code>
+| <code>~</code> || colspan="4" | <code>~</code> || <code>{x@&(#y)=y?/:x}</code> || colspan="3" | <code>^</code>
 |-
-| <code>?</code> || <code>(1 _draw)</code> || <code>?:</code> || <code>_draw</code> || <code>?</code>
+| <code>?</code> || <code>(1 _draw)</code> || colspan="3" | <code>?:</code> || <code>_draw</code> || colspan="3" | <code>?</code>
 |-
-| <code>⍲</code> || colspan="2" | || colspan="2" | <code>(~&)</code>
+| <code>⍲</code> || colspan="4" | || colspan="4" | <code>(~&)</code>
 |-
-| <code>⍱</code> || colspan="2" | || colspan="2" | <code>(~|)</code>
+| <code>⍱</code> || colspan="4" | || colspan="4" | <code>(~|)</code>
 |-
-| <code>⍴</code> || colspan="2" | No equivalent || colspan="2" | <code>#</code>
+| <code>⍴</code> || colspan="4" | No equivalent || colspan="4" | <code>#</code>
 
 
 
