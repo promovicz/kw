@@ -2,7 +2,7 @@
 
 This page contains information on the translation of APL code to K and vice versa.
 
-Due to major differences in APL and K's array models, some of these may not be completely accurate. A star symbol(<code>*</code>) will be placed next to these entries. K9 will not be added here until it is finalized.
+Due to major differences in APL and K's array models, some of these may not be completely accurate. Some are hence purposefully left blank, and some may not translate exactly. K9 will not be added here until it is finalized.
 = Terminology =
 {| class="wikitable"
 |+
@@ -53,7 +53,7 @@ Due to major differences in APL and K's array models, some of these may not be c
 |-
 | <Code>⍪</code> || colspan="4" | <code>,'</code> || colspan="4" |
 |-
-| <code>⌽</code> || colspan="4" | <code>|:</code> || <code>!</code> || <code>rotate</code> || colspan="2" <code>{(x_y),x#y}</code>
+| <code>⌽</code> || colspan="4" | <code>|:</code> || <code>!</code> || <code>rotate</code> || colspan="2" | <code>{(x_y),x#y}</code>
 
 
 
