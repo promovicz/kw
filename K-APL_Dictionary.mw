@@ -47,7 +47,12 @@ Due to major differences in APL and K's array models, some of these may not be c
 |-
 | <code>⍱</code> || colspan="4" | || colspan="4" | <code>(~|)</code>
 |-
-| <code>⍴</code> || colspan="4" | No equivalent || colspan="4" | <code>#</code>
+| <code>⍴</code> || colspan="4" | || colspan="4" | <code>#</code>
+|-
+| <code>,</code> || colspan="4" | || colspan="4" | <code>,</code>
+|-
+| <Code>⍪</code> || colspan="4" | <code>,'</code> || colspan="4" |
+|-
 
 
 
