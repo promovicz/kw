@@ -56,6 +56,9 @@ Due to major differences in APL and K's array models, some of these may not be c
 | <code>↑</code> || colspan="4" | || colspan="4" | <code>#</code>
 |-
 | <code>↓</code> || colspan="4" | || colspan="4" | <code>_</code>
-
+|-
+| <code>⊂</code> || colspan="4" | <Code>,</code>|| colspan="4" | <code>_</code>*
+|-
+| <code>∊</code> || colspan="4" | <code>,//</code> || <code>_in</code> || <code>in</code> || <code>in</code> ([[oK]] only), <code>{~^y?x}</code> || <code>in</code>
 
 [[Category:Dictionaries]]
