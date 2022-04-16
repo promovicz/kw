@@ -37,8 +37,8 @@ Empty cells indicate that the primitives are the same as K4-K6.
 | [[reciprocal]] || [[square root]] || [[divide]]      || ||[[divide]]
 |-
 | <code>!</code> 
-| [[rotate]]
-| || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || [[enum]] ([[odometer]]), [[keys]]||[[create dict]]
+| 
+| [[rotate]], [[mod]] || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || [[enum]] ([[odometer]]), [[keys]]||[[create dict]]
 |-
 | <code>&amp;</code> 
 |
