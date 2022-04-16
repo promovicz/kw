@@ -1,0 +1,13 @@
+{{primitive|x!y|in=K3}}
+
+'''Rotate'''<ref>https://github.com/kevinlawler/kona/wiki/Rotate_mod</ref> is a verb that rotates an array <code>y</code> by the number of elements given in <code>x</code>.
+
+Positive <code>x</code> rotates left, and negative <code>x</code> rotates right.
+
+<pre>  2! 1 2 3 4 5 6 7
+3 4 5 6 7 1 2
+  -2! 1 2 3 4 5 6 7
+6 7 1 2 3 4 5</pre>
+{{Works in|Kona}}
+
+== References ==
