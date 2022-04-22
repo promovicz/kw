@@ -4,11 +4,11 @@ K is an array-oriented programming language created by [[Arthur Whitney]], with 
 algorithms in small, fast and short code.
 
 == Get Started with K ==
+* [[About This Wiki]]
 * [[Running K]]
 * [[Learning Resources]]
 * [[primitives|K primitives]]
-*[[Common Patterns]]
-*[[Editors]]
+* [[Editors]]
 
 == The K Ecosystem ==
 * [[Online Communities]]
