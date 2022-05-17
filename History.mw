@@ -1,10 +1,10 @@
-This page aims to cover in detail the history of the K dialects and their official implementations. 
+This page aims to cover in brief the history of the K dialects and their official implementations. 
 
 = The original K specification =
 <ref>https://kparc.io/#</ref>[[Arthur Whitney]] left I.P. Sharp and Associates in 1992 to create a new language. Arthur Whitney formed [[Kx Systems]] jointly with Janet Lustgarten in 1993.
 
 = K2 and K3 =
-[[K2]] and [[K3]] were the first commercially developed and supported versions of K made at [[Kx Systems]]. K3 came with a complete reference manual<ref>http://www.nsl.com/misc/k/win/k2/kreflite.pdf</ref> that consisted of the
+K2 and [[K3]] were the first commercially developed and supported versions of K made at [[Kx Systems]]. K3 came with a complete reference manual<ref>http://www.nsl.com/misc/k/win/k2/kreflite.pdf</ref> that consisted of the
 documentation for the entire language. kdb+ was a database system that was sold along with K that provided an in-memory database manageable using K.
 In 2003, Q was released as a "wrapper around k providing readability".
 
