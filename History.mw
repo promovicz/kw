@@ -6,16 +6,18 @@ This page aims to cover in brief the history of the K dialects and their officia
 = K2 and K3 =
 K2 and [[K3]] were the first commercially developed and supported versions of K made at [[Kx Systems]]. K3 came with a complete reference manual<ref>http://www.nsl.com/misc/k/win/k2/kreflite.pdf</ref> that consisted of the
 documentation for the entire language. kdb+ was a database system that was sold along with K that provided an in-memory database manageable using K.
-In 2003, Q was released as a "wrapper around k providing readability".
+
 
 = [[K4]] =
+K4 was released in 200. In 2003, along with K4, Q was released as a "wrapper around k providing readability".
 K4 is the current commercial dialect supported by Kx Systems, which is bundled alongside Q as an implementation language. K4 requires a command to switch from Q to K, and the documentation at code.kx.com does not cover K4.
 
-= [[Shakti]](K7,K9): 2018-present =
-[[Arthur Whitney]] sold his majority stake in KX systems and departed along with a few of his associates to create a new company called [[Shakti]], along with which came the creation and development of the K7 and K9 dialects.
+= Shakti (K7,K9) =
+[[Arthur Whitney]] sold his majority stake in KX systems in 2018 and departed along with a few of his associates to create a new company called [[Shakti]], along with which came the creation and development of the K7 and K9 dialects.
 
 K7 was maintained for a few years and is no longer available for use.
 
-K9 is currently nascent and (as per the onsite claims)<ref>[https://shakti.com/ shakti]</ref> supports fast processing of tables with row numbers in the billions and trillions. Binaries for K9 are available at shakti.com.
+K9 is currently nascent and (as per onsite claims)<ref>[https://shakti.com/ shakti]</ref> supports fast processing of tables with row numbers in the billions and trillions. Binaries for K9 are available at shakti.com.
 
+= References =
 [[Category: Incomplete Pages]]
