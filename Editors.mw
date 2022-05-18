@@ -26,6 +26,9 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |JetBrains IDEs
 |Syntax highlighting, code completion, declaration finding, code folding
 |-
+|[https://github.com/razetime/k-akoune K-akoune]
+| Kakoune syntax highlighting and commands for K
+|-
 |[https://github.com/komsit37/sublime-q sublime-q]
 |Sublime Text
 |q/kdb+ syntax highlighting, server connection, plotting support, custom routines
