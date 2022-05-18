@@ -26,7 +26,7 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |JetBrains IDEs
 |Syntax highlighting, code completion, declaration finding, code folding
 |-
-|[https://github.com/razetime/k-akoune K-akoune]
+|[https://github.com/razetime/k-akoune k-akoune]
 | Kakoune
 | Kakoune syntax highlighting and commands for K
 |-
