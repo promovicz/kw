@@ -36,6 +36,8 @@ The codebase was the moved to Sourcehut (sr.ht) on December 21, 2020<ref>https:/
 
 The current version of ngn/k resides in Codeberg, and the move was officially announced on May 21, 2021<ref>https://chat.stackexchange.com/transcript/message/57843141#57843141</ref>. The codeberg repository has its initial commit at 2019, where it had support for x86_64 linux only.
 
+ngn/k was indefinitely frozen<ref>https://codeberg.org/ngn/k/commit/7e7420217f9df95273a8605e05d6335d66dd8f8a</ref> on May 24, 2022.
+
 == Running ==
 The main way of running ngn/k is building it. This can be done reliably on Unix-like systems with the help of either <code>clang-12</code> or <code>gcc-10</code> C compilers, and the <code>make</code> utility. Build instructions can be found in the ngn/k README file.
 
