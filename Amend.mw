@@ -5,8 +5,8 @@
 Amend takes 3 or 4 arguments, where:
 * <code>x</code> is an array to amend
 * <code>y</code> is the index(or indices) to amend
-* <code>z</code>(optional), is the function to apply to those indices
-* <code>u</code> is the second argument to <code>z</code>
+* <code>f</code>(optional), is the function to apply to those indices
+* <code>z</code> is the second argument to <code>z</code>
 
 3 argument amend always acts as an element replacement function, since <code>z</code> is [[right|<code>:</code>]] if it is omitted.
 
