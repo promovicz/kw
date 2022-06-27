@@ -33,8 +33,8 @@ Empty cells indicate that the primitives are the same as K4-K6.
 | || [[first]]       || [[multiply]]    || [[first]]||[[multiply]]
 |-
 | <code>%</code> 
-|
-| [[reciprocal]] || [[square root]] || [[divide]]      || ||[[divide]]
+| [[reciprocal]]
+| || [[square root]] || [[divide]]      || ||[[divide]]
 |-
 | <code>!</code> 
 | 
