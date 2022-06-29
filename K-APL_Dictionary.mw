@@ -66,5 +66,23 @@ Due to major differences in APL and K's array models, some of these may not be c
 | <code>∩</code> || colspan="4" | || colspan="4" | <code>{x^x^y}</code>
 |-
 | <code>∪</code> || colspan="4" | <code>?</code> || colspan="4" | <code>(?,)</code>
+|-
+| <code>⍳</code> || colspan="4" | <code>!</code> || colspan="4" | <code>?</code>
+|-
+| <code>⍸</code> || colspan="4" | <code>&</code> || <code>_bin</code> || || <code>'</code> || <code>bin</code>
+|-
+| <code>⍋</code> || colspan="4" | <code><</code> || colspan="4" |
+|-
+| <code>⍒</code> || colspan="4" | <code>></code> || colspan="4" |
+|-
+| <code>≢</code> || colspan="4" | <code>#</code> || colspan="4" | <code>(~~)</code>
+|-
+| <code>⍎</code> || || || colspan="2" | <code>.</code> || colspan="4" |
+|-
+| <code>⍕</code> || colspan="4" | <code>$</code> || 
+|-
+| <code>⊥</code> || colspan="4" | || <code>_vs</code> || || <code>\</code> || || 
+|-
+| <code>⊤</code> || colspan="4" | || <code>_sv</code> || || <code>/</code> || || 
 [[Category:Dictionaries]]
 [[Category:Incomplete Pages]]
