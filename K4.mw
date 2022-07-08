@@ -13,6 +13,7 @@
 | url = https://kx.com
 | docs = [https://code.kx.com/home/ Online Docs]
 | infby = [[K3]]
+| influenced = [[K5]]
 }}
 
 '''K4''' is the major dialect behind the primary implementation provided by [[KX Systems]] <ref>https://kx.com</ref>. K4 is usually bundled with its accompanying query language [[Q]] to form the data processing product [[kdb+]].
