@@ -3,7 +3,7 @@
 | image = [[File:Konalogo.png|200px]]
 | dev = [[Kevin Lawler]]
 | rel = 26th August 2010 / 24th September 2014 (package release)
-| dialect = K3
+| dialect = [[K3]]
 | ttype = none
 | table = no support
 | proto = yes
@@ -17,7 +17,7 @@
 | runurl = [https://tio.run/#k-kona TIO] (outdated)
 }}
 
-'''Kona''' is an implementation of the K3 standard made by [[Kevin Lawler]]. Kona was the first known open source K implementation. It is written in [[Whitney-style C]], and has attracted many users over the years. Kona has a semi active community in its mailing lists and Github repository.
+'''Kona''' is an implementation of the [[K3]] standard made by [[Kevin Lawler]]. Kona was the first known open source K implementation. It is written in [[Whitney-style C]], and has attracted many users over the years. Kona has a semi active community in its mailing lists and Github repository.
 
 == History ==
 Kona was the first open source implementation of an official K dialect.
