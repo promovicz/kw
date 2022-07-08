@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|x_y|in=K9}}
 
 The '''cut''' primitive partitions the array <code>y</code> before the indices given in array <code>x</code>.
