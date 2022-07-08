@@ -1,4 +1,14 @@
 {{lowercase title}}
+{{Infobox Language
+| title = kuc
+| rel = 2010
+| dev = Andrey Zholos
+| dialect = [[K5]]-like
+| implang = C
+| oses = POSIX
+| license = GPL3
+| url = [https://github.com/zholos/kuc/]
+}}
 
 '''kuc''' is an implementation of a [[K5]]-like language by Andrey Zholos.
 
