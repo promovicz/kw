@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|x^y|in=K2, K3}}
 
-'''Power''' raises one number to the power of another, and provides a float value.
+'''power''' raises one number to the power of another, and provides a float value.
 
 Power is [[atomicity|fully atomic.]]
 
