@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|^x|in=K7,K9}}
 
 The '''sort''' primitive sorts a list, dictionary, or table into ascending order.<ref>https://estradajke.github.io/k9-simples/k9/Verb.html#sort</ref> 
