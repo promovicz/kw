@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|x,y}}
 
 The '''concatenate''' builtin concatenates its two arguments into a single unit, based on the [[type]] of the arguments.
