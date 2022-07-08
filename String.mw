@@ -1,4 +1,7 @@
-{{primitive|$x}}The '''string''' function, generally denoted by <code>$</code>, converts atoms to their string equivalents.
+{{lowercase title}}
+{{primitive|$x}}
+
+The '''string''' function, generally denoted by <code>$</code>, converts atoms to their string equivalents.
 
 The string primitive is [[Atomicity|right atomic]] and <code>$</code> on a character is the equivalent of [[enlist|enlisting]] it, except in kona, oK, k7, and k9 where character lists are treated as if they are atoms.
 <pre>
