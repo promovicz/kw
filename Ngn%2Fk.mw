@@ -67,3 +67,5 @@ ngn/k allows creation of new verbs that can be used infix, as part of its syntax
 <pre>(∇:): monad
 (∇): dyad</pre>
 == References ==
+
+[[Category:Implementations]]
