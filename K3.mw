@@ -13,8 +13,8 @@
 | license = proprietary
 | url = none
 | docs = [https://archive.org/download/kmanuals/kreflite.pdf Reference Manual]
-| infby = [[K2]], [[K1]]
-| infd = [[K4]
+| infby = K2, K1
+| infd = [[K4]]
 }}
 
 '''K3''' is the dialect and K implementation following the K2 and K1 prototypes. It was implemented and designed at KX Systems in 1998. The design of K3 is highly similar to to its predecessors, and K3 is used as an umbrella term to refer to the designs of its predecessors.
