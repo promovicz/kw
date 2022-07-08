@@ -1,5 +1,6 @@
+{{lowercase title}}
 {{primitive|x!y}}
-The '''Mod''', '''Modulo''', '''Remainder''' or '''Residue'''<ref>https://aplwiki.com/wiki/Residue</ref> function, denoted by <code>!</code>, is used for modulo in K.
+The '''mod''', '''modulo''', '''remainder''' or '''residue'''<ref>https://aplwiki.com/wiki/Residue</ref> function, denoted by <code>!</code>, is used for modulo in K.
 
 Up until the K4 dialect, the modulo operator was [[Atomicity|left atomic]] on account of the [[rotate]] overload. 
 
