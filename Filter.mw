@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|f#y<br>f_y|in=K6-K9}}
 
-'''Filter''' and '''filter-out''' are used to filter elements from an array using a monadic(single-argument) function <code>f</code>.
+'''filter''' and '''filter-out''' are used to filter elements from an array using a monadic(single-argument) function <code>f</code>.
 
 For '''filter'''(<code>#</code>), the elements which return truthy values when passed through <code>f</code> are left in the array. For '''filter-out'''(<code>_</code>), the elements returning falsy values are kept.
 
