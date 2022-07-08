@@ -37,23 +37,23 @@ K was originally created as a proprietary language, but the main implementations
 |-
 ! Name !! Language !! Dialect !! License !! Download
 |-
-| [[Shakti]] || C || K9 || [https://shakti.com/ proprietary] || https://shakti.com/
+| [[Shakti]] || C || [[K9]] || [https://shakti.com/ proprietary] || https://shakti.com/
 |-
 | ThePlatform || Rust || K-like || temporarily closed source || https://theplatform.technology/platform/install.html
 |-
 | [[ktye/i]] || Go || K-like || public domain(no license) || https://github.com/ktye/i
 |-
-| [[ngn/k]] || C || K6 || [https://codeberg.org/ngn/k/src/branch/master/LICENSE AGPL3] || https://codeberg.org/ngn/k
+| [[ngn/k]] || C || [[K6]] || [https://codeberg.org/ngn/k/src/branch/master/LICENSE AGPL3] || https://codeberg.org/ngn/k
 |-
-| [[oK]] || JS || K6 || [https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt MIT] || https://github.com/JohnEarnest/ok
+| [[oK]] || JS || [[K5]] || [https://github.com/JohnEarnest/ok/blob/gh-pages/LICENSE.txt MIT] || https://github.com/JohnEarnest/ok
 |-
-| kuc || C || K5-like || [https://github.com/zholos/kuc/blob/master/COPYING GPL3] || https://github.com/zholos/kuc/
+| kuc || C || [[K5]]-like || [https://github.com/zholos/kuc/blob/master/COPYING GPL3] || https://github.com/zholos/kuc/
 |-
-| [[kdb+/q]] || unknown || K4 || [https://kx.com/developers/download-licenses/ proprietary] || https://kx.com/developers/download-licenses/
+| [[kdb+/q]] || unknown || [[K4]] || [https://kx.com/developers/download-licenses/ proprietary] || https://kx.com/developers/download-licenses/
 |-
 | [[klong]] || C || K-like || public domain || https://t3x.org/klong/
 |-
-| Kona || C || K3 || [https://github.com/kevinlawler/kona/blob/master/LICENSE ISC] || https://github.com/kevinlawler/kona/
+| Kona || C || [[K3]] || [https://github.com/kevinlawler/kona/blob/master/LICENSE ISC] || https://github.com/kevinlawler/kona/
 |}
 
 == References ==
