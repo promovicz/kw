@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|a^y}}
 
 The '''fill''' primitive is used to fill in "gaps" present in an array using a single atom <code>a</code>.
