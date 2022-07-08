@@ -7,7 +7,7 @@
 | caption = oK mobile logo
 | dev = John Earnest (beyondloom)
 | rel = Jan 4, 2015
-| dialects = K5, K6
+| dialects = [[K6]], [[K5]]
 | ttype = none
 | table = none
 | proto = yes
@@ -19,7 +19,7 @@
 | runurl = [https://johnearnest.github.io/ok/ repl]
 }}
 
-'''oK''' (open K) is an open source implementation of the K5 (and later K6) dialect created by [[John Earnest]]. The main aim of oK is to be an easily accessible environment to learn and understand the fundamentals of K. oK was hence written as a learning oriented toy language with code simplicity in mind, and is not very suitable for use in bigger projects.
+'''oK''' (open K) is an open source implementation of the [[K5]] (and later [[K6]]) dialect created by [[John Earnest]]. The main aim of oK is to be an easily accessible environment to learn and understand the fundamentals of K. oK was hence written as a learning oriented toy language with code simplicity in mind, and is not very suitable for use in bigger projects.
 
 == History ==
 
