@@ -7,7 +7,7 @@
 | implang = C
 | oses = POSIX
 | license = GPL3
-| url = [https://github.com/zholos/kuc/]
+| url = [https://github.com/zholos/kuc/ GitHub]
 }}
 
 '''kuc''' is an implementation of a [[K5]]-like language by Andrey Zholos.
