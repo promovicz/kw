@@ -39,3 +39,5 @@ All releases of Kona on Github are built for Windows.
 For Mac, Homebrew builds are available via <Code>brew install kona</code>.
 
 For Linux/Android, kona must be built from source. The build instructions are given in [https://github.com/kevinlawler/kona#installation Kona#installation]
+
+[[Category:Implementations]]
