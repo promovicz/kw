@@ -17,10 +17,10 @@
 | url = [https://codeberg.org/ngn/k/ Codeberg]
 | docs = [https://codeberg.org/ngn/k/src/branch/master/repl.k#L10 in repl]
 | runurl = editor ([https://ngn.bitbucket.io/k/# Bitbucket], [https://ngn.codeberg.page/k/# Codeberg]), repl ([https://ngn.bitbucket.io/k/#r Bitbucket], [https://ngn.codeberg.page/k/#r Codeberg])
-| infby = K7, K9
+| infby = [[K7]], [[K9]]
 }}
 
-'''ngn/k''' is an implementation of K6 created by [[ngn]]. It has been rewritten more than once, and has undergone many changes from its original iteration, borrowing ideas from many [[Arthur Whitney]] Ks, and occasionally deviating from their functionality.
+'''ngn/k''' is an implementation of [[K6]] created by [[ngn]]. It has been rewritten more than once, and has undergone many changes from its original iteration, borrowing ideas from many [[Arthur Whitney]] Ks, and occasionally deviating from their functionality.
 
 ngn/k is written in [[Arthur_Whitney#Programming_Style|Whitney-style C]], and is written to be performant, compact, and with minimal dependencies.
 
@@ -48,7 +48,7 @@ ngn/k has a WASM distribution available online. These can be accessed from the "
 == Features ==
 
 === I/O Verbs ===
-ngn/k's I/O verbs are defined as per the K6 standard. They are made up of a single digit, followed by a <code>:</code> symbol: <code>loc u: data</code> for output and <code>u: loc</code> for input.
+ngn/k's I/O verbs are defined as per the [[K6]] standard. They are made up of a single digit, followed by a <code>:</code> symbol: <code>loc u: data</code> for output and <code>u: loc</code> for input.
 
 A symbol, string or number can be given as <Code>loc</code>. Any number given must be a valid tie number (see: [[Tie(ngn/k)]]).
 
