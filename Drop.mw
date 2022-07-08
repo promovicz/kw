@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|a_y}}
 
 The '''drop''' primitive removes elements from the start or the end of an array.
