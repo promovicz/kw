@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|x^y}}
 
 The '''except''' primitive computes set difference of its two arguments.
