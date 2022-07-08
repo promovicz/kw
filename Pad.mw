@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|x$s}}
 
-'''Pad''' pads a string with spaces on one side to a specific length, based on an integer <code>x</code>.
+'''pad''' pads a string with spaces on one side to a specific length, based on an integer <code>x</code>.
 
 Positive integers pad on the right, and negative integers pad on the left.
 
