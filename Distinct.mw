@@ -1,5 +1,7 @@
+{{lowercase title}}
 {{primitive|?x}}
-'''Distinct''', a.k.a. '''unique''' or '''uniq''', returns a copy of its argument without duplicate items (according to the definition of [[match]]). K9 additionally sorts the result.
+
+'''distinct''', a.k.a. '''unique''' or '''uniq''', returns a copy of its argument without duplicate items (according to the definition of [[match]]). K9 additionally sorts the result.
 
   ?"abracadabra"
  "abrcd"
