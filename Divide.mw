@@ -1,4 +1,7 @@
-{{primitive|x%y}}The '''Divide''' function is generally denoted by <code>%</code>.
+{{lowercase title}}
+{{primitive|x%y}}
+
+The '''divide''' function is generally denoted by <code>%</code>.
 
 Divide always performs float division. For integer division, use [[floor]] along with this primitive: <code>(_%)</code>
 
