@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|x$y<br>x@y|in=K6(<code>$</code>), K9(<code>@</code>)}}
 
 '''cast''', also known as '''dollar''', casts a value to a different datatype based on a given value. The required casting value for <code>x</code> varies between dialects.
