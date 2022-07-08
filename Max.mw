@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|x&#124;y}}
 
-'''Max''', also known as '''or''', takes the maximum of two arguments.
+'''max''', also known as '''or''', takes the maximum of two arguments.
 
 On boolean arguments, effectively works as an OR operator.
 
