@@ -1,5 +1,7 @@
+{{lowercase title}}
 {{primitive|&#124;x}}
-'''Reverse''' reverses the order of items in a list or the order of records in a table. It has no effect on atoms. For a dictionary, it reverses both the keys and the values.
+
+'''reverse''' reverses the order of items in a list or the order of records in a table. It has no effect on atoms. For a dictionary, it reverses both the keys and the values.
   |"abc"
  "cba"
   |+`a`b!(0 1;2 3)
