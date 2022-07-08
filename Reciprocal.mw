@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|%x|in=K2, K3}}
 
-'''Reciprocal''' returns the reciprocal or multiplicative inverse of a number, as a float.
+'''reciprocal''' returns the reciprocal or multiplicative inverse of a number, as a float.
 
 The reciprocal primitive is [[atomicity|right atomic.]]
 
@@ -12,4 +13,4 @@ The reciprocal primitive is [[atomicity|right atomic.]]
   %%2
 2.0
 </pre>
-{{Works in|Kona}}
+{{works in|Kona}}
