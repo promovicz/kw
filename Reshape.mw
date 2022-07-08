@@ -1,3 +1,4 @@
+{{lowercase title}}
 {{primitive|x#y}}
 
 The '''reshape''' primitive takes the elements of an array <code>y</code>, and fits them in a rectangular nested array shape given by <code>x</code>.
