@@ -1,4 +1,6 @@
+{{lowercase title}}
 {{primitive|_x}}
+
 The '''floor''' function is used to round numbers down in K.
 
 Flooring is a no-op on integers, meaning that they remain the same.
