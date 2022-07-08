@@ -10,7 +10,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |+ Table of Primitives in major dialects
 |-
 ! rowspan=2| 
-! colspan="2" |K3!! colspan="2" |K4-K6 !! colspan="2" |K9<sup>*</sup>
+! colspan="2" |[[K3]]!! colspan="2" |[[K4]],[[K5]],[[K6]] !! colspan="2" |[[K9]]<sup>*</sup>
 |-
 !monad
 !dyad
@@ -123,9 +123,9 @@ Empty cells indicate that the primitives are the same as K4-K6.
 {| class="wikitable"
 |+Table of named primitives based on implementation
 !
-!oK
-!K7
-!K9<sup>*</sup>
+![[OK|oK]]
+![[K7]]
+![[K9]]<sup>*</sup>
 |-
 |utility
 | [[in]] [[prm]]
@@ -142,7 +142,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |[[count]] [[first]] [[last]] [[min]] [[max]] [[sum]] [[avg]] [[var]] [[dev]] [[med]]
 |[[count]] [[first]] [[last]] [[avg]] [[med]] [[mode]] [[var]] [[mavg]] [[msum]]
 |-
-|table(K7+)
+|table([[K7]]+)
 |
 |[[asc]] [[dsc]] [[key]] 
 |[[top]] [[key]] [[unkey]] [[meta]]
@@ -157,7 +157,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 
 {| class="wikitable"
 |-
-! !! K3-K6!! K9<sup>*</sup>
+! !! [[K3]],[[K4]],[[K5]],[[K6]]!! [[K9]]<sup>*</sup>
 |-
 | <code>'</code>|| [[each]] | [[binary search]] ||[[Each|each]] | [[binary search]]
 |-
