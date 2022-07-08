@@ -1,6 +1,7 @@
+{{lowercase title}}
 {{primitive|x&y}}
 
-'''Min''', also known as '''and''', takes the minimum of two arguments.
+'''min''', also known as '''and''', takes the minimum of two arguments.
 
 On boolean arguments, effectively works as an AND operator.
 
