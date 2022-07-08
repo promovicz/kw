@@ -1,5 +1,7 @@
+{{lowercase title}}
 {{primitive|!i}}
-'''Enum''', a.k.a. '''til'''<ref>https://code.kx.com/q/ref/til/</ref>, '''range''' (from Python), '''iota''' (from APL), generates a list of integers [[between]] 0 and a given integer <code>x</code>.
+
+'''enum''', a.k.a. '''til'''<ref>https://code.kx.com/q/ref/til/</ref>, '''range''' (from Python), '''iota''' (from APL), generates a list of integers [[between]] 0 and a given integer <code>x</code>.
   !5
  0 1 2 3 4
 Dialects based on k6 support negative integers - the generated range in that case is [[between]] <code>x</code> and 0:
