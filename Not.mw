@@ -1,4 +1,6 @@
+{{lowercase title}}
 {{primitive|~x}}
+
 The '''not''' function, generally denoted by <code>~</code>, gives the logical negation of an atom in K.
 
 The not primitive is [[Atomicity|right atomic.]]
