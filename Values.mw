@@ -1,4 +1,6 @@
+{{lowercase title}}
 {{primitive|.d}}
+
 The '''values''' primitive returns the values of a given dictionary, in the order of their placement in it.
 
 <pre>
