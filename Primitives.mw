@@ -7,7 +7,7 @@ Single argument forms(monadic) listed first, two-argument forms(dyadic) listed s
 
 Empty cells indicate that the primitives are the same as K4-K6.
 {| class="wikitable"
-|+ Table of Primitives in major dialects
+|+ Table of operator verbs in major dialects
 |-
 ! rowspan=2|
 ! colspan="2" |[[K3]]!! colspan="2" |[[K4]],[[K5]],[[K6]] !! colspan="2" |[[K9]]<sup>*</sup>
@@ -97,7 +97,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 | || [[eval]], [[values]]        || [[dot]]           || [[eval]]||[[dot]]
 |}
 {| class="wikitable"
-|+Special Forms
+|+Table of special forms
 !
 !Polyadic Name
 |-
@@ -121,7 +121,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |}
 
 {| class="wikitable"
-|+Table of named primitives based on implementation
+|+Table of named verbs in various implementations
 !
 ![[OK|oK]]
 ![[K7]]
