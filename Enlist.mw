@@ -4,6 +4,6 @@
 
 K4 allows lists literals with missing items to act as [[projection]]s, e.g. <code>(;)</code> is the dyadic form equivalent to <code>{(x;y)}</code>.
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]
