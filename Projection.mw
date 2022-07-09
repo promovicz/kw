@@ -7,3 +7,5 @@ A projection is created by applying a function to fewer arguments than it requir
   g:f[;2] /projection (x omitted, y set to 2, z omitted)
   g[1;3]  /provide x and z
  7
+
+[[Category:Language]]
