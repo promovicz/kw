@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|x?y}}
 
 The '''find''' primitive is used to find the index of an atom <code>y</code> in array <code>x</code>. It returns <code>0N</code> if the element is not found.
