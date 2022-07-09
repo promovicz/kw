@@ -10,3 +10,5 @@
 If <code>y</code> is an atom not in the domain of <code>x</code>, at returns the [[null?|null value]] for <code>x</code>'s type (except in kona).
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]
