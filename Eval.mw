@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|.x}}
 
 '''eval''', also known as '''value''', evaluates a string as a K expression.
