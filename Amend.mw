@@ -1,6 +1,6 @@
 {{primitive|@[x;y[;f];z]<br>@[x;y;f[;z]]}}
 
-'''Amend''' is a special form of the <code>@</code> verb which takes multiple arguments.
+'''amend''' is a special form of the <code>@</code> verb which takes multiple arguments.
 
 Amend takes 3 or 4 arguments, where:
 * <code>x</code> is an array to amend

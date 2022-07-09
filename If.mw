@@ -1,6 +1,6 @@
 {{primitive|$[c;t;[c1..]f]}}
 
-'''If''' or '''cond''' is the main form of conditional evaluation in K.
+'''if''' or '''cond''' is the main form of conditional evaluation in K.
 
 If is special, because its arguments are not evaluated until their respective condition is evaluated. This allows for side effects to be caused conditionally by an if statement.
 Multiple conditions can be given by specifying more pairs of conditions <Code>c</code> and expressions <code>e</code> like  <code>$[c1;e1;c2;e2;c3;e3;...]</code>.<ref>https://code.kx.com/q/style/conditionals/</ref>

@@ -1,6 +1,6 @@
 {{primitive|f':x<br>x f':y}}
 
-'''Each prior''' applies a [[dyadic]] function to each element, and the element prior to it.
+'''each prior''' applies a [[dyadic]] function to each element, and the element prior to it.
 
 If provided with a left argument, uses it as an initial value.
 

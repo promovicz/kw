@@ -1,5 +1,6 @@
 {{primitive|avg x|in=K7, K9}}
-'''Avg''' computes the average of a numeric or character array in K.
+
+'''avg''' computes the average of a numeric or character array in K.
 
 <pre>
  avg 1 2 3

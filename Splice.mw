@@ -1,6 +1,6 @@
 {{primitive|?[x;(s;e);z]|in=K5,K6}}
 
-'''Splice''' is a special form of the <code>?</code> verb which takes 3 arguments.
+'''splice''' is a special form of the <code>?</code> verb which takes 3 arguments.
 
 * <code>x</code> is the array to be modified.
 * <code>(s;e)</code> is a two element array indicating start index and end index

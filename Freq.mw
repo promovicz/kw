@@ -1,6 +1,6 @@
 {{primitive|freq x|in=K7}}
 
-'''Freq''' creates a frequency table for the elements of a given array.
+'''freq''' creates a frequency table for the elements of a given array.
 
 <pre>
  freq 3 4 5

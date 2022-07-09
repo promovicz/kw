@@ -1,6 +1,6 @@
 {{primitive|x key t}}
 
-'''Key''' is a primitive which creates a keyed table from a normal [[table]], essentially setting one or more columns given in <code>x</code> as the primary keys of <code>t</code>.
+'''key''' is a primitive which creates a keyed table from a normal [[table]], essentially setting one or more columns given in <code>x</code> as the primary keys of <code>t</code>.
 
 <pre> t: +`a`b`c!(1 2;3 4;5 6)
 a b c

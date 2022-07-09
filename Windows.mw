@@ -1,6 +1,6 @@
 {{primitive|a f':y<br>a':y}}
 
-'''Windows''' or '''Stencil''' is used to apply a [[monadic]] function to each <code>a</code>-size overlapping windows of the list <code>y</code>.
+'''windows''' or '''stencil''' is used to apply a [[monadic]] function to each <code>a</code>-size overlapping windows of the list <code>y</code>.
 
 To simply get windows of an array, <code>f</code> can be omitted.
 

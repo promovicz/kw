@@ -1,6 +1,6 @@
 {{primitive|dev x|in=K7, K9}}
 
-'''Dev''' computes the standard deviation(sigma) of a list.
+'''dev''' computes the standard deviation(sigma) of a list.
 
 <pre>
  dev 1 2 3

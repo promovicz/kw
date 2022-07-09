@@ -1,6 +1,6 @@
 {{primitive|x/y}}
 
-'''Base encode''' or just '''encode''' takes a digit array <code>y</code> and encodes it into a single number using the bases in <code>x</code>.
+'''base encode''' or just '''encode''' takes a digit array <code>y</code> and encodes it into a single number using the bases in <code>x</code>.
 
 If <code>x</code> is an atom, repeats it for all elements in <code>y</code>.
 

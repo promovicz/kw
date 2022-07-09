@@ -1,5 +1,6 @@
 {{primitive|*x}}
-'''First''' is a primitive that returns the first item of a list
+
+'''first''' is a primitive that returns the first item of a list
   *"abc"
  "a"
   *(0 1;2 3;4 5)

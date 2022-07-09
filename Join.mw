@@ -1,6 +1,6 @@
 {{primitive|a/s}}
 
-'''Join''' joins a list of strings <code>s</code> using a character <code>a</code>.
+'''join''' joins a list of strings <code>s</code> using a character <code>a</code>.
 
 <pre>
  "|"/("a";"bc";"def")

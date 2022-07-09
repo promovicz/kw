@@ -1,6 +1,6 @@
 {{primitive|f\y<br>x f\y}}
 
-'''Scan''', also known as '''cumulative reduce''' or '''scanl''' takes a dyadic function <code>f</code> and reduces an array <code>y</code> using it, while providing an array of intermediate values.
+'''scan''', also known as '''cumulative reduce''' or '''scanl''' takes a dyadic function <code>f</code> and reduces an array <code>y</code> using it, while providing an array of intermediate values.
 
 Scan works very similarly to [[fold]].
 

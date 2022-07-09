@@ -1,6 +1,6 @@
 {{primitive|f'y<br>x f'y}}
 
-'''Each''', also known as '''map''', is used to apply a function to all elements of an array <code>y</code>.
+'''each''', also known as '''map''', is used to apply a function to all elements of an array <code>y</code>.
 
 When given two arguments and dyadic <code>f</code>, acts as a '''zip''' or '''each dyad''' adverb, applying <code>f</code> between each element of <code>x</code> and <code>y</code>. The two arrays must be equal in length.
 

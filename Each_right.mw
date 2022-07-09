@@ -1,6 +1,6 @@
 {{primitive|x f/:y}}
 
-'''Each right''' applies a [[dyadic]] function <code>f</code> to the entirety of <code>x</code> and each element of <code>y</code>.
+'''each right''' applies a [[dyadic]] function <code>f</code> to the entirety of <code>x</code> and each element of <code>y</code>.
 
 <pre>
  3 +/:(2 3;4 5;6)

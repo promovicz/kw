@@ -1,8 +1,8 @@
 {{primitive|x div y|in=K9}}
 
-'''Div''' is a named function in K9 which performs integer division. It divides <code>y</code> by <code>x</code>.
+'''div''' is a named function in K9 which performs integer division. It divides <code>y</code> by <code>x</code>.
 
-Div is [[atomicity|non-atomic]], it only takes single integer atoms. It is equivalent to the function <code>(_%)</code> in most K dialects.
+div is [[atomicity|non-atomic]], it only takes single integer atoms. It is equivalent to the function <code>(_%)</code> in most K dialects.
 
 <pre> 2 div 3
 1

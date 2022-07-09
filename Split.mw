@@ -1,6 +1,6 @@
 {{primitive|a\s}}
 
-'''Split''' splits a string <code>s</code> on character delimiter <code>a</code>.
+'''split''' splits a string <code>s</code> on character delimiter <code>a</code>.
 
 <pre>
  ","\"cat,dog,banana"

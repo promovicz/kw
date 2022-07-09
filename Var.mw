@@ -1,6 +1,6 @@
 {{primitive|var x|in=K7, K9}}
 
-'''Var''' gets the variance of a list.
+'''var''' gets the variance of a list.
 
 It can also be made using the [[avg]] function.
 <pre>

@@ -1,6 +1,6 @@
 {{primitive|![x;y;z;u]|in=K4}}
 
-'''Update''' is a special form of <code>!</code> in K4/qdb<ref>https://code.kx.com/q/basics/funsql/#update</ref> which takes 4 arguments. It updates a given table with the help of the given arguments.
+'''update''' is a special form of <code>!</code> in K4/qdb<ref>https://code.kx.com/q/basics/funsql/#update</ref> which takes 4 arguments. It updates a given table with the help of the given arguments.
 
 * <code>x</code> is the table to be modified.
 * <code>y</code> specifies the conditions to select rows.

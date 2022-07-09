@@ -1,8 +1,8 @@
 {{primitive|sqr x}}
 
-'''Sqr''' takes a number and squares it. It always provides a floating point result.
+'''sqr''' takes a number and squares it. It always provides a floating point result.
 
-Sqr is [[atomicity|fully atomic.]]
+sqr is [[atomicity|fully atomic]].
 
 <pre> sqr 5
 25.
