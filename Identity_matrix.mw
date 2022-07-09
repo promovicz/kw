@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{Primitive|&#61;i}}
 
 Given a positive integer argument ''n'', '''identity matrix''' returns a ''n''×''n'' matrix with ones in the main diagonal and zeros elsewhere.
