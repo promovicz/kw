@@ -7,7 +7,7 @@ The '''null''' primitive returns a value indicating whether its argument is a nu
 Each atomic type has a distinguished null value used to represent missing data.
 
 {| class="wikitable"
-! rowspan="2" |Type 
+! rowspan="2" |Type
 ! colspan="4" |Null
 |-
 !oK
