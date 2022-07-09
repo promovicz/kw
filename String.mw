@@ -11,3 +11,5 @@ The string primitive is [[Atomicity|right atomic]] and <code>$</code> on a chara
 </pre>
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]

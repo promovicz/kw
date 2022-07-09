@@ -14,3 +14,5 @@ For numbers, returns 0 for nonzero numbers, and 1 if zero. characters also behav
 </pre>
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]

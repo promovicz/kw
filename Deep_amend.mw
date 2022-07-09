@@ -19,3 +19,5 @@ It is very similar to [[Amend]] in its functionality. The main difference is tha
 ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
 
 [[Category:Special forms]]
+[[Category:Verbs]]
+[[Category:Primitives]]

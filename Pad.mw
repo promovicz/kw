@@ -18,3 +18,5 @@ Padding is [[atomicity|fully atomic]], and special cased to treat strings as ato
 </pre>
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]

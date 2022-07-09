@@ -47,3 +47,5 @@ In order to mimic the K6 behaviour, you can use [[distinct]]: <code>{(?x)!=x}</c
 </pre>{{Works in|Kona}}
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]
