@@ -9,38 +9,38 @@ Empty cells indicate that the primitives are the same as K4-K6.
 {| class="wikitable"
 |+ Table of Primitives in major dialects
 |-
-! rowspan=2| 
+! rowspan=2|
 ! colspan="2" |[[K3]]!! colspan="2" |[[K4]],[[K5]],[[K6]] !! colspan="2" |[[K9]]<sup>*</sup>
 |-
 !monad
 !dyad
 !                            monad!!dyad!!monad!!dyad
 |-
-| <code>:</code> 
+| <code>:</code>
 |
 | || [[right|identity]] || [[right]]       || ||
 |-
-| <code>+</code> 
+| <code>+</code>
 |
 | || [[transpose]]   || [[add]]         || [[transpose]]||[[add]]
 |-
-| <code>-</code> 
+| <code>-</code>
 |
 | || [[negate]]      || [[subtract]]    || [[negate]]||[[subtract]]
 |-
-| <code>*</code> 
+| <code>*</code>
 |
 | || [[first]]       || [[multiply]]    || [[first]]||[[multiply]]
 |-
-| <code>%</code> 
+| <code>%</code>
 | [[reciprocal]]
 | || [[square root]] || [[divide]]      || ||[[divide]]
 |-
-| <code>!</code> 
-| 
+| <code>!</code>
+|
 | [[rotate]], [[mod]] || [[enum]], [[odometer]], [[keys]] || [[mod]], [[create dict]] || [[enum]] ([[odometer]]), [[keys]]||[[create dict]]
 |-
-| <code>&amp;</code> 
+| <code>&amp;</code>
 |
 | || [[where]]   || [[min]]         || [[where]]||[[min]]
 |-
@@ -56,43 +56,43 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |
 | || [[grade down]]|| [[greater]]     || [[Grade down|descending]]||[[greater]]
 |-
-| <code>=</code> 
+| <code>=</code>
 |
 | || [[group]], [[identity matrix]] || [[equal]] || [[group]]||[[equal]]
 |-
-| <code>~</code> 
+| <code>~</code>
 |
 | || [[not]]         || [[match]]       || [[not]]||[[match]]
 |-
-| <code>,</code> 
+| <code>,</code>
 |
 | || [[enlist]]      || [[concatenate]] || [[enlist]]||[[concatenate]]
 |-
-| <code>^</code> 
+| <code>^</code>
 |[[shape]]
 |[[power]]|| [[null?]]       || [[except]], [[fill]] || [[sort]] || [[cut]]
 |-
-| <code>#</code> 
+| <code>#</code>
 |
 | || [[length]]      || [[take]], [[reshape]]|| [[count]]|| [[filter]], [[take]]
 |-
-| <code>_</code> 
+| <code>_</code>
 |
 | || [[floor]], [[lowercase]] || [[drop]], [[delete]], [[cut]] || [[floor]]|| [[Filter|filter-out]], [[drop]]
 |-
-| <code>$</code> 
+| <code>$</code>
 |
 | || [[string]]      || [[pad]], [[cast]] || [[string]]||[[parse]]
 |-
-| <code>?</code> 
+| <code>?</code>
 |
 | || [[distinct]], [[random-float]] || [[find]], [[random]] || [[unique]]||[[find]], [[random]]
 |-
-| <code>@</code> 
+| <code>@</code>
 |[[Type|atom?]]
 | || [[type]]        || [[at]]            || [[type]]|| [[cast]]
 |-
-| <code>.</code> 
+| <code>.</code>
 |
 | || [[eval]], [[values]]        || [[dot]]           || [[eval]]||[[dot]]
 |}
@@ -144,7 +144,7 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 |table([[K7]]+)
 |
-|[[asc]] [[dsc]] [[key]] 
+|[[asc]] [[dsc]] [[key]]
 |[[top]] [[key]] [[unkey]] [[meta]]
 |-
 |misc
