@@ -7,7 +7,7 @@ It is equivalent to <code>+/</code> in most K dialects.
 <pre>
  sum 1 2 3
 6.
- sum 1 2 
+ sum 1 2
 3.
  sum 1 2 67
 70.
