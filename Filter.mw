@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|f#y<br>f_y|in=K6-K9}}
 
 '''filter''' and '''filter-out''' are used to filter elements from an array using a monadic(single-argument) function <code>f</code>.
