@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|_x}}
 
 The '''lowercase''' function, generally denoted by <code>_</code>, is used for converting a character or symbol to lowercase. Non-alphabetical characters are unchanged.
