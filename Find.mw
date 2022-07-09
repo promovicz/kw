@@ -20,7 +20,7 @@ For dictionaries, returns the keys associated with the given values:
 
 In K3, Find is [[atomicity|non-atomic.]] It considers <code>y</code> as a single unit, and will return a single index for it. <code>?/:</code> is needed to simulate the functionality of later Ks.
 
-[[Category:Operator verbs]]
-[[Category:Named verbs]]
 [[Category:Verbs]]
+[[Category:Named verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

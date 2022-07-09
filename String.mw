@@ -10,6 +10,6 @@ The string primitive is [[Atomicity|right atomic]] and <code>$</code> on a chara
 "beef"
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

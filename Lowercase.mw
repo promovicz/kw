@@ -10,6 +10,6 @@ The lowercase primitive is [[Atomicity|right atomic.]]<pre>
 `abc123abc
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

@@ -175,9 +175,9 @@ Empty cells indicate that the primitives are the same as K4-K6.
 '''<sup>*</sup>''': K9 is a nascent dialect which is still currently undergoing changes. Some pages may not be up to date with the latest build, and some are intentionally left unwritten in case of later changes.
 '''<sup>*</sup><sup>*</sup>''': The primitives [[base encode]], [[base decode]], [[binary search]], [[join]] and [[split]] are verbs in the adverb syntax space. They are distinguished by argument type.
 
-[[Category:Primitives]]
 [[Category:Adverbs]]
 [[Category:Verbs]]
 [[Category:Named verbs]]
 [[Category:Operator verbs]]
 [[Category:Special forms]]
+[[Category:Primitives]]

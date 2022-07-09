@@ -16,6 +16,6 @@ The negate primitive is [[Atomicity|right atomic.]]<pre>
  -7 65)
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

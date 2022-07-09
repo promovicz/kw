@@ -13,6 +13,6 @@ The multiply primitive is [[Atomicity|fully atomic.]]<pre>
  27 0)
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

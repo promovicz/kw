@@ -16,6 +16,6 @@ A ceiling function (round up) can be made with floor using <code>-_-</code>.
 -4 4 80 0N
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

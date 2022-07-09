@@ -13,6 +13,6 @@ In ngn/k, splice removes the portion of the array <code>x</code> from <code>s</c
  ?["abcd";3 4;"x"]
 "abcx"</pre>
 
-[[Category:Special forms]]
 [[Category:Verbs]]
+[[Category:Special forms]]
 [[Category:Primitives]]

@@ -14,6 +14,6 @@ The ''subtract'' primitive is [[Atomicity|fully atomic]].<pre>
  -6 4)
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

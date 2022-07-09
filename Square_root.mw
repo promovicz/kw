@@ -21,6 +21,6 @@ The square root primitive is [[Atomicity|right atomic.]]<pre>
  (8.18535277187245;9.9498743710662 0n))
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]

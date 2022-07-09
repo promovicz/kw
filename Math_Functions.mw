@@ -29,3 +29,7 @@ In monadic form, uses ''e'' as the base.
  4 5 exp 5 6 
 1024 15625f
 </pre>
+
+[[Category:Verbs]]
+[[Category:Operator verbs]]
+[[Category:Primitives]]
