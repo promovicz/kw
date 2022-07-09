@@ -20,7 +20,7 @@ A K dictionary is a mapping from a set of K nouns as keys to a set of  K nouns w
 
 == Function ==
 A function can be a:
-* Primitive verb 
+* Primitive verb
 * Lambda
 * Train
 * Projection of any of the above.
