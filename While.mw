@@ -15,3 +15,5 @@ Scan-while(<code>\</code>) produces a list of all intermediate values.
  2 3 4 6
  2 3 4 6 4 6 8 12)
 </pre>
+
+[[Category:Adverbs]]

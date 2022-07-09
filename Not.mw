@@ -12,3 +12,5 @@ For numbers, returns 0 for nonzero numbers, and 1 if zero. characters also behav
  ~"sadasd"
 0 0 0 0 0 0
 </pre>
+
+[[Category:Operator verbs]]

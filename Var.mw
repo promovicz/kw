@@ -10,3 +10,5 @@ It can also be made using the [[avg]] function.
  {(+/x*x:x-avg x)%#x}@!10
 8.25
 </pre>
+
+[[Category:Named verbs]]

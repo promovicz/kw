@@ -25,3 +25,5 @@ Amend takes 3 or 4 arguments, where:
 
 == ngn/k ==
 ngn/k's amend has <code>z</code> as the optional argument, instead of having <code>f</code> as an optional argument.
+
+[[Category:Special forms]]

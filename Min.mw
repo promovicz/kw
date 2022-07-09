@@ -13,3 +13,5 @@ The min primitive is [[atomicity|fully atomic]].
  "abc"&"01d"
 48 49 99
 </pre>
+
+[[Category:Operator verbs]]

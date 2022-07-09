@@ -11,3 +11,5 @@ positive <code>a</code> removes elements from the start, and negative <code>a</c
  -2_"abcde"
 "abc"
 </pre>
+
+[[Category:Operator verbs]]

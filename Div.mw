@@ -14,3 +14,5 @@ Div is [[atomicity|non-atomic]], it only takes single integer atoms. It is equiv
 0
  3 div 15
 5</pre>
+
+[[Category:Named verbs]]

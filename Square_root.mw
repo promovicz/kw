@@ -20,3 +20,5 @@ The square root primitive is [[Atomicity|right atomic.]]<pre>
 (4.69041575982343 6.708203932499369
  (8.18535277187245;9.9498743710662 0n))
 </pre>
+
+[[Category:Operator verbs]]

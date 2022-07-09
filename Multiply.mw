@@ -12,3 +12,5 @@ The multiply primitive is [[Atomicity|fully atomic.]]<pre>
 (1035 3510
  27 0)
 </pre>
+
+[[Category:Operator verbs]]

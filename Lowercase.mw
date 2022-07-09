@@ -9,3 +9,5 @@ The lowercase primitive is [[Atomicity|right atomic.]]<pre>
  _`abc123ABC
 `abc123abc
 </pre>
+
+[[Category:Operator verbs]]

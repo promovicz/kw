@@ -7,3 +7,5 @@ Dialects based on k6 support negative integers - the generated range in that cas
   !-5
  -5 -4 -3 -2 -1
 [[Odometer]] is an extension of enum for int lists.
+
+[[Category:Operator verbs]]

@@ -8,3 +8,5 @@ Eval may or may not evaluate its argument in the current scope based on the impl
  ."+/1 2 3 4"
 10
 </pre>
+
+[[Category:Operator verbs]]

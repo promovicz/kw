@@ -8,3 +8,5 @@ The in primitive is [[atomicity|left atomic]].
  1 3 7 in 1 2 3 4 5
 1 1 0
 </pre>
+
+[[Category:Named verbs]]

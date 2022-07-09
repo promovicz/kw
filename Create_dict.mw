@@ -26,3 +26,5 @@ Uniqueness of the keys is not enforced.
 In k7, k9, and ngn/k, if <code>y</code> is an atom, it's extended to the length of <code>x</code>.
   `a`b!2
  `a`b!2 2
+
+[[Category:Operator verbs]]

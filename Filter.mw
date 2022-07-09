@@ -46,3 +46,5 @@ In K6, on the other hand, since the filter does not see the whole array, the val
 </pre>{{Works in|ngn/k}}
 
 In this regard, K9 filter can be seen as more general. One possible explanation for the prior implementation using [[each]] is that it mirrors the most common form of the filter function implemented in other programming languages<ref>https://en.wikipedia.org/wiki/Filter_(higher-order_function)</ref>.
+
+[[Category:Operator verbs]]

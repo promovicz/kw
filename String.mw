@@ -9,3 +9,5 @@ The string primitive is [[Atomicity|right atomic]] and <code>$</code> on a chara
   $`beef
 "beef"
 </pre>
+
+[[Category:Operator verbs]]

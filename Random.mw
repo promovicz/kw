@@ -27,3 +27,5 @@ If <code>a</code> is negative, deals <code>[[abs]] a</code> elements from the ar
  -3?"ABCDE"
 "DCE"
 </pre>
+
+[[Category:Operator verbs]]

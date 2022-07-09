@@ -15,3 +15,5 @@ The negate primitive is [[Atomicity|right atomic.]]<pre>
  -8 56
  -7 65)
 </pre>
+
+[[Category:Operator verbs]]

@@ -11,3 +11,5 @@ If all required arguments are not given, dot returns a partially applied functio
  {x+y}.,2
 {x+y}[2]
 </pre>
+
+[[Category:Operator verbs]]

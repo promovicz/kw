@@ -12,3 +12,5 @@ The ''Subtract'' primitive is [[Atomicity|fully atomic.]]<pre>
 (-22 -33
  -6 4)
 </pre>
+
+[[Category:Operator verbs]]

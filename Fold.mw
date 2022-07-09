@@ -29,3 +29,5 @@ When used with functions that take more than 2 arguments, fold can take multiple
 {x,y,z}/["A";1 2 3;"BCD"]
 ("A";1;"B";2;"C";3;"D")
 </pre>
+
+[[Category:Adverbs]]

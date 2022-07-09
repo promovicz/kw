@@ -13,3 +13,5 @@ The ''add'' primitive is [[Atomicity|fully atomic.]]<pre>
 (68 123
  12 4)
 </pre>
+
+[[Category:Operator verbs]]

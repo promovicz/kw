@@ -15,3 +15,5 @@ A ceiling function (round up) can be made with floor using <code>-_-</code>.
  _-3.7 4.789 80 0n
 -4 4 80 0N
 </pre>
+
+[[Category:Operator verbs]]
