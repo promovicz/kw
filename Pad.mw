@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|x$s}}
 
 '''pad''' pads a string with spaces on one side to a specific length, based on an integer <code>x</code>.
