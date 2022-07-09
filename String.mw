@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|$x}}
 
 The '''string''' function, generally denoted by <code>$</code>, converts atoms to their string equivalents.

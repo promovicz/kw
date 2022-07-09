@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|a#y}}
 
 The '''take''' primitive takes <code>a</code> elements from a given list <code>y</code>.

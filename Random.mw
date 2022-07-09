@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|a?b<br>a?y}}
 
 '''random''' takes two values and returns random values based on their types. The named version in K7+ is called '''rand'''.

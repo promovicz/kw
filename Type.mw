@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|@x}}
 
 The '''type''' primitive returns a constant (usually a symbol or character or integer) identifying the type of a k value. The set of types varies a lot between dialects. Some implementations have types that are internally considered different (e.g. for the purposes of [[match]]) but presented to the user as identical.

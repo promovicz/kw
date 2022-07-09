@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|%x|in=K2, K3}}
 
 '''reciprocal''' returns the reciprocal or multiplicative inverse of a number, as a float.

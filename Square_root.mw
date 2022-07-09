@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|%x<br>sqrt x}}
 
 The '''square root''' function, generally denoted by <code>%</code>, gets the floating point square root of a given number.

@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|+x}}
 [[File:Matrix_transpose.gif|256px|right|thumb|Matrix transposition]]
 '''Transpose''', a.k.a. '''flip''', swaps the two leading axes of a 2+ dimensional rectangular array. Dialects differ in their treatment of atoms, lists, and ragged arrays.

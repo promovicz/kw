@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|&x}}
 
 '''where''' replicates each item in the [[domain]] of a list or dictionary as many times as the corresponding value (which is required to be a non-negative integer) in the range:
