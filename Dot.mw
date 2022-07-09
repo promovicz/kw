@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|f.y}}
 
 '''dot''' or '''dot-apply''' is used to apply a list of arguments to a function.
