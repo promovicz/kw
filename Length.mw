@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|#x}}
 
 The '''length''', a.k.a. '''count''', of a list is the number of its items. The length of a table is the number of its rows. The length of a dictionary is the length of its key list or, equivalently, of its value list. By convention, atoms have length 1.
