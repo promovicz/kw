@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|.x<br>x!y}}
 
 The '''create dict''' primitive, a.k.a. '''map''' converts its argument(s) to a dictionary.
