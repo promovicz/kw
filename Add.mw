@@ -1,5 +1,5 @@
-{{lowercase title}}
 {{primitive|x+y}}
+
 The '''add''' function, generally denoted by <code>+</code>, is used for addition in K.
 
 The ''add'' primitive is [[Atomicity|fully atomic.]]<pre>
