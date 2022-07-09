@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|&lt;x<br>&gt;x}}
 
 '''grade''' returns the [[domain]] of a collection (list, table, or dictionary) sorted by its [[range]]. It has two versions: '''up''' (<code>&lt;x</code>) and '''down''' (<code>&gt;x</code>), a.k.a. '''asc''' and '''desc''' by analogy with SQL.
