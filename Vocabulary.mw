@@ -58,3 +58,5 @@ A scalar is the smallest individual unit that can the added to an array, that is
 
 == Lambda ==
 The basic universal syntax for defining functions is the K lambda. A lambda with no arguments defined has its first three arguments stored in variables x, y and z. A lambda also has a variable for self reference (recursion).
+
+[[Category:Language]]

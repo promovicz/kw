@@ -3,9 +3,17 @@ K's primitives are designed to fit a large range of diverse functionality within
 All of K's primitives are made to be multipurpose, and have varied meanings based on the context they are used in. Symbol primitives can be either 1 or 2 characters long.
 
 == Verbs ==
-Single argument forms(monadic) listed first, two-argument forms(dyadic) listed second.
 
-Empty cells indicate that the primitives are the same as K4-K6.
+=== Operator Verbs ===
+
+Operator verbs use the following characters: <code>: + - * % ! &amp; &#124; &lt; &gt; = ~ , ^ # _ $ ? @ .</code>.
+
+Suffixing a verb with <code>:</code> forces it to be interpreted as monadic.
+
+[[Monadic]] forms (one argument) are listed first, [[dyadic]] forms (two arguments) are listed second.
+
+Empty cells indicate that the primitives in the given dialect are the same as in K4-K6.
+
 {| class="wikitable"
 |+ Table of operator verbs in major dialects
 |-
@@ -96,6 +104,9 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |
 | || [[eval]], [[values]]        || [[dot]]           || [[eval]]||[[dot]]
 |}
+
+=== Special Forms ===
+
 {| class="wikitable"
 |+Table of special forms
 !
@@ -119,6 +130,8 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |<code>?</code>
 |[[select]] (K4/qdb)
 |}
+
+=== Named Verbs ===
 
 {| class="wikitable"
 |+Table of named verbs in various implementations
@@ -153,7 +166,11 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |[[min]] [[max]] [[countd]]
 |}
 
-==Adverbs ==
+== Adverbs ==
+
+Adverbs use the characters <code>'</code>, <code>/</code> and <code>\</code> for their syntax.
+
+They are primitives that take [[Verb|general verbs]] as arguments. As such they are higher order functions.
 
 {| class="wikitable"
 |-
@@ -171,6 +188,8 @@ Empty cells indicate that the primitives are the same as K4-K6.
 |-
 |<code>\:</code>||[[each left]]||[[each left]]
 |}
+
+== Remarks ==
 
 '''<sup>*</sup>''': K9 is a nascent dialect which is still currently undergoing changes. Some pages may not be up to date with the latest build, and some are intentionally left unwritten in case of later changes.
 
