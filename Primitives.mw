@@ -176,9 +176,6 @@ Empty cells indicate that the primitives are the same as K4-K6.
 
 '''<sup>*</sup><sup>*</sup>''': The primitives [[base encode]], [[base decode]], [[binary search]], [[join]] and [[split]] are verbs in the adverb syntax space. They are distinguished by argument type.
 
-[[Category:Adverbs]]
 [[Category:Verbs]]
-[[Category:Named verbs]]
-[[Category:Operator verbs]]
-[[Category:Special forms]]
+[[Category:Adverbs]]
 [[Category:Primitives]]
