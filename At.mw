@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|x@y}}
 
 '''at''' is a primitive that unifies list indexing, function application, and dictionary lookup into a single concept. Syntactically, it can be expressed in three equivalent ways: <code>x@y</code> (using <code>@</code> as a verb), <code>x y</code> (juxtaposition of nouns), and <code>x[y]</code> (M-expression).
