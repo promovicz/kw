@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|x&y}}
 
 '''min''', also known as '''and''', takes the minimum of two arguments.
