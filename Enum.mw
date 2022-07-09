@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|!i}}
 
 '''enum''', a.k.a. '''til'''<ref>https://code.kx.com/q/ref/til/</ref>, '''range''' (from Python), '''iota''' (from APL), generates a list of integers [[between]] 0 and a given integer <code>x</code>.
