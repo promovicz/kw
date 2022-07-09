@@ -2,7 +2,6 @@
 
 The '''within''' primitive checks if an integer/character <code>i</code> is in the range defined by a two element vector <code>a</code>.
 
-
 == K7 ==
 In K7+, the range is inclusive of first element and exclusive of the second element.
 

@@ -1,4 +1,5 @@
 {{primitive|x*y}}
+
 The '''multiply''' function is generally denoted by <code>*</code>.
 
 The multiply primitive is [[Atomicity|fully atomic.]]<pre>

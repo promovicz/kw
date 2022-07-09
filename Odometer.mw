@@ -6,6 +6,7 @@ The '''odometer''' for an int list <tt>x</tt> generates the Cartesian product of
  (0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
   0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 1 1 1 2 2 2 3 3 3
   0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2 0 1 2)
+
 Odometer generates all paths to elements in a matrix, with each column a path and each row a dimension. It can be used for indexing:<syntaxhighlight>
  : m:(`a`b`c;`d`e`f;`g`h`i)
 (`a`b`c
