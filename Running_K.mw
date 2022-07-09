@@ -1,8 +1,9 @@
 K was originally created as a proprietary language, but the main implementations are freely available to the general public for personal use. Over the years, many open source implementations of K have emerged.
 
 == Web-based interpreters ==
+
 {| class="wikitable"
-|+ Caption text
+|+ Table of browser-based K interpreters
 |-
 ! Name !! Links
 |-
@@ -33,7 +34,7 @@ K was originally created as a proprietary language, but the main implementations
 == Table of Implementations ==
 
 {| class="wikitable"
-|+ Caption text
+|+ Table of K implementations
 |-
 ! Name !! Language !! Dialect !! License !! Download
 |-
