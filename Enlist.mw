@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|,x}}
 
 '''Enlist''' is a primitive that returns the list of its arguments. It is most often used in its monadic form: <code>,x</code> (sometimes called '''singleton'''). All K dialects support n-adic enlist through the list literal syntax: <code>(x;y;z</code>..<code>)</code>
