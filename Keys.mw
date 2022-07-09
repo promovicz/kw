@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|!d}}
 
 '''keys''' is a primitive that returns the list of keys of a dictionary.
