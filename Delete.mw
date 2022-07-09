@@ -1,4 +1,3 @@
-{{lowercase title}}
 {{primitive|x_a}}
 
 The '''delete''' primitive deletes the element at a specific index in an array.
