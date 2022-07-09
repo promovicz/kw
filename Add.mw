@@ -15,3 +15,5 @@ The ''add'' primitive is [[Atomicity|fully atomic.]]<pre>
 </pre>
 
 [[Category:Operator verbs]]
+[[Category:Verbs]]
+[[Category:Primitives]]
