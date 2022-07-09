@@ -8,9 +8,9 @@ If you want a place to ask questions about K, you may want to check the [[Online
 *  [https://gist.github.com/llelf/fe5363941898c302a6967bd6028c6f10 K folds]
 *  [http://nsl.com/ NSL - K snippets and programs]
 
-== K7 == 
+== K7 ==
 * [https://kparc.github.io/ref kparc K7 reference]
-*[https://cs.nyu.edu/~shasha/papers/tutorial K7 Tutorial]
+* [https://cs.nyu.edu/~shasha/papers/tutorial K7 Tutorial]
 == K6 ==
 * [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Manual.md oK Manual]
 * [https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Programming.md Programming in K]
@@ -22,7 +22,7 @@ If you want a place to ask questions about K, you may want to check the [[Online
 * [https://code.kx.com/q/ KX systems kdb+/q documentation]
 * [http://vrabi.web.elte.hu/k/ Attila Vrabecz - K resources]
 * [https://fun-q.net Fun Q:] [https://github.com/psaris/funq source files]
-* [https://www.q-tips.net/ Q Tips]: [https://github.com/psaris/qtips source files] 
+* [https://www.q-tips.net/ Q Tips]: [https://github.com/psaris/qtips source files]
 
 == K3 ==
 * [https://github.com/kevinlawler/kona/wiki K(Kona) wiki - docs and examples]
@@ -35,5 +35,5 @@ If you want a place to ask questions about K, you may want to check the [[Online
 == Unclassified ==
 * [http://rosettacode.org/wiki/Category:K Rosetta Code K examples]
 * [http://vrabi.web.elte.hu/k/kbyeg.k K by example]
-*[https://gist.github.com/chrispsn/b1020918a83a28ab8b4442d8aff8d1b4 k tech - K primitives in K]
-*[[Advent of Code]]
+* [https://gist.github.com/chrispsn/b1020918a83a28ab8b4442d8aff8d1b4 k tech - K primitives in K]
+* [[Advent of Code]]

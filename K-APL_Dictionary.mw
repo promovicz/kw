@@ -21,17 +21,17 @@ Due to major differences in APL and K's array models, some of these may not be c
 = Primitives =
 
 {| class="wikitable"
-|+ 
+|+
 |-
 ! rowspan="2" | APL !! colspan="4" | Monad!! colspan="4" | Dyad
 |-
 ! K3
-! K4 
+! K4
 ! K6
 ! K7
 ! K3 !! K4 !! K6 !! K7
 |-
-| <code>*</code> || <code>_exp</code> ||<code>exp</code> ||<code>exp</code> ([[oK]] only) ||<code>exp</code> || colspan="4"| <code>{*/y#x}</code> for integer <code>y</code> 
+| <code>*</code> || <code>_exp</code> ||<code>exp</code> ||<code>exp</code> ([[oK]] only) ||<code>exp</code> || colspan="4"| <code>{*/y#x}</code> for integer <code>y</code>
 |-
 | <code>⍟</code> || <code>_log</code> || <code>log</code> ||<code>log</code> ([[oK]] only) || <code>log</code> || <code>_log</code> || <code>xlog</code> || colspan="2" | <code>{(log x)%log y}</code>
 |-
@@ -79,10 +79,11 @@ Due to major differences in APL and K's array models, some of these may not be c
 |-
 | <code>⍎</code> || || || colspan="2" | <code>.</code> || colspan="4" |
 |-
-| <code>⍕</code> || colspan="4" | <code>$</code> || 
+| <code>⍕</code> || colspan="4" | <code>$</code> ||
 |-
-| <code>⊥</code> || colspan="4" | || <code>_vs</code> || || <code>\</code> || || 
+| <code>⊥</code> || colspan="4" | || <code>_vs</code> || || <code>\</code> || ||
 |-
-| <code>⊤</code> || colspan="4" | || <code>_sv</code> || || <code>/</code> || || 
+| <code>⊤</code> || colspan="4" | || <code>_sv</code> || || <code>/</code> || ||
+
 [[Category:Dictionaries]]
 [[Category:Incomplete Pages]]
