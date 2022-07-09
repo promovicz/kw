@@ -12,6 +12,6 @@ The '''delete''' primitive deletes the element at a specific index in an array.
  "def")
 </pre>
 
-[[Category:Operator verbs]]
 [[Category:Verbs]]
+[[Category:Operator verbs]]
 [[Category:Primitives]]
