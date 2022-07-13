@@ -2,9 +2,11 @@
 
 The '''mod''', '''modulo''', '''remainder''' or '''residue'''<ref>https://aplwiki.com/wiki/Residue</ref> function, denoted by <code>!</code>, is used for modulo in K.
 
-Up until the K4 dialect, the modulo operator was [[Atomicity|left atomic]] on account of the [[rotate]] overload. 
+Up until the K4 dialect, the modulo verb had the following characteristics:
+* <code>x</code> is the dividend and <code>y</code> is the divisor.
+* [[Atomicity|left atomic]] on account of the [[rotate]] overload. 
 
-From K5 onward, the modulo primitive is [[Atomicity|right atomic.]]<ref>[https://chat.stackexchange.com/transcript/message/58587397#58587397 JohnEarnest on the order of arguments for mod in K]</ref>
+From K5 onward, the modulo primitive is flipped and [[Atomicity|right atomic.]]<ref>[https://chat.stackexchange.com/transcript/message/58587397#58587397 JohnEarnest on the order of arguments for mod in K]</ref>
 
 <pre>
   3!12
