@@ -1,3 +1,12 @@
-K8 is a dialect of K created by [[KX Systems]].
+
+{{Infobox Language
+| title = K8
+| dev = [[KX Systems]]
+| license = proprietary
+| infby = [[K7]]
+| influenced = [[K9]]
+}}
+
+'''K8''' is a dialect of K created by [[KX Systems]].
 
 [[Category:Dialects]]

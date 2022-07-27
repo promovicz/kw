@@ -1,3 +1,12 @@
-K7 is a dialect of K created by [[KX Systems]].
+
+{{Infobox Language
+| title = K7
+| dev = [[KX Systems]]
+| license = proprietary
+| infby = [[K6]]
+| influenced = [[K8]]
+}}
+
+'''K7''' is a dialect of K created by [[KX Systems]].
 
 [[Category:Dialects]]

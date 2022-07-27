@@ -1,3 +1,12 @@
-K6 is a dialect of K created by [[KX Systems]].
+
+{{Infobox Language
+| title = K6
+| dev = [[KX Systems]]
+| license = proprietary
+| infby = [[K5]]
+| influenced = [[K7]]
+}}
+
+'''K6''' is a dialect of K created by [[KX Systems]].
 
 [[Category:Dialects]]
