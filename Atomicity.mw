@@ -46,6 +46,6 @@ Some fully atomic primitives, notably arithmetic primitives allow dictionaries a
 </pre>
 {{works in|oK}}
 
-[[Category:Atomicity]]
 [[Category:Primitives]]
 [[Category:Language]]
+[[Category:Atomicity]]
