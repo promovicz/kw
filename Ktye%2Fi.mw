@@ -1,1 +1,13 @@
+{{lowercase title}}
 
+{{Infobox Language
+| title = ktye/i
+| rel = 2017
+| dialect = [[K6]]
+| implang = Go
+| url = [https://github.com/ktye/i Github]
+}}
+
+'''ktye/i''' is a language-portable implementation of [[K6]] in Go.
+
+[[Category:Implementations]]
