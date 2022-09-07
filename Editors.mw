@@ -8,9 +8,9 @@ The following editors/editor plugins add syntax highlighting and support for K:
 |-
 | [https://github.com/psaris/q-mode q-mode]
 | Emacs
-| K and q syntax highlighting, debugging tools, interaction with executable<br />
+| K and q syntax highlighting, debugging tools, interaction with executable
 |- 
-[https://github.com/gitonthescene/ngnk-mode/blob/main/ngnk-mode.el ngnk-mode.el]
+| [https://github.com/gitonthescene/ngnk-mode/blob/main/ngnk-mode.el ngnk-mode.el]
 | Emacs mode for using ngn/k & repl features
 |-
 | [https://codeberg.org/ngn/k/src/branch/master/vim-k ngn/k/vim-k]
